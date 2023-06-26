@@ -14,7 +14,6 @@ export const tableOfContents = [
         {label: 'Connection', slug: '/connection'},
         {label: 'Pattern', slug: '/pattern'},
         {label: 'Timing', slug: '/timing'},
-        {label: 'Timing', slug: '/timing'},
     ]},
     {title: {label: 'References', slug: '/references'}},
 ];

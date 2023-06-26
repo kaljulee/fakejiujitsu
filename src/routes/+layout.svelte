@@ -1,28 +1,32 @@
 <script>
     import Header from './Header.svelte';
+    import {page} from '$app/stores';
+    import {showCornerMenu} from '../stores.js';
     import Contents from '$lib/components/Contents/Contents.svelte';
     import './styles.css';
     import CornerMenuLink from "$lib/components/CornerMenuLink.svelte";
 
-    let showCornerMenu = false;
-
     function toggleCornerMenu() {
-        showCornerMenu = !showCornerMenu;
+        showCornerMenu.toggle();
+        // showCornerMenu.set(!$showCornerMenu);
+        // showCornerMenu = !showCornerMenu;
     }
     function closeCornerMenu() {
-        showCornerMenu = false;
+        showCornerMenu.close();
+        // showCornerMenu.set(false);
     }
 </script>
 
 <div class="app">
     <Header on:toggleCornerMenu={toggleCornerMenu}/>
-    <main>
+    <main on:closeCornerMenu>
         <slot/>
-        {#if showCornerMenu}
+        {#if $showCornerMenu}
             <div class="corner-menu">
+                <CornerMenuLink on:closeCornerMenu={closeCornerMenu} label="Instagram" link="https://instagram.com/nicetrainlab"/>
                 <CornerMenuLink on:closeCornerMenu={closeCornerMenu} label="Store" link="https://nice-train.square.site"/>
                 <CornerMenuLink on:closeCornerMenu={closeCornerMenu} label="Home" link="/"/>
-                <Contents on:closeCornerMenu={closeCornerMenu}/>
+                {#if $page.url.pathname !== '/'}<Contents on:closeCornerMenu={closeCornerMenu}/>{/if}
             </div>
         {/if}
     </main>
