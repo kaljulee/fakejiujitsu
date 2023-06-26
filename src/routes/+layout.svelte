@@ -21,7 +21,7 @@
         {#if showCornerMenu}
             <div class="corner-menu">
                 <CornerMenuLink on:closeCornerMenu={closeCornerMenu} label="Store" link="https://nice-train.square.site"/>
-                <CornerMenuLink on:closeCornerMenu={closeCornerMenu} label="Home" link="/fjj"/>
+                <CornerMenuLink on:closeCornerMenu={closeCornerMenu} label="Home" link="/"/>
                 <Contents on:closeCornerMenu={closeCornerMenu}/>
             </div>
         {/if}

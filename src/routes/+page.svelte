@@ -1,59 +1,61 @@
 <script>
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
+    import Contents from '$lib/components/Contents/Contents.svelte';
+    import label_blue from '$lib/images/label_blue.svg';
+    import symbol_blue from '$lib/images/symbol_blue.svg';
 </script>
 
-<svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
-</svelte:head>
+<div class="grid-layout">
+    <div class="sidebar">
+        <span class="fjj-diagram">
+            <img src={symbol_blue} alt="FJJ2 Diagram"/>
+        </span>
+    </div>
+    <div class="contents">
+        <div class="header">
+            <span class="fjj-label">
+                <img src={label_blue} alt="Fake Jiu Jitsu System 2.0T"/>
+            </span>
+            <p>How to create synthetic jiu jitsu</p>
+        </div>
+        <Contents/>
+    </div>
 
-<section>
-	<h1>
-		<span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
-			</picture>
-		</span>
-
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
-
-	<Counter />
-</section>
+</div>
 
 <style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 0.6;
-	}
+    .fjj-diagram img {
+        width: 100%;
+        display: block;
+    }
 
-	h1 {
-		width: 100%;
-	}
+    .fjj-label img {
+        display: block;
+        width: 100%;
+    }
 
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
+    .grid-layout {
+        display: grid;
+        column-gap: 5px;
+        grid-template-areas:
+        "sidebar contents"
+    }
 
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
-	}
+    .header {
+        grid-area: header;
+        /*background: green;*/
+        /*border: 1px solid green;*/
+    }
+
+    .sidebar {
+        padding: 15px;
+        /*background: orange;*/
+        /*border: 1px solid orange;*/
+        /*grid-area: sidebar;*/
+    }
+
+    .contents {
+        /*background: purple;*/
+        /*border: 1px solid purple;*/
+        grid-area: contents;
+    }
 </style>
