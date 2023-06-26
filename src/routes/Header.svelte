@@ -57,6 +57,7 @@
         width: 3em;
         height: 3em;
         border: none;
+        background: none;
     }
 
     .corner a {

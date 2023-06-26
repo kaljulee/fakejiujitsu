@@ -2,6 +2,7 @@
     import Header from './Header.svelte';
     import Contents from '$lib/components/Contents/Contents.svelte';
     import './styles.css';
+    import CornerMenuLink from "$lib/components/CornerMenuLink.svelte";
 
     let showCornerMenu = false;
 
@@ -19,7 +20,8 @@
         <slot/>
         {#if showCornerMenu}
             <div class="corner-menu">
-                <a href="/fjj">Home</a>
+                <CornerMenuLink on:closeCornerMenu={closeCornerMenu} label="Store" link="https://nice-train.square.site"/>
+                <CornerMenuLink on:closeCornerMenu={closeCornerMenu} label="Home" link="/fjj"/>
                 <Contents on:closeCornerMenu={closeCornerMenu}/>
             </div>
         {/if}
