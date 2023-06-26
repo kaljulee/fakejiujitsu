@@ -1,52 +1,61 @@
 <script>
-    import Contents from '$lib/components/Contents.svelte';
-    import fjj2_diagram_whiteblue from '$lib/images/fjj2_diagram_whiteblue.svg';
+    import Contents from '$lib/components/Contents/Contents.svelte';
+    import label_blue from '$lib/images/label_blue.svg';
+    import symbol_blue from '$lib/images/symbol_blue.svg';
 </script>
+
 <div class="grid-layout">
     <div class="sidebar">
-        <span class="diagram">
-            <img src={fjj2_diagram_whiteblue} alt="FJJ2 Diagram"/>
+        <span class="fjj-diagram">
+            <img src={symbol_blue} alt="FJJ2 Diagram"/>
         </span>
     </div>
-    <div class="header">
-        <h1>Description</h1>
-        <p>Fake Jiu Jitsu is an alternative way to think about grappling. It prioritizes experimentation and first
-            person experience over top-down instruction.</p>
-    </div>
     <div class="contents">
+        <div class="header">
+            <span class="fjj-label">
+                <img src={label_blue} alt="Fake Jiu Jitsu System 2.0T"/>
+            </span>
+            <p>How to create synthetic jiu jitsu</p>
+        </div>
         <Contents/>
     </div>
 
 </div>
 
 <style>
-    .diagram img {
+    .fjj-diagram img {
         width: 100%;
         display: block;
     }
 
+    .fjj-label img {
+        display: block;
+        width: 100%;
+    }
+
     .grid-layout {
         display: grid;
+        column-gap: 5px;
         grid-template-areas:
-        "sidebar header"
         "sidebar contents"
     }
 
     .header {
         grid-area: header;
         /*background: green;*/
-        border: 1px solid green;
+        /*border: 1px solid green;*/
     }
 
     .sidebar {
+        padding: 15px;
         /*background: orange;*/
-        border: 1px solid orange;
-        grid-area: sidebar;
+        /*border: 1px solid orange;*/
+        /*grid-area: sidebar;*/
     }
 
     .contents {
         /*background: purple;*/
-        border: 1px solid purple;
+        /*border: 1px solid purple;*/
         grid-area: contents;
     }
 </style>
