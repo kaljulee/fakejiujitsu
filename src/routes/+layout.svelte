@@ -9,7 +9,7 @@
 
 <div class="app">
     <Header/>
-    <main on:closeCornerMenu>
+    <main>
         <slot/>
         {#if $showCornerMenu}
             <div class="corner-menu">

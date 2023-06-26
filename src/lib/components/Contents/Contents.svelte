@@ -4,5 +4,5 @@
 
 </script>
 {#each tableOfContents as sectionData, i}
-    <Section {...sectionData} index={i + 1} on:closeCornerMenu/>
+    <Section {...sectionData} index={i + 1}/>
 {/each}
