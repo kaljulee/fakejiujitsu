@@ -1,14 +1,20 @@
 <script>
+    import {createEventDispatcher} from "svelte";
+
     export let title;
     export let items = [];
     export let index = '';
+    const dispatch = createEventDispatcher();
+    function closeCornerMenu() {
+        dispatch('closeCornerMenu', {})
+    }
 </script>
 
 <div>
     <span class="title">{index}. {title.label}</span>
     <ul>
     {#each items as item}
-        <li><a href={item.slug}>{item.label}</a></li>
+        <li><a href={item.slug} on:click={closeCornerMenu}>{item.label}</a></li>
         {/each}
     </ul>
 </div>
