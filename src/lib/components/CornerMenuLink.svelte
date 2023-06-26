@@ -1,11 +1,10 @@
 <script>
-    import {createEventDispatcher} from "svelte";
+    import {showCornerMenu} from "../../stores.js";
 
     export let label = '';
     export let link = '';
-    const dispatch = createEventDispatcher();
     function closeCornerMenu() {
-        dispatch('closeCornerMenu', {});
+    showCornerMenu.close();
     }
 </script>
 <li>

@@ -1,13 +1,10 @@
 <script>
+    import {showCornerMenu} from "../stores.js";
     import {page} from '$app/stores';
-    import github from '$lib/images/github.svg';
-    import logo from '$lib/images/svelte-logo.svg';
     import menu from '$lib/images/menu.svg';
-    import {createEventDispatcher} from "svelte";
 
-    const dispatch = createEventDispatcher();
     function toggleCornerMenu() {
-        dispatch('toggleCornerMenu', {});
+        showCornerMenu.toggle();
     };
 </script>
 

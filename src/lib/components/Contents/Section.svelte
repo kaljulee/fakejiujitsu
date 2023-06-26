@@ -1,20 +1,20 @@
 <script>
-    import {createEventDispatcher} from "svelte";
+    import {showCornerMenu} from "../../../stores.js";
 
     export let title;
     export let items = [];
     export let index = '';
-    const dispatch = createEventDispatcher();
+
     function closeCornerMenu() {
-        dispatch('closeCornerMenu', {})
+        showCornerMenu.close();
     }
 </script>
 
 <div>
     <span class="title">{index}. {title.label}</span>
     <ul>
-    {#each items as item}
-        <li><a href={item.slug} on:click={closeCornerMenu}>{item.label}</a></li>
+        {#each items as item}
+            <li><a href={item.slug} on:click={closeCornerMenu}>{item.label}</a></li>
         {/each}
     </ul>
 </div>
@@ -23,9 +23,11 @@
     :root {
         --item-border: 1px solid lightGray;
     }
+
     .title {
         font-weight: bold;
     }
+
     li {
         padding-top: 8px;
         padding-bottom: 8px;
@@ -43,6 +45,7 @@
         border-radius: 5px;
         padding-left: 0;
     }
+
     ul li:first-child {
         border-top: none;
     }
