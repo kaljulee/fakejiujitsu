@@ -29,9 +29,10 @@
     }
 
     li {
-        padding-top: 8px;
-        padding-bottom: 8px;
-        padding-left: 5px;
+        /*padding-top: 8px;*/
+        /*padding-bottom: 8px;*/
+        /*padding-left: 5px;*/
+        padding: 8px 5px 8px 5px;
         border-top: var(--item-border);
     }
 

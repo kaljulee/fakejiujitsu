@@ -2,6 +2,7 @@
     import {showCornerMenu} from "../stores.js";
     import {page} from '$app/stores';
     import menu from '$lib/images/menu.svg';
+    import open from '$lib/images/open.svg';
 
     function toggleCornerMenu() {
         showCornerMenu.toggle();
@@ -39,7 +40,7 @@
     <!--	</nav>-->
 
     <button class="corner" on:click={toggleCornerMenu}>
-        <img src={menu} alt="menu"/>
+        <img src={$showCornerMenu ? open: menu} alt="menu button"/>
     </button>
 </header>
 

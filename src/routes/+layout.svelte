@@ -15,10 +15,11 @@
         <slot/>
         {#if $showCornerMenu}
             <div class="corner-menu">
-                <CornerMenuLink label="Store" link="https://nice-train.square.site" pic={storeSVG}/>
-                <CornerMenuLink label="Instagram" link="https://instagram.com/nicetrainlab" pic={instaSVG}/>
-                <hr class="solid" style="margin-bottom: 8px"/>
+<!--                <hr class="solid"/>-->
+                <CornerMenuLink outsideLink={true} label="Store" link="https://nice-train.square.site" pic={storeSVG}/>
+                <CornerMenuLink outsideLink={true} label="Instagram" link="https://instagram.com/nicetrainlab" pic={instaSVG}/>
                 {#if $page.url.pathname !== '/'}
+                    <hr class="solid" style="margin-bottom: 18px"/>
                     <CornerMenuLink label="Home" link="/"/>
                     <Contents/>
                 {/if}
@@ -33,9 +34,12 @@
 <style>
 
     .corner-menu {
-        background: white;
+        background: var(--color-bg-1);
         position: absolute;
+        padding: 5px 10px 5px 10px;
+        border-radius: 5px;
         right: 10px;
+        border: 1px solid black;
     }
 
     .app {
