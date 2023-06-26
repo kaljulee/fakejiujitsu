@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs/>
+<clipPath id="ArtboardFrame">
+<rect height="512" width="512" x="0" y="0"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="Layer-1">
+<path d="M-8.34888e-14 4.8545e-14L512 4.8545e-14L512 512L-8.34888e-14 512L-8.34888e-14 4.8545e-14Z" fill="#000000" fill-rule="nonzero" opacity="1" stroke="none"/>
+</g>
+<g id="Layer-2">
+<path d="M173.861 67.1879L365.958 67.1879L365.958 340.45L173.861 340.45L173.861 67.1879Z" fill="#8b8b8b" fill-rule="nonzero" opacity="1" stroke="none"/>
+</g>
+<g clip-path="url(#ArtboardFrame)" id="Layer-3">
+<path d="M-8.34888e-14 329.871L512 329.871L512 351.029L-8.34888e-14 351.029L-8.34888e-14 329.871Z" fill="#ffcc00" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M179.151 99.0707L360.668 99.0707L360.668 120.228L179.151 120.228L179.151 99.0707Z" fill="#ffcc00" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M179.151 56.6091L360.668 56.6091L360.668 77.7666L179.151 77.7666L179.151 56.6091Z" fill="#ffcc00" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M179.151 145.061L360.668 145.061L360.668 166.218L179.151 166.218L179.151 145.061Z" fill="#ffcc00" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M365.958 155.64L477.073 155.64L477.073 176.797L365.958 176.797L365.958 155.64Z" fill="#ffcc00" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M184.44-2.17038e-16L184.44 340.45L163.283 340.45L163.283 2.17038e-16L184.44-2.17038e-16Z" fill="#ffcc00" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M376.537 5.14245e-14L376.537 340.45L355.379 340.45L355.379 5.12662e-14L376.537 5.14245e-14Z" fill="#ffcc00" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M477.073 120.228L477.073 340.45L455.916 340.45L455.916 120.228L477.073 120.228Z" fill="#ffcc00" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M360.668 258.641L458.926 160.384L473.887 175.344L375.629 273.602L360.668 258.641Z" fill="#ffcc00" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M376.537 41.6486L334.835-0.0529167L304.904-0.0632541L361.576 56.6091L376.537 41.6486Z" fill="#ffcc00" fill-rule="nonzero" opacity="1" stroke="none"/>
+</g>
+</svg>

@@ -2,6 +2,8 @@
     import Header from './Header.svelte';
     import {page} from '$app/stores';
     import {showCornerMenu} from '../stores.js';
+    import instaSVG from '$lib/images/insta.svg';
+    import storeSVG from '$lib/images/store.svg';
     import Contents from '$lib/components/Contents/Contents.svelte';
     import './styles.css';
     import CornerMenuLink from "$lib/components/CornerMenuLink.svelte";
@@ -13,10 +15,13 @@
         <slot/>
         {#if $showCornerMenu}
             <div class="corner-menu">
-                <CornerMenuLink label="Instagram" link="https://instagram.com/nicetrainlab"/>
-                <CornerMenuLink label="Store" link="https://nice-train.square.site"/>
-                <CornerMenuLink label="Home" link="/"/>
-                {#if $page.url.pathname !== '/'}<Contents/>{/if}
+                <CornerMenuLink label="Store" link="https://nice-train.square.site" pic={storeSVG}/>
+                <CornerMenuLink label="Instagram" link="https://instagram.com/nicetrainlab" pic={instaSVG}/>
+                <hr class="solid" style="margin-bottom: 8px"/>
+                {#if $page.url.pathname !== '/'}
+                    <CornerMenuLink label="Home" link="/"/>
+                    <Contents/>
+                {/if}
             </div>
         {/if}
     </main>
