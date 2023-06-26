@@ -21,17 +21,22 @@
 
 <style>
     :root {
-        --item-border: 1px solid black;
+        --item-border: 1px solid lightGray;
     }
     .title {
         font-weight: bold;
     }
     li {
-        padding-top: 5px;
-        padding-bottom: 5px;
+        padding-top: 8px;
+        padding-bottom: 8px;
         padding-left: 5px;
         border-top: var(--item-border);
     }
+
+    a {
+        color: black;
+    }
+
     ul {
         list-style-type: none;
         border: var(--item-border);

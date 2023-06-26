@@ -25,7 +25,7 @@
         {/if}
     </main>
     <footer>
-        <p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+<!--        <p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>-->
     </footer>
 </div>
 
@@ -34,9 +34,7 @@
     .corner-menu {
         background: white;
         position: absolute;
-        /*top: 10px;*/
         right: 10px;
-        /*z-index: 10;*/
     }
 
     .app {
