@@ -37,7 +37,7 @@
         display: grid;
         column-gap: 5px;
         grid-template-areas:
-        "sidebar contents"
+        "sidebar sidebar contents contents contents"
     }
 
     .header {
@@ -47,7 +47,7 @@
     }
 
     .sidebar {
-        padding: 15px;
+        padding: 5px 15px;
         /*background: orange;*/
         /*border: 1px solid orange;*/
         /*grid-area: sidebar;*/
@@ -57,5 +57,15 @@
         /*background: purple;*/
         /*border: 1px solid purple;*/
         grid-area: contents;
+    }
+
+    @media (max-width: 700px) {
+        .grid-layout {
+            grid-template-areas:
+        "sidebar contents contents";
+        }
+        .sidebar {
+            padding: 5px 15px 5px 0;
+        }
     }
 </style>
