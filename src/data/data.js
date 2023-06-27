@@ -1,21 +1,35 @@
 export const tableOfContents = [
-    {title: {label: 'Quick Start'},
-    items: [
-        {label: 'Fake Jiu Jitsu in One Sentence', slug: '/one-sentence'},
-        {label: 'Fake Jiu Jitsu in one Image', slug: '/one-image'}
-    ],
+    {
+        title: {label: 'Quick Start'},
+        items: [
+            {label: 'Introduction', slug: '/intro'},
+            {label: 'Fake Jiu Jitsu in One Sentence', slug: '/one-sentence'},
+            {label: 'Fake Jiu Jitsu in One Image', slug: '/one-image'}
+        ],
     },
-    {title: {label: 'Fake Jiu Jitsu 2.0 LTS'},
-    items: [
-        {label: 'Overview', slug: '/lts-overview'},
-        {label: 'Turtle Space', slug: '/turtle-space'},
-        {label: 'Bridge and Shrimp', slug: '/bridge-and-shrimp'},
-        {label: 'Shotput', slug: '/shotput'},
-        {label: 'Connection', slug: '/connection'},
-        {label: 'Pattern', slug: '/pattern'},
-        {label: 'Timing', slug: '/timing'},
-    ]},
-    {title: {label: 'References', slug: '/references'}},
+    {
+        title: {label: 'Theory'},
+        items: [{label: 'Dimensionality Reduction', slug: '/dimensionality-reduction'}]
+    },
+    {
+        title: {label: 'Fake Jiu Jitsu 2.0 LTS'},
+        items: [
+            {label: 'Overview', slug: '/lts-overview'},
+            {label: 'Turtle Space', slug: '/turtle-space'},
+            {label: 'Bridge and Shrimp', slug: '/bridge-and-shrimp'},
+            {label: 'Shotput', slug: '/shotput'},
+            {label: 'Connection', slug: '/connection'},
+            {label: 'Pattern', slug: '/pattern'},
+            {label: 'Timing', slug: '/timing'},
+        ]
+    },
+    {
+        title: {label: 'Appendix', slug: '/appendix'},
+        items: [
+            {label: 'Glossary', slug: '/glossary'},
+            {label: 'Supporting Materials', slug: '/supporting-materials'},
+        ]
+    },
 ];
 
 function createNavData() {
@@ -47,7 +61,7 @@ export function getNavInfo(slug) {
     const slugIndex = data.findIndex(datum => datum.slug === slug);
     if (slugIndex !== -1) {
         slugData.push(data[slugIndex]);
-        slugData.push(data[slugIndex+1]);
+        slugData.push(data[slugIndex + 1]);
     }
     return slugData;
 }

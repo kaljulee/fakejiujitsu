@@ -2,9 +2,7 @@
     import PageWrapper from "$lib/components/PageWrapper.svelte";
 </script>
 <PageWrapper>
-    <div><p>I have a confession – I quit Brazilian Jiu Jitsu back in 2019. This might come as a surprise to some, as I
-        continued to train on the mat. But instead of trying to learn real BJJ, I started faking it.</p>
-
+    <div>
         <p>What does that even mean? What is Fake Jiu Jitsu? Before defining it, I think it may be helpful to have a
             working definition of actual Brazilian Jiu Jitsu, as it is the thing that is generally being faked.</p>
 
@@ -18,6 +16,5 @@
             experiments, then refine your fundamentals based on the results. Conducting these experiments will result in
             improved coordination and sensitivity, making you more effective at conducting the experiments. A virtuous
             cycle is the result.</p>
-        <p>I have diagrams to show you on the next page.</p>
     </div>
 </PageWrapper>
