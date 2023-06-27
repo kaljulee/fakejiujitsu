@@ -43,8 +43,7 @@ p {
 }
 
 a {
-	color: var(--color-theme-1);
-	text-decoration: none;
+	color: black;
 }
 
 a:hover {
