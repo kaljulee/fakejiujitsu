@@ -1,8 +1,11 @@
 <script>
     import {showCornerMenu} from "../stores.js";
     import {page} from '$app/stores';
+    import {getNavInfo} from "../data/data.js";
     import menu from '$lib/images/menu.svg';
     import open from '$lib/images/open.svg';
+
+    $: thisPage = getNavInfo($page.url.pathname)[0];
 
     function toggleCornerMenu() {
         showCornerMenu.toggle();
@@ -38,7 +41,13 @@
     <!--			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />-->
     <!--		</svg>-->
     <!--	</nav>-->
-
+    <div/>
+    {#if thisPage}
+        {#if thisPage.sectionLabel}
+            <span>{thisPage.sectionLabel}</span>
+        {/if}
+        <span>{thisPage.label}</span>
+    {/if}
     <button class="corner" on:click={toggleCornerMenu}>
         <img src={$showCornerMenu ? open: menu} alt="menu button"/>
     </button>
@@ -48,7 +57,7 @@
 
     header {
         display: flex;
-        justify-content: right;
+        justify-content: space-between;
     }
 
     .corner {

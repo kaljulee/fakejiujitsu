@@ -23,14 +23,14 @@ function createNavData() {
         if (!!section.items) {
             section.items.forEach(item => {
                 acc.push({
-                    sectionLabel: section.label,
+                    sectionLabel: section.title.label,
                     label: item.label,
                     slug: item.slug,
                 });
             });
         } else {
             acc.push({
-                label: section.label,
+                label: section.title.label,
                 slug: section.slug,
             })
         }
@@ -45,10 +45,9 @@ export function getNavInfo(slug) {
     const data = navData;
     const slugData = [];
     const slugIndex = data.findIndex(datum => datum.slug === slug);
-    if (slugIndex === -1) {
-        return [{}];
+    if (slugIndex !== -1) {
+        slugData.push(data[slugIndex]);
+        slugData.push(data[slugIndex+1]);
     }
-    slugData.push(data[slugIndex]);
-    slugData.push(data[slugIndex+1])
     return slugData;
 }
