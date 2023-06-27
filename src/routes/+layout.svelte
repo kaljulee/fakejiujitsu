@@ -34,6 +34,9 @@
         {#if nextPage}
             <div class="next-description">
                 <strong>Next:</strong>
+                {#if nextPage.sectionLabel}
+                <strong>{nextPage.sectionLabel}</strong>
+                {/if}
                 <span>{nextPage.label}</span>
             </div>
             <a class="next-button" href={nextPage.slug}>Next &rarr;</a>
