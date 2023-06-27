@@ -4,6 +4,6 @@
 
 <style>
     div {
-        padding: 5px 10% 5px 10%;
+        padding: 0px 10% 5px 10%;
     }
 </style>
