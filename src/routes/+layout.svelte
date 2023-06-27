@@ -8,6 +8,7 @@
     import Contents from '$lib/components/Contents/Contents.svelte';
     import './styles.css';
     import CornerMenuLink from "$lib/components/CornerMenuLink.svelte";
+
     $: nextPage = getNavInfo($page.url.pathname)[1];
 </script>
 
@@ -17,9 +18,10 @@
         <slot/>
         {#if $showCornerMenu}
             <div class="corner-menu">
-<!--                <hr class="solid"/>-->
+                <!--                <hr class="solid"/>-->
                 <CornerMenuLink outsideLink={true} label="Store" link="https://nice-train.square.site" pic={storeSVG}/>
-                <CornerMenuLink outsideLink={true} label="Instagram" link="https://instagram.com/nicetrainlab" pic={instaSVG}/>
+                <CornerMenuLink outsideLink={true} label="Instagram" link="https://instagram.com/nicetrainlab"
+                                pic={instaSVG}/>
                 {#if $page.url.pathname !== '/'}
                     <hr class="solid" style="margin-bottom: 18px"/>
                     <CornerMenuLink label="Home" link="/"/>
@@ -30,13 +32,30 @@
     </main>
     <footer>
         {#if nextPage}
-            <div>Next: {nextPage.label}</div><a href={nextPage.slug}>go</a>
+            <div class="next-description">
+                <strong>Next:</strong>
+                <span>{nextPage.label}</span>
+            </div>
+            <a class="next-button" href={nextPage.slug}>Next &rarr;</a>
         {/if}
-<!--        <p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>-->
+        <!--        <p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>-->
     </footer>
 </div>
 
 <style>
+    .next-description {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .next-button {
+        display: flex;
+        align-items: center;
+        border-radius: 15px;
+        background: black;
+        color: white;
+        padding: 5px 20px 5px 20px;
+    }
 
     .corner-menu {
         background: var(--color-bg-1);
@@ -66,10 +85,9 @@
 
     footer {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 12px;
+        /*flex-direction: column;*/
+        justify-content: space-between;
+        padding: 12px 20px;
     }
 
     footer a {
@@ -78,7 +96,7 @@
 
     @media (min-width: 480px) {
         footer {
-            padding: 12px 0;
+            padding: 12px 10px;
         }
     }
 </style>

@@ -43,10 +43,14 @@
     <!--	</nav>-->
     <div/>
     {#if thisPage}
+        <div class="location-label">
         {#if thisPage.sectionLabel}
-            <span>{thisPage.sectionLabel}</span>
+            <span class="section-label">{thisPage.sectionLabel}</span>
         {/if}
         <span>{thisPage.label}</span>
+            <hr class="solid"/>
+        </div>
+
     {/if}
     <button class="corner" on:click={toggleCornerMenu}>
         <img src={$showCornerMenu ? open: menu} alt="menu button"/>
@@ -58,6 +62,30 @@
     header {
         display: flex;
         justify-content: space-between;
+    }
+
+    header .location-label {
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .location-label span {
+        font-size: 14px;
+        padding: 0 15px;
+    }
+
+    header .location-label .section-label {
+        font-weight: bold;
+        font-size: 10px;
+        padding: 0 15px;
+    }
+
+    header .location-label hr {
+        margin-bottom: 18px;
+        width: 100%;
+        color: lightGray;
     }
 
     .corner {
