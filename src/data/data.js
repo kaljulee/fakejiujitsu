@@ -17,3 +17,38 @@ export const tableOfContents = [
     ]},
     {title: {label: 'References', slug: '/references'}},
 ];
+
+function createNavData() {
+    const navData = tableOfContents.reduce((acc, section) => {
+        if (!!section.items) {
+            section.items.forEach(item => {
+                acc.push({
+                    sectionLabel: section.label,
+                    label: item.label,
+                    slug: item.slug,
+                });
+            });
+        } else {
+            acc.push({
+                label: section.label,
+                slug: section.slug,
+            })
+        }
+        return acc;
+    }, []);
+    return navData;
+}
+
+export const navData = createNavData();
+
+export function getNavInfo(slug) {
+    const data = navData;
+    const slugData = [];
+    const slugIndex = data.findIndex(datum => datum.slug === slug);
+    if (slugIndex === -1) {
+        return [{}];
+    }
+    slugData.push(data[slugIndex]);
+    slugData.push(data[slugIndex+1])
+    return slugData;
+}

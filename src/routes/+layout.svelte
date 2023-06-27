@@ -2,11 +2,13 @@
     import Header from './Header.svelte';
     import {page} from '$app/stores';
     import {showCornerMenu} from '../stores.js';
+    import {getNavInfo} from '../data/data';
     import instaSVG from '$lib/images/insta.svg';
     import storeSVG from '$lib/images/store.svg';
     import Contents from '$lib/components/Contents/Contents.svelte';
     import './styles.css';
     import CornerMenuLink from "$lib/components/CornerMenuLink.svelte";
+    $: nextPage = getNavInfo($page.url.pathname)[1];
 </script>
 
 <div class="app">
@@ -27,6 +29,9 @@
         {/if}
     </main>
     <footer>
+        {#if nextPage}
+            <div>Next: {nextPage.label}</div><a href={nextPage.slug}>go</a>
+        {/if}
 <!--        <p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>-->
     </footer>
 </div>
