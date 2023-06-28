@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="53.1971" id="Filter" width="53.1971" x="55.2" y="138.617">
+<feGaussianBlur in="SourceGraphic" result="Blur" stdDeviation="0.152842"/>
+</filter>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="53.1971" id="Filter_2" width="310.877" x="145.923" y="138.617">
+<feGaussianBlur in="SourceGraphic" result="Blur" stdDeviation="0.152842"/>
+</filter>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="53.1971" id="Filter_3" width="53.1971" x="55.2" y="229.401">
+<feGaussianBlur in="SourceGraphic" result="Blur" stdDeviation="0.152842"/>
+</filter>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="53.1971" id="Filter_4" width="310.877" x="145.923" y="229.401">
+<feGaussianBlur in="SourceGraphic" result="Blur" stdDeviation="0.152842"/>
+</filter>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="53.1971" id="Filter_5" width="53.1971" x="55.2" y="320.186">
+<feGaussianBlur in="SourceGraphic" result="Blur" stdDeviation="0.152842"/>
+</filter>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="53.1971" id="Filter_6" width="310.877" x="145.923" y="320.186">
+<feGaussianBlur in="SourceGraphic" result="Blur" stdDeviation="0.152842"/>
+</filter>
+</defs>
+<g id="Layer-1">
+<g opacity="1">
+<path d="M55.5821 138.999L108.015 138.999L108.015 191.432L55.5821 191.432L55.5821 138.999Z" fill="#000000" fill-rule="nonzero" filter="url(#Filter)" opacity="0.996912" stroke="none"/>
+<path d="M146.305 138.999L456.418 138.999L456.418 191.432L146.305 191.432L146.305 138.999Z" fill="#000000" fill-rule="nonzero" filter="url(#Filter_2)" opacity="0.996912" stroke="none"/>
+</g>
+<g opacity="1">
+<path d="M55.5821 229.784L108.015 229.784L108.015 282.216L55.5821 282.216L55.5821 229.784Z" fill="#000000" fill-rule="nonzero" filter="url(#Filter_3)" opacity="0.996912" stroke="none"/>
+<path d="M146.305 229.784L456.418 229.784L456.418 282.216L146.305 282.216L146.305 229.784Z" fill="#000000" fill-rule="nonzero" filter="url(#Filter_4)" opacity="0.996912" stroke="none"/>
+</g>
+<g opacity="1">
+<path d="M55.5821 320.568L108.015 320.568L108.015 373.001L55.5821 373.001L55.5821 320.568Z" fill="#000000" fill-rule="nonzero" filter="url(#Filter_5)" opacity="0.996912" stroke="none"/>
+<path d="M146.305 320.568L456.418 320.568L456.418 373.001L146.305 373.001L146.305 320.568Z" fill="#000000" fill-rule="nonzero" filter="url(#Filter_6)" opacity="0.996912" stroke="none"/>
+</g>
+</g>
+</svg>
