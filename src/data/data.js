@@ -1,8 +1,8 @@
 export const tableOfContents = [
     {
-        title: {label: 'Quick Start'},
+        title: {label: 'Introduction'},
         items: [
-            {label: 'Introduction', slug: '/intro'},
+            {label: 'Hello World', slug: '/intro'},
             {label: 'Fake Jiu Jitsu in One Image', slug: '/one-image'},
             {label: 'Fake Jiu Jitsu in One Sentence', slug: '/one-sentence'},
         ],
