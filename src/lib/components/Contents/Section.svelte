@@ -1,5 +1,6 @@
 <script>
     import {showCornerMenu} from "../../../stores.js";
+    import {page} from '$app/stores.js';
 
     export let title;
     export let items = [];
@@ -14,7 +15,7 @@
     <span class="title">{index}. {title.label}</span>
     <ul>
         {#each items as item}
-            <li><a href={item.slug} on:click={closeCornerMenu}>{item.label}</a></li>
+            <li aria-current="{$page.url.pathname === item.slug ? 'page' : undefined}"><a href={item.slug} on:click={closeCornerMenu}>{item.label}</a></li>
         {/each}
     </ul>
 </div>
@@ -35,6 +36,10 @@
 
     a {
         color: black;
+    }
+
+    li[aria-current='page'] {
+        background: #87cefa;
     }
 
     ul {
