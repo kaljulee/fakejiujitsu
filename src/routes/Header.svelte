@@ -41,13 +41,13 @@
     <!--			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />-->
     <!--		</svg>-->
     <!--	</nav>-->
-    <div/>
+    {#if $page.url.pathname !== '/'}<a href="/"><strong>Home</strong></a>{/if}
     {#if thisPage}
         <div class="location-label">
-        {#if thisPage.sectionLabel}
-            <span class="section-label">{thisPage.sectionLabel}</span>
-        {/if}
-        <span>{thisPage.label}</span>
+            {#if thisPage.sectionLabel}
+                <span class="section-label">{thisPage.sectionLabel}</span>
+            {/if}
+            <span>{thisPage.label}</span>
             <hr class="solid"/>
         </div>
 
@@ -61,6 +61,7 @@
 
     header {
         display: flex;
+        align-items: center;
         justify-content: space-between;
     }
 
@@ -169,7 +170,7 @@
         transition: color 0.2s linear;
     }
 
-    a:hover {
-        color: var(--color-theme-1);
-    }
+    /*a:hover {*/
+    /*    color: var(--color-theme-1);*/
+    /*}*/
 </style>
