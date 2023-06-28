@@ -41,7 +41,7 @@
     <!--			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />-->
     <!--		</svg>-->
     <!--	</nav>-->
-    {#if $page.url.pathname !== '/'}<a href="/"><strong>Home</strong></a>
+    {#if $page.url.pathname !== '/'}<a class="home-button" href="/">Home</a>
         {:else}<div/>{/if}
     {#if thisPage}
         <div class="location-label">
@@ -59,6 +59,11 @@
 </header>
 
 <style>
+
+    .home-button {
+        font-weight: bold;
+        padding-left: 5px;
+    }
 
     header {
         display: flex;
