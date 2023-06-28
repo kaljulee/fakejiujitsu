@@ -3,8 +3,8 @@ export const tableOfContents = [
         title: {label: 'Quick Start'},
         items: [
             {label: 'Introduction', slug: '/intro'},
+            {label: 'Fake Jiu Jitsu in One Image', slug: '/one-image'},
             {label: 'Fake Jiu Jitsu in One Sentence', slug: '/one-sentence'},
-            {label: 'Fake Jiu Jitsu in One Image', slug: '/one-image'}
         ],
     },
     // {
