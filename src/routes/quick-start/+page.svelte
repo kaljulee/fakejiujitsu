@@ -68,33 +68,32 @@
         </div>
         <h2>FJJ2 Fundamentals</h2>
         <p>Instead of drilling positions or techniques, drill these:</p>
-        <ul>
-            <li><a href={SLUGS.TURTLE_SPACE}>Turtle Space</a></li>
+        <ul class="fundamentals-list">
+            <li><a href={SLUGS.TURTLE_SPACE}><h3>Turtle Space</h3></a></li>
             <ul>
-                <li>Defensive structures stolen from Priit Mihkelson</li>
+                <li>Defensive structures stolen from <a href="https://youtu.be/jC6uFGCCLRY">Priit Mihkelson</a></li>
             </ul>
-            <li>Bridge and Shrimp</li>
+            <li><h3>Bridge and Shrimp</h3></li>
             <ul>
-                <li>These are the two primary movements in FJJ2, stolen from Wim Deputter</li>
+                <li>These are the two primary movements in FJJ2, stolen from <a href="https://youtu.be/VhgRVzHv9r8">Wim Deputter</a></li>
             </ul>
-            <li>Shotput</li>
+            <li><h3>Shotput</h3></li>
             <ul>
-                <li>This is the main method of power generation in FJJ2, derived by observing shotput and discus form
+                <li>This is the main method of power generation in FJJ2, derived by mining <a href="https://youtu.be/b_iUgvzb1-0">shotput</a> and <a href="https://youtu.be/0Yx6amEH3Gs">discus</a> for movement patterns
                 </li>
             </ul>
             <li>
-                Connection
+                <h3>Connection</h3>
             </li>
             <ul>
-                <li>This is the ability to create or avoid a rigid connection between your hips and shoulders and your
-                    opponent's, see tai chi push hands
+                <li>This is the ability to position your body as a strong connector between the ground and your opponent (no example for this yet)
                 </li>
             </ul>
-            <li>Pattern</li>
+            <li><h3>Pattern</h3></li>
             <ul>
                 <li>Be able to create and read repeatable reactions in your opponent</li>
             </ul>
-            <li>Timing</li>
+            <li><h3>Timing</h3></li>
             <ul>
                 <li>Be able to break the established patterns in ways that destabilize your opponent</li>
             </ul>
@@ -116,8 +115,10 @@
             <li>Patterns 201 - Being a Bad Uke</li>
             <li>Grappling Background Radiation Detection</li>
         </ol>
+
+        <h2>Predictions</h2>
     </div>
-    <a href={SLUGS.INTRO}>For a deeper dive and justification, I recommend starting here.</a>
+    <a href={SLUGS.INTRO} style="font-size: 12px;">For a deeper dive and justification, I recommend starting here.</a>
 </PageWrapper>
 
 <style>
@@ -139,6 +140,14 @@
         justify-content: center;
         font-size: 16px;
         font-weight: bold;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    .fundamentals-list {
+        font-size: 12px;
     }
 
     .list-title {
