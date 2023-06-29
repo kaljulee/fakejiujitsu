@@ -9,6 +9,10 @@
         <span class="fjj-diagram">
             <img src={symbol_blue} alt="FJJ2 Diagram"/>
         </span>
+        <div class="quick-start">
+            <span>In a hurry?  You can check out the</span>
+            <a href="/quick-start">Quick-Start Guide</a>
+        </div>
     </div>
     <div class="contents">
         <div class="header">
@@ -31,6 +35,18 @@
     .fjj-label img {
         display: block;
         width: 100%;
+    }
+
+    .quick-start {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+        font-size: 12px;
+    }
+
+    .quick-start a {
+        color: blue;
     }
 
     .grid-layout {

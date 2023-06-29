@@ -5,7 +5,7 @@ export const tableOfContents = [
             {label: 'Hello World', slug: '/intro'},
             {label: 'Fake Jiu Jitsu in One Image', slug: '/one-image'},
             {label: 'Fake Jiu Jitsu in One Sentence', slug: '/one-sentence'},
-            {label: 'Quick-Start', slug: 'quick-start'}
+            // {label: 'Quick-Start', slug: 'quick-start'}
         ],
     },
     {
