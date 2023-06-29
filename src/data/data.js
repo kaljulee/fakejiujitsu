@@ -5,7 +5,7 @@ export const SLUGS = {
     ONE_SENT: '/one-sentence',
     QUICK_START: '/quick-start',
     ECO_DYN: '/ecological-dynamics',
-    DIM_REDUC: '/dimensional-reduction',
+    DIM_REDUC: '/dimensionality-reduction',
     WAT_FUND: '/what-is-a-fundamental',
     TURTLE_SPACE: '/turtle-space',
 }
