@@ -1,88 +1,81 @@
 <script>
-    import {SLUGS} from '../data/data';
-    import Contents from '$lib/components/Contents/Contents.svelte';
+    import {SLUGS} from "../data/data.js";
     import label_blue from '$lib/images/label_blue.svg';
     import symbol_blue from '$lib/images/symbol_blue.svg';
+    import Contents from "$lib/components/Contents/Contents.svelte";
 </script>
-
 <div class="grid-layout">
-    <div class="sidebar">
+    <div class="image">
         <span class="fjj-diagram">
             <img src={symbol_blue} alt="FJJ2 Diagram"/>
-        </span>
-        <div class="quick-start">
-            <span>In a hurry?  You can check out the</span>
-            <a href={SLUGS.QUICK_START}>Quick-Start Guide</a>
-        </div>
-    </div>
-    <div class="contents">
+        </span></div>
+    <div class="header">
         <div class="header">
             <span class="fjj-label">
                 <img src={label_blue} alt="Fake Jiu Jitsu System 2.0T"/>
             </span>
-            <p>How to create synthetic jiu jitsu</p>
-        </div>
-        <Contents/>
+        <p>How to create synthetic jiu jitsu</p>
+    </div></div>
+    <div class="quick-start"><span>In a hurry?  You can check out the</span>
+        <a href={SLUGS.QUICK_START}>Quick-Start Guide</a></div>
+    <div class="content">        <Contents/>
     </div>
-
 </div>
 
 <style>
-    .fjj-diagram img {
-        width: 100%;
-        display: block;
+    .grid-layout {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 5px;
+        grid-template-areas:
+                "image header"
+                "image content"
+                "quickstart content"
+                "... content";
     }
-
-    .fjj-label img {
-        display: block;
-        width: 100%;
+    .image {
+        /*border: 1px solid green;*/
+        grid-area: image;
     }
-
     .quick-start {
+        padding-top: 15px;
+        grid-area: quickstart;
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 10px;
-        font-size: 12px;
     }
-
     .quick-start a {
         color: blue;
     }
-
-    .grid-layout {
-        display: grid;
-        column-gap: 5px;
-        grid-template-areas:
-        "sidebar sidebar contents contents contents"
-    }
-
     .header {
+        /*border: 1px solid blue;*/
         grid-area: header;
-        /*background: green;*/
-        /*border: 1px solid green;*/
     }
 
-    .sidebar {
-        padding: 5px 15px;
-        /*background: orange;*/
-        /*border: 1px solid orange;*/
-        /*grid-area: sidebar;*/
+    .header p {
+        padding-bottom: 25px;
     }
 
-    .contents {
-        /*background: purple;*/
+    .content {
+        grid-area: content;
         /*border: 1px solid purple;*/
-        grid-area: contents;
     }
 
-    @media (max-width: 480px) {
+    @media (max-width: 500px) {
         .grid-layout {
             grid-template-areas:
-        "sidebar contents contents";
+        "image header"
+        "quickstart quickstart"
+        "content content";
         }
-        .sidebar {
-            padding: 5px 15px 5px 0;
+
+        .header p {
+            font-size: 12px;
+        }
+
+        .quick-start {
+            font-size: 12px;
+            padding-bottom: 15px;
         }
     }
 </style>
