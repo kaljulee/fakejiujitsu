@@ -73,7 +73,7 @@
         <h2>FJJ2 Fundamentals</h2>
         <p>Instead of drilling positions or techniques, drill these:</p>
         <ul>
-            <li>Turtle Space</li>
+            <li><a href="/turtle-space">Turtle Space</a></li>
             <ul>
                 <li>Defensive structures stolen from Priit Mihkelson</li>
             </ul>
@@ -104,7 +104,17 @@
         <p>Put together, FJJ2 is</p>
         <p class="definition">Using <strong>Turtle Space Control</strong> to maintain your ability to apply alternating <strong>Shotput</strong>-powered <strong>Bridge and Shrimp</strong> movements onto an opponent you are connected to in a <strong>Timing</strong> contrary to an established <strong>Pattern</strong>.</p>
         <p>That's it.  FJJ2 asserts that if you get really good at only that, your performance on the mat will be indistinguishable from real BJJ.</p>
+        <p>But how do you get good at it?</p>
+        <h2>How to Train FJJ2</h2>
+        <ol>
+            <li>Turtle 101 - Trenches</li>
+            <li>Patterns 101 - Being a Good Uke</li>
+            <li>Turtle 201 - Estonian Get Ups</li>
+            <li>Patterns 201 - Being a Bad Uke</li>
+            <li>Grappling Background Radiation Detection</li>
+        </ol>
     </div>
+    <a href="/intro">For a deeper dive and justification, I recommend starting here.</a>
 </PageWrapper>
 
 <style>
