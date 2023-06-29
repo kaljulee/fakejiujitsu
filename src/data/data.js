@@ -1,5 +1,6 @@
 export const SLUGS = {
     HOME: '/',
+    INTRO: '/intro',
     ONE_IMG: '/one-image',
     ONE_SENT: '/one-sentence',
     QUICK_START: '/quick-start',
@@ -13,17 +14,17 @@ export const tableOfContents = [
     {
         title: {label: 'Introduction'},
         items: [
-            {label: 'Hello World', slug: '/intro'},
-            {label: 'Fake Jiu Jitsu in One Image', slug: '/one-image'},
-            {label: 'Fake Jiu Jitsu in One Sentence', slug: '/one-sentence'},
+            {label: 'Hello World', slug: SLUGS.INTRO},
+            {label: 'Fake Jiu Jitsu in One Image', slug: SLUGS.ONE_IMG},
+            {label: 'Fake Jiu Jitsu in One Sentence', slug: SLUGS.ONE_SENT},
         ],
     },
     {
         title: {label: 'Theory'},
         items: [
-            {label: 'Ecological Dynamics', slug: '/ecological-dynamics'},
-            {label: 'Dimensionality Reduction', slug: '/dimensionality-reduction'},
-            {label: 'What is a Fundamental?', slug: 'what-is-a-fundamental'},
+            {label: 'Ecological Dynamics', slug: SLUGS.ECO_DYN},
+            {label: 'Dimensionality Reduction', slug: SLUGS.DIM_REDUC},
+            {label: 'What is a Fundamental?', slug: SLUGS.WAT_FUND},
         ]
     },
     // {

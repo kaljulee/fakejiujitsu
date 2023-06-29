@@ -1,4 +1,5 @@
 <script>
+    import {SLUGS} from '../data/data';
     import Contents from '$lib/components/Contents/Contents.svelte';
     import label_blue from '$lib/images/label_blue.svg';
     import symbol_blue from '$lib/images/symbol_blue.svg';
@@ -11,7 +12,7 @@
         </span>
         <div class="quick-start">
             <span>In a hurry?  You can check out the</span>
-            <a href="/quick-start">Quick-Start Guide</a>
+            <a href={SLUGS.QUICK_START}>Quick-Start Guide</a>
         </div>
     </div>
     <div class="contents">

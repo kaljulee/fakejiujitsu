@@ -1,7 +1,7 @@
 <script>
     import {showCornerMenu} from "../stores.js";
     import {page} from '$app/stores';
-    import {getNavInfo} from "../data/data.js";
+    import {getNavInfo, SLUGS} from "../data/data.js";
     import menu from '$lib/images/menu.svg';
     import open from '$lib/images/open.svg';
 
@@ -13,7 +13,7 @@
 </script>
 
 <header>
-    {#if $page.url.pathname !== '/'}<a class="home-button" href="/">Home</a>
+    {#if $page.url.pathname !== SLUGS.HOME}<a class="home-button" href={SLUGS.HOME}>Home</a>
         {:else}<div/>{/if}
     {#if thisPage}
         <div class="location-label">

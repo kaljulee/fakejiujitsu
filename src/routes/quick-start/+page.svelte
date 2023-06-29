@@ -1,7 +1,7 @@
 <script>
     import PageWrapper from '$lib/components/PageWrapper.svelte';
     import diagram_blue from '$lib/images/fjj2_whiteblue_wide.svg';
-
+    import {SLUGS} from '../../data/data';
     let displayDo = true;
     $:not = displayDo;
 
@@ -73,7 +73,7 @@
         <h2>FJJ2 Fundamentals</h2>
         <p>Instead of drilling positions or techniques, drill these:</p>
         <ul>
-            <li><a href="/turtle-space">Turtle Space</a></li>
+            <li><a href={SLUGS.TURTLE_SPACE}>Turtle Space</a></li>
             <ul>
                 <li>Defensive structures stolen from Priit Mihkelson</li>
             </ul>
@@ -114,7 +114,7 @@
             <li>Grappling Background Radiation Detection</li>
         </ol>
     </div>
-    <a href="/intro">For a deeper dive and justification, I recommend starting here.</a>
+    <a href={SLUGS.INTRO}>For a deeper dive and justification, I recommend starting here.</a>
 </PageWrapper>
 
 <style>
