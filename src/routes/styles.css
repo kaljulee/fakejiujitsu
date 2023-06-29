@@ -5,7 +5,6 @@
 		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	--font-mono: 'Fira Mono', monospace;
 	--color-bg-0: snow;
-
 	--color-bg-1: snow;
 	--color-bg-2: snow;
 
@@ -16,6 +15,9 @@
 	--column-margin-top: 4rem;
 	font-family: var(--font-body);
 	color: var(--color-text);
+
+	font-size: 16px;
+
 }
 
 body {
@@ -87,12 +89,6 @@ button {
 
 button:focus:not(:focus-visible) {
 	outline: none;
-}
-
-@media (min-width: var(--tablet-landscape-up)) {
-	h1 {
-		font-size: 2.4rem;
-	}
 }
 
 .visually-hidden {

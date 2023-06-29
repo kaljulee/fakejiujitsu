@@ -76,7 +76,7 @@
         grid-area: contents;
     }
 
-    @media (max-width: 700px) {
+    @media (max-width: 480px) {
         .grid-layout {
             grid-template-areas:
         "sidebar contents contents";

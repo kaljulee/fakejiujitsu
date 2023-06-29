@@ -79,7 +79,7 @@
         flex: 1;
         display: flex;
         flex-direction: column;
-        padding: 0 1rem 1rem 1rem;
+        padding: 0 1rem 0 1rem;
         width: 100%;
         max-width: 64rem;
         margin: 0 auto;
@@ -88,18 +88,20 @@
 
     footer {
         display: flex;
-        /*flex-direction: column;*/
         justify-content: space-between;
-        padding: 12px 20px;
+        padding: 1rem 20px;
     }
 
     footer a {
         font-weight: bold;
     }
 
-    @media (min-width: 480px) {
+    @media (max-width: 480px) {
         footer {
             padding: 12px 10px;
+        }
+        main {
+            padding: 0 12px 0 12px;
         }
     }
 </style>

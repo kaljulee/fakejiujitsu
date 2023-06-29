@@ -118,12 +118,9 @@
 </PageWrapper>
 
 <style>
-    :root {
-        font-size: 12px;
-    }
 
     .definition {
-        font-size: 16px;
+        font-size: 18px;
         font-style: italic;
         margin: 5px;
         padding: 5px;
@@ -218,14 +215,7 @@
         height: auto;
     }
 
-    /*.body {*/
-    /*    grid-area: body;*/
-    /*    display: flex;*/
-    /*    flex-direction: column;*/
-    /*    !*align-items: center;*!*/
-    /*}*/
-
-    @media (max-width: 500px) {
+    @media (max-width: 700px) {
         .large-title {
             font-size: 20px;
         }

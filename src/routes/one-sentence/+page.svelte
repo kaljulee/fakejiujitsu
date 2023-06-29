@@ -28,7 +28,7 @@
 
 <style>
     .definition {
-        font-size: 16px;
+        font-size: 18px;
         font-style: italic;
         margin: 5px;
         padding: 5px;
