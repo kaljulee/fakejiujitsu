@@ -2,6 +2,7 @@
     import PageWrapper from '$lib/components/PageWrapper.svelte';
     import diagram_blue from '$lib/images/fjj2_whiteblue_wide.svg';
     import {SLUGS} from '../../data/data';
+
     let displayDo = true;
     $:not = displayDo;
 
@@ -19,14 +20,9 @@
         <div class="title-image"><img style="width: 100%;" src={diagram_blue} alt="FJJ2 Symbol"/></div>
     </div>
     <div>
-        <div class="button-container">
-            <div></div>
-            <h2 class="list-title" class:not>Why {displayDo ? '' : 'NOT'} Fake Jiu Jitsu?</h2>
-            <button class:not on:click={toggleList}>Why {displayDo ? 'not' : ''} Fake Jiu Jitsu?</button>
-
-        </div>
-        {#if displayDo}
+        <div class="why-wrapper">
             <div class="why-list do">
+                <h2 class="list-title">Why Fake Jiu Jitsu?</h2>
                 <ul>
                     <li>Learning real brazilian jiu-jitsu is hard</li>
                     <ul>
@@ -39,13 +35,13 @@
                     </ul>
                     <li>Fake Fundamentals Immediately help white belts</li>
                     <ul>
-                        <li>turtle trenches increase pay time</li>
+                        <li>turtle trenches increase play time</li>
                     </ul>
                     <li>Fake is easier to remember</li>
                     <ul>
                         <li>defense and offense played in all positions</li>
                         <li>no techniques</li>
-                        <li>all jiu jitsu build from 7 things</li>
+                        <li>all jiu jitsu built from 7 things</li>
                     </ul>
                     <li>Proven at the lowest level</li>
                     <li>Encourages flat social hierarchy</li>
@@ -54,10 +50,10 @@
                     <li>More fun than real BJJ</li>
                 </ul>
             </div>
-        {:else}
             <div class="why-list dont">
+                <h2 class="list-title">Why NOT Fake Jiu Jitsu?</h2>
                 <ul>
-                    <li>Invented by a fake blue belt</li>
+                    <li>Invented by a <a href="https://www.beltchecker.com/profile.php?id=9510">fake blue belt</a></li>
                     <li>Involves 1+ years of turtle work</li>
                     <li>Must regularly "lose" training rolls</li>
                     <li>Encourages flat social hierarchy</li>
@@ -69,7 +65,7 @@
                     </ul>
                 </ul>
             </div>
-        {/if}
+        </div>
         <h2>FJJ2 Fundamentals</h2>
         <p>Instead of drilling positions or techniques, drill these:</p>
         <ul>
@@ -83,13 +79,16 @@
             </ul>
             <li>Shotput</li>
             <ul>
-                <li>This is the main method of power generation in FJJ2, derived by observing shotput and discus form</li>
+                <li>This is the main method of power generation in FJJ2, derived by observing shotput and discus form
+                </li>
             </ul>
             <li>
                 Connection
             </li>
             <ul>
-                <li>This is the ability to create or avoid a rigid connection between your hips and shoulders and your opponent's, see tai chi push hands</li>
+                <li>This is the ability to create or avoid a rigid connection between your hips and shoulders and your
+                    opponent's, see tai chi push hands
+                </li>
             </ul>
             <li>Pattern</li>
             <ul>
@@ -102,8 +101,12 @@
         </ul>
 
         <p>Put together, FJJ2 is</p>
-        <p class="definition">Using <strong>Turtle Space Control</strong> to maintain your ability to apply alternating <strong>Shotput</strong>-powered <strong>Bridge and Shrimp</strong> movements onto an opponent you are <strong>Connected</strong> to, <strong>Timed</strong> contrary to an established <strong>Pattern</strong>.</p>
-        <p>That's it.  FJJ2 asserts that if you get really good at only that, your performance on the mat will be indistinguishable from real BJJ.</p>
+        <p class="definition">Using <strong>Turtle Space Control</strong> to maintain your ability to apply alternating
+            <strong>Shotput</strong>-powered <strong>Bridge and Shrimp</strong> movements onto an opponent you are
+            <strong>Connected</strong> to, <strong>Timed</strong> contrary to an established <strong>Pattern</strong>.
+        </p>
+        <p>That's it. FJJ2 asserts that if you get really good at only that, your performance on the mat will be
+            indistinguishable from real BJJ.</p>
         <p>But how do you get good at it?</p>
         <h2>How to Train FJJ2</h2>
         <ol>
@@ -127,32 +130,14 @@
         background: cornsilk;
     }
 
-    button {
-        display: flex;
-        align-items: center;
-        justify-content: right;
-        font-size: 8px;
-        width: 100px;
-        background: none;
-        border: none;
-        color: blue;
-    }
-
-    button.not {
-        color: red;
-    }
-
-    .button-container {
-        display: grid;
-        grid-template-columns: 3fr 7fr 3fr;
-        width: 100%;
-        justify-content: space-around;
+    .why-wrapper {
+        padding-bottom: 15px;
     }
 
     h2 {
         display: flex;
         justify-content: center;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: bold;
     }
 
@@ -171,15 +156,34 @@
     }
 
     .why-list {
+        margin: 10px 0;
+        border-radius: 5px;
+        border: 1px solid lightblue;
         display: flex;
+        flex-direction: column;
+        align-items: center;
         justify-content: center;
     }
 
+    .why-list h2 {
+        color: blue;
+        margin-bottom: 0;
+    }
+
     .do {
-        color: midnightblue;
+        /*color: midnightblue;*/
     }
 
     .dont {
+        /*color: maroon;*/
+        border: 1px solid lightsalmon;
+    }
+
+    .dont h2 {
+        color: red;
+    }
+
+    .dont a {
         color: maroon;
     }
 
@@ -222,6 +226,10 @@
 
         .small-title {
             font-size: 16px;
+        }
+
+        .why-list {
+            font-size: 12px;
         }
     }
 </style>
