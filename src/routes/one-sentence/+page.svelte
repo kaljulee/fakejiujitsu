@@ -20,7 +20,7 @@
         <p><strong>FJJ2</strong>, or <i>Fake Jiu Jitsu 2</i> is a specific implementation of this approach, and the current Long Term Support version of fake jiu jitsu developed by the Nice Train Lab.</p>
         <p>(I have an undergraduate degree in philosophy, so I know how to use confusing terminology responsibly)</p>
         <p>FJJ2 defined in a single sentence:</p>
-        <p class="definition">Using <strong>Turtle Space Control</strong> to maintain your ability to apply alternating <strong>Shotput</strong>-powered <strong>Bridge and Shrimp</strong> movements onto an opponent you are connected to in a <strong>Timing</strong> contrary to an established <strong>Pattern</strong>.</p>
+        <p class="definition">Using <strong>Turtle Space Control</strong> to maintain your ability to apply alternating <strong>Shotput</strong>-powered <strong>Bridge and Shrimp</strong> movements onto an opponent you are <strong>Connected</strong> to, <strong>Timed</strong> contrary to an established <strong>Pattern</strong>.</p>
         <p>This is an awkward mouthful, stringing together the seven fundamentals of FJJ2 into a single sentence.  I'll explain each of these later in the document.</p>
         <p>I want to explain the theory behind fake jiu jitsu generally first, but feel free to follow the links if you just want to see what the deal is.</p>
     </div>

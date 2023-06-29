@@ -102,7 +102,7 @@
         </ul>
 
         <p>Put together, FJJ2 is</p>
-        <p class="definition">Using <strong>Turtle Space Control</strong> to maintain your ability to apply alternating <strong>Shotput</strong>-powered <strong>Bridge and Shrimp</strong> movements onto an opponent you are connected to in a <strong>Timing</strong> contrary to an established <strong>Pattern</strong>.</p>
+        <p class="definition">Using <strong>Turtle Space Control</strong> to maintain your ability to apply alternating <strong>Shotput</strong>-powered <strong>Bridge and Shrimp</strong> movements onto an opponent you are <strong>Connected</strong> to, <strong>Timed</strong> contrary to an established <strong>Pattern</strong>.</p>
         <p>That's it.  FJJ2 asserts that if you get really good at only that, your performance on the mat will be indistinguishable from real BJJ.</p>
         <p>But how do you get good at it?</p>
         <h2>How to Train FJJ2</h2>
@@ -218,12 +218,12 @@
         height: auto;
     }
 
-    .body {
-        grid-area: body;
-        display: flex;
-        flex-direction: column;
-        /*align-items: center;*/
-    }
+    /*.body {*/
+    /*    grid-area: body;*/
+    /*    display: flex;*/
+    /*    flex-direction: column;*/
+    /*    !*align-items: center;*!*/
+    /*}*/
 
     @media (max-width: 500px) {
         .large-title {

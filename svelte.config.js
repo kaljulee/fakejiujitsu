@@ -17,7 +17,7 @@ const config = {
 			assets: 'public',
 			fallback: undefined,
 			precompress: false,
-			strict: true,
+			strict: false,
 		})
 	}
 };
