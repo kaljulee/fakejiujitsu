@@ -3,26 +3,41 @@
 </script>
 <PageWrapper>
     <div>
-        <p>What does that even mean? What is Fake Jiu Jitsu? Before defining it, I think it may be helpful to have a
-            working definition of actual Brazilian Jiu Jitsu, as it is the thing that is generally being faked.</p>
-
-        <i>Brazilian Jiu Jitsu is a set of positions and techniques that are learned, practiced, then deployed in
-            grappling scenarios.</i>
-        <p>You get taught BJJ, you practice it, and you apply what you’ve learned in live grappling.</p>
-        <p>In contrast,</p>
-        <i>A Fake Jiu Jitsu is a set of fundamental principles and behaviors that, when practiced sufficiently, will
-            result in actions that are very difficult to distinguish from actual Brazilian Jiu Jitsu.</i>
-        <p>There is not much to teach in Fake Jiu Jitsu. You decide on a set of fundamentals, apply them in grappling
-            experiments, then refine your fundamentals based on the results. Conducting these experiments will result in
-            improved coordination and sensitivity, making you more effective at conducting the experiments. A virtuous
-            cycle is the result.</p>
-        <p><i>Fake Jiu Jitsu</i> is a generic term for this sort of approach to grappling, which I will try to justify in following sections.</p>
-        <p><strong>FJJ2</strong>, or <i>Fake Jiu Jitsu 2</i> is a specific implementation of this approach, and the current Long Term Support version of fake jiu jitsu developed by the Nice Train Lab.</p>
+        <p></p>
+        <p>In one informal sentence, a Fake Jiu Jitsu is:</p>
+        <p class="definition">An approach to training jiu jitsu that trades the concepts of 'technique' and 'position' for a small set of 1st order principles, and the higher-order principles derived from them.</p>
+        <p>This definition is in contrast to Brazilian Jiu Jitsu which can be described as</p>
+        <p class="definition">A set of positions (top and bottom) and techniques (offense and defense) learned from a teacher, practiced by a student.</p>
+        <p>There is very little room to talk about BJJ without referring to technique and position; it would arguably be incoherent to do so.
+        <p>If you are performing BJJ, you are almost certainly attempting to execute a technique from a position.  Further, these techniques and positions are ususally handed down from a teacher, fully formed.</p>
+        <br/>
+        <p>I argue that the concepts of position and technique are not actually fundamental, but instead are just one way of slicing up grappling into words.</p>
+        <p><i>Fake Jiu Jitsus</i> are alternative ways to talk about grappling, which may or may not include these concepts.</p>
+        <p>This is a claim about how grappling works, and what is really going on:</p>
+        <ul>
+            <li>when we wrestle around in pajamas</li>
+            <li>when we talk about wrestling around in pajamas</li>
+        </ul>
+        <p><strong>FJJ2</strong> is a specific model developed by the Nice Train Lab.</p>
         <p>(I have an undergraduate degree in philosophy, so I know how to use confusing terminology responsibly)</p>
-        <p>FJJ2 defined in a single sentence:</p>
+        <p>A single-sentence summary of FJJ2:</p>
         <p class="definition">Using <strong>Turtle Space Control</strong> to maintain your ability to apply alternating <strong>Shotput</strong>-powered <strong>Bridge and Shrimp</strong> movements onto an opponent you are <strong>Connected</strong> to, <strong>Timed</strong> contrary to an established <strong>Pattern</strong>.</p>
-        <p>This is an awkward mouthful, stringing together the seven fundamentals of FJJ2 into a single sentence.  I'll explain each of these later in the document.</p>
-        <p>I want to explain the theory behind fake jiu jitsu generally first, but feel free to follow the links if you just want to see what the deal is.</p>
+        The bold terms are the model’s 1st-order principles.
+        <p>The statements in FJJ2 are <i>not</i> meant to necessarily be accurate descriptions of the world.  The intention is to have <strong>a grappling model that makes testable predictions.</strong></p>
+        <p>Once I have my model and predictions, I can</p>
+        <ul>
+            <li>run experiments</li>
+            <li>derive 2nd and 3rd order principles</li>
+            <li>note apparent deficiencies in the model</li>
+            <li>eventually revise the model</li>
+        </ul>
+
+        <p>So, to recap my definitions:</p>
+        <ul>
+            <li>BJJ is a real martial art defined around positions and techniques</li>
+            <li>Fake jiu jitus are alternative ways of describing and training grappling</li>
+            <li>FJJ2 is a specific model and prediction set</li>
+        </ul>
     </div>
 </PageWrapper>
 

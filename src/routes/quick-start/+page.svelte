@@ -28,9 +28,9 @@
                     <ul>
                         <li>many positions to learn</li>
                         <li>many attacks and counters</li>
-                        <li>BJJ "Fundamentals" do nothing for white belts</li>
+                        <li>BJJ "Fundamentals" do little for white belts</li>
                         <ul>
-                            <li>Drill Scissor sweep, still get crushed</li>
+                            <li>Drill scissor sweep, still get crushed</li>
                         </ul>
                     </ul>
                     <li>Fake Fundamentals Immediately help white belts</li>
@@ -55,6 +55,7 @@
                 <ul>
                     <li>Invented by a <a href="https://www.beltchecker.com/profile.php?id=9510">fake blue belt</a></li>
                     <li>Involves 1+ years of turtle work</li>
+                    <li>All "submissions" considered advanced</li>
                     <li>Must regularly "lose" training rolls</li>
                     <li>Encourages flat social hierarchy</li>
                     <li>Lack of techniques or positions can be disorienting</li>

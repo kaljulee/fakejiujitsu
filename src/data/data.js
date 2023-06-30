@@ -40,7 +40,7 @@ export const tableOfContents = [
         ]
     },
     {
-        title: {label: 'Fake Jiu Jitsu 2.0 LTS'},
+        title: {label: 'Fake Jiu Jitsu 2.0t LTS'},
         items: [
             {label: 'Overview', slug: SLUGS.LTS_OVERVIEW},
             {label: 'Origin Point', slug: SLUGS.ORIGIN_POINT},
