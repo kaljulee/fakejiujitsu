@@ -131,6 +131,10 @@
         background: cornsilk;
     }
 
+    ul {
+        padding-right: 5px;
+    }
+
     .why-wrapper {
         padding-bottom: 15px;
     }
@@ -147,15 +151,14 @@
     }
 
     .fundamentals-list {
-        font-size: 12px;
+        /*font-size: 12px;*/
+        border-radius: 5px;
+        border: 1px solid black;
+        /*padding-right: 5px;*/
     }
 
     .list-title {
         color: red;
-    }
-
-    .list-title.not {
-        color: blue;
     }
 
     .grid-layout {
@@ -238,6 +241,10 @@
         }
 
         .why-list {
+            font-size: 12px;
+        }
+
+        .fundamentals-list {
             font-size: 12px;
         }
     }

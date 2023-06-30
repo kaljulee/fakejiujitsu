@@ -1,13 +1,25 @@
 export const SLUGS = {
     HOME: '/',
+    // intro
     INTRO: '/intro',
     ONE_IMG: '/one-image',
     ONE_SENT: '/one-sentence',
     QUICK_START: '/quick-start',
+    // theory
     ECO_DYN: '/ecological-dynamics',
     DIM_REDUC: '/dimensionality-reduction',
     WAT_FUND: '/what-is-a-fundamental',
+    // old fundamentals
     TURTLE_SPACE: '/turtle-space',
+    BRIDGE_SHRIMP: '/bridge-and-shrimp',
+    SHOTPUT: '/shotput',
+    // new fundamentals
+    ORIGIN_POINT: '/origin-point',
+    JAB_CROSS: '/jab-and-cross',
+    CONNECT: '/connection',
+    PATTERN_TIMING: '/pattern-and-timing',
+    //version pages
+    LTS_OVERVIEW: 'lts-overview',
 }
 
 export const tableOfContents = [
@@ -27,17 +39,17 @@ export const tableOfContents = [
             {label: 'What is a Fundamental?', slug: SLUGS.WAT_FUND},
         ]
     },
-    // {
-    //     title: {label: 'Fake Jiu Jitsu 2.0 LTS'},
-    //     items: [
-    //         {label: 'Overview', slug: '/lts-overview'},
-    //         {label: 'Turtle Space', slug: '/turtle-space'},
-    //         {label: 'Bridge and Shrimp', slug: '/bridge-and-shrimp'},
-    //         {label: 'Shotput', slug: '/shotput'},
-    //         {label: 'Connection', slug: '/connection'},
-    //         {label: 'Pattern and Timing', slug: '/pattern-and-timing'},
-    //     ]
-    // },
+    {
+        title: {label: 'Fake Jiu Jitsu 2.0 LTS'},
+        items: [
+            {label: 'Overview', slug: SLUGS.LTS_OVERVIEW},
+            {label: 'Origin Point', slug: SLUGS.ORIGIN_POINT},
+            {label: 'Jab and Cross', slug: SLUGS.JAB_CROSS},
+            {label: 'Shotput', slug: SLUGS.SHOTPUT},
+            {label: 'Connection', slug: SLUGS.CONNECT},
+            {label: 'Pattern and Timing', slug: SLUGS.PATTERN_TIMING},
+        ]
+    },
     // {
     //     title: {label: 'Deprecated FJJ Versions'},
     //     items: [
