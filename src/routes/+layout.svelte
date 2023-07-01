@@ -41,7 +41,6 @@
             </div>
             <a class="next-button" href={nextPage.slug}>Next &rarr;</a>
         {/if}
-        <!--        <p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>-->
     </footer>
 </div>
 
