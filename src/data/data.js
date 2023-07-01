@@ -4,6 +4,7 @@ export const SLUGS = {
     INTRO: '/intro',
     ONE_IMG: '/one-image',
     ONE_SENT: '/one-sentence',
+    TEST_DRIVEN: '/test-driven-training',
     QUICK_START: '/quick-start',
     // theory
     ECO_DYN: '/ecological-dynamics',
@@ -19,7 +20,7 @@ export const SLUGS = {
     CONNECT: '/connection',
     PATTERN_TIMING: '/pattern-and-timing',
     //version pages
-    LTS_OVERVIEW: 'lts-overview',
+    LTS_OVERVIEW: '/lts-overview',
 }
 
 export const tableOfContents = [
@@ -29,6 +30,7 @@ export const tableOfContents = [
             {label: 'Hello World', slug: SLUGS.INTRO},
             {label: 'Fake Jiu Jitsu in One Image', slug: SLUGS.ONE_IMG},
             {label: 'Fake Jiu Jitsu in One Sentence', slug: SLUGS.ONE_SENT},
+            {label: 'Test-Driven Training', slug: SLUGS.TEST_DRIVEN}
         ],
     },
     {
