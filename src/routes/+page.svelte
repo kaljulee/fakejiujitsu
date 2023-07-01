@@ -14,7 +14,7 @@
             <span class="fjj-label">
                 <img src={label_blue} alt="Fake Jiu Jitsu System 2.0T"/>
             </span>
-        <p>How to create synthetic jiu jitsu</p>
+        <p><span class="avoid-wrap">How to create</span> <span class="avoid-wrap">synthetic jiu jitsu</span></p>
     </div></div>
     <div class="quick-start"><span>In a hurry?  You can check out the</span>
         <a href={SLUGS.QUICK_START}>Quick-Start Guide</a></div>
@@ -23,6 +23,11 @@
 </div>
 
 <style>
+
+    .avoid-wrap {
+        display: inline-block;
+    }
+
     .grid-layout {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
