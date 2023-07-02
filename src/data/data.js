@@ -6,6 +6,11 @@ export const SLUGS = {
     ONE_SENT: '/one-sentence',
     TEST_DRIVEN: '/test-driven-training',
     QUICK_START: '/quick-start',
+    // training schemes
+    // LEARN_OVERVIEW: '/how-to-learn-overview',
+    // TBJJ: '/traditional-bjj',
+    // EDBJJ: '/ecological-dynamics-bjj',
+    // TDT: '/test-driven-training',
     // theory
     ECO_DYN: '/ecological-dynamics',
     DIM_REDUC: '/dimensionality-reduction',

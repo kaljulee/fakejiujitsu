@@ -6,10 +6,14 @@
 </script>
 
 <PageWrapper>
-    <p>When describing FJJ, I am usually talking about 1st order principles, models, and predictions.  However, because FJJ has no outside authoritative source of truth, it requires an unconventional approach to training.<p/>
-    <p class="definition"><strong>Test-Driven Training</strong> is a decentralized, peer-to-peer training scheme.</p>
-    <p>Before explaining what that is, I want to build context (and anticipation), by presenting descriptions of Traditional BJJ training (TBJJ) and Ecological Dynamics BJJ training (EDBJJ).</p>
+    <p>When describing FJJ, I am usually talking about 1st order principles, models, and predictions.  However, because FJJ has no outside authoritative source of truth, it requires an unconventional approach to training, which I am calling <strong>Test-Driven Training</strong>.<p/>
+    <p>Before explaining what that is, I want to build context (and anticipation), by presenting descriptions of two common training approaches: Traditional BJJ training (TBJJ) and Ecological Dynamics BJJ training (EDBJJ).</p>
+    <p>I realize there is a great deal of variety in how people run their gyms, and I will be doing some good-faith generalizing here.</p>
     <hr/>
+    <div class="section-head">
+        <h1>Traditional BJJ Training</h1>
+        <h2>An information-processing, top down approach to distributing skill</h2>
+    </div>
     <div class="img-wrapper"><img src={tbjj} alt="Traditional BJJ Learning"/></div>
     <p>The primary information source is the Professor. Techniques and positions are experienced through three primary
         activties</p>
@@ -21,7 +25,16 @@
     <p>Each activity is most effective when supervised by the Professor, who gives feedback and corrections.</p>
     <p>The student experience does contribute to learning, but the Professor is a necessary source of truth; without his
         corrections, the student is likely to develop malformed and ineffective techniques.</p>
+    <p>Generally speaking, TBJJ does not recognize a skill threshold at which a student can question the Professor's teachings.</p>
+    <p>There is certainly an understanding that belt-rank does not equal skill, as evidenced by the popular refrain "There are competition blue belts that can take apart hobbyist black-belts."</p>
+    <p>There is also no shortage of Professors who say "I regularly learn from my students".</p>
+    <p>But the scenario of one student telling another "I think the professor is wrong on this point" is, to put it lightly, uncommon.</p>
+
     <hr/>
+    <div class="section-head">
+    <h1>Ecological Dynamics BJJ</h1>
+    <h2>A top-down ecological-dynamics approach to generating skill</h2>
+    </div>
     <div class="img-wrapper"><img src={eco_d} alt="Ecological Dynamics Learning"/></div>
     <p>Here, the primary source of information is from the student’s experience playing games designed by the coach. The
         coach decides what technique she is trying to get the player to learn, designs a game that encourages behaviors
@@ -29,7 +42,12 @@
         it.</p>
     <p>The player's development is shaped by the coach's games, but the lessons learned are generated primarily from the
         player's personal experience.</p>
+    <p>EDBJJ is still in its infancy, and carries many training scars from the days of traditional technique training.  In theory there is room for a player to question the coach's games and goals, but in practice this is still unusual.</p>
     <hr/>
+    <div class="section-head">
+        <h1>Test-Driven Training</h1>
+        <h2>A decentralized, peer-to-peer training scheme</h2>
+    </div>
     <div class="img-wrapper"><img src={tdt} alt="Test Driving Learning"/></div>
     <p>The tester has a model, which makes predictions that are tested in experiments, and a sensor to detect test
         results.</p>
@@ -56,11 +74,33 @@
     <p>Separating out the body as the sensor may seem unnecessarily pedantic.  Shouldn't it be assumed that a person's body is part of developing a grappling skill set, regardless of the approach?  Why not include the bodies of the TBJJ student and the EDBJJ player?</p>
     <p>An important component of TDT is that there is no authoritative outside source of truth.  Without the corrective force of a Professor or a coach, testers need to rely on their own tools to decide what principles are effective.</p>
     <p>"Sensor calibration" still occurs in TBJJ and EDBJJ, but it is not part of how you determine what it is you should be practicing.</p>
-    <p>TBJJ in particular does not generally recognize a skill threshold that a student needs to reach before they can decide that the Professor is actually wrong about some things.</p>
-    <p>EDBJJ is still in its infancy, and carries many training scars from the days of traditional technique training.  In theory there is room for a player to question the coach's games and goals, but in practice this is still unusual.</p>
 </PageWrapper>
 
 <style>
+
+    .section-head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: cornsilk;
+        margin: 15px 0;
+        padding: 25px 0;
+    }
+
+    .section-head h1 {
+        font-weight: bold;
+        margin-bottom: 5px;
+        margin-top: 0px;
+        font-size: 25px;
+    }
+
+    .section-head h2 {
+        margin-top: 0px;
+        font-size: 14px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
     hr {
         width: 70%;
         padding: 5px 0;
@@ -83,6 +123,9 @@
         img {
             width: 75%;
             height: auto;
+        }
+        .section-head h1 {
+            font-size: 32px;
         }
     }
 

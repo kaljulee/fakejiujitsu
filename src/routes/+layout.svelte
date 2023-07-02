@@ -34,7 +34,7 @@
     <footer>
         {#if lastPage}
             <a class="footer-button" href={lastPage.slug}>
-                &larr;
+                <span class="footer-arrow">&larr;</span>
                 <div class="footer-description">
                     <strong>Back:</strong>
                     <span>{lastPage.label}</span>
@@ -47,7 +47,7 @@
                 <div class="footer-description">
                     <strong>Next:</strong>
                     <span>{nextPage.label}</span>
-                </div>&rarr;</a>
+                </div><span class="footer-arrow">&rarr;</span></a>
         {/if}
     </footer>
 </div>
@@ -70,12 +70,17 @@
     .footer-button {
         display: flex;
         align-items: center;
+        justify-content: space-between;
         border-radius: 15px;
         background: black;
         color: white;
         padding: 5px 20px 5px 20px;
         font-size: 12px;
         width: 25%;
+    }
+
+    .footer-arrow {
+        font-size: 1em;
     }
 
     .corner-menu {
