@@ -2,15 +2,6 @@
     import PageWrapper from "$lib/components/PageWrapper.svelte";
     import SvelteMarkdown from "svelte-markdown";
     const source = `
-<style>
-    .definition {
-        font-size: 18px;
-        font-style: italic;
-        margin: 5px;
-        padding: 5px;
-        background: cornsilk;
-    }
-</style>
 In one informal sentence, Fake Jiu Jitsu is:
 
 <p class="definition">An approach to training jiu jitsu that trades the concepts of 'technique' and 'position' for a small set of 1st order principles, and the higher-order principles derived from them.</p>

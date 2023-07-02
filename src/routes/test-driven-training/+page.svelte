@@ -6,11 +6,9 @@
 </script>
 
 <PageWrapper>
-    <p>FJJ uses a test-driven training (TDT) method.
-    <p/>
-    <p>Before explaining what that is, I want to build context (and anticipation), by presenting descriptions of
-        Traditional BJJ training
-        (TBJJ) and Ecological Dynamics BJJ training (EDBJJ).</p>
+    <p>When describing FJJ, I am usually talking about 1st order principles, models, and predictions.  However, because FJJ has no outside authoritative source of truth, it requires an unconventional approach to training.<p/>
+    <p class="definition"><strong>Test-Driven Training</strong> is a decentralized, peer-to-peer training scheme.</p>
+    <p>Before explaining what that is, I want to build context (and anticipation), by presenting descriptions of Traditional BJJ training (TBJJ) and Ecological Dynamics BJJ training (EDBJJ).</p>
     <hr/>
     <div class="img-wrapper"><img src={tbjj} alt="Traditional BJJ Learning"/></div>
     <p>The primary information source is the Professor. Techniques and positions are experienced through three primary
@@ -36,12 +34,12 @@
     <p>The tester has a model, which makes predictions that are tested in experiments, and a sensor to detect test
         results.</p>
     <p>The model is the set of principles (i.e., getting underhooks on someone is good).</p>
-    <p>The experiment is to try go get underhooks on someone and see what happens.</p>
+    <p>The experiment is to try go get underhooks on a lab partner and see what happens.</p>
     <p>The sensor is your body: your athletic control, sensitivity to weight changes, awareness of affordances, etc.</p>
-    <p>The quality of the information you get is dependent on how finely calibrated your sensor is.</p>
+    <p>The quality of the information you get is dependent on how finely calibrated both your sensor and lab partner are.</p>
     <p>For example, a novice grappler may find experimental results that are consistent with <i>underhooks not mattering
         at all</i>.</p>
-    <p>If this is the data the tester collects, then there is a good chance that her sensor isn't well-calibrated yet.
+    <p>If this is the data the tester collects, then there is a good chance that either her sensor isn't well-calibrated, or her lab partner is not reporting optimal information.
         (either that or we're all wrong about underhooks)</p>
     <p>The experiments serve the dual functions of testing the model and calibrating the sensor. This means there is a
         certain amount of looseness and guesswork in the system, as both the model and the sensor are possible sources

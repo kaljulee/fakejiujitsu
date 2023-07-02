@@ -45,6 +45,14 @@
 </div>
 
 <style>
+
+    :global(.definition) {
+        font-size: 18px;
+        font-style: italic;
+        margin: 5px;
+        padding: 5px;
+        background: cornsilk;
+    }
     .next-description {
         display: flex;
         flex-direction: column;
