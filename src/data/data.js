@@ -91,6 +91,7 @@ function createNavData() {
 
 export const navData = createNavData();
 
+// address order is [this, next, last]
 export function getNavInfo(slug) {
     const data = navData;
     const slugData = [];
@@ -98,6 +99,7 @@ export function getNavInfo(slug) {
     if (slugIndex !== -1) {
         slugData.push(data[slugIndex]);
         slugData.push(data[slugIndex + 1]);
+        slugData.push(data[slugIndex - 1]);
     }
     return slugData;
 }

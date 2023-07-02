@@ -10,6 +10,7 @@
     import CornerMenuLink from "$lib/components/CornerMenuLink.svelte";
 
     $: nextPage = getNavInfo($page.url.pathname)[1];
+    $: lastPage = getNavInfo($page.url.pathname)[2];
 </script>
 
 <div class="app">
@@ -31,15 +32,22 @@
         {/if}
     </main>
     <footer>
+        {#if lastPage}
+            <a class="footer-button" href={lastPage.slug}>
+                &larr;
+                <div class="footer-description">
+                    <strong>Back:</strong>
+                    <span>{lastPage.label}</span>
+                </div>
+            </a>
+        {/if}
+        <div />
         {#if nextPage}
-            <div class="next-description">
-                <strong>Next:</strong>
-                {#if nextPage.sectionLabel}
-                <strong>{nextPage.sectionLabel}</strong>
-                {/if}
-                <span>{nextPage.label}</span>
-            </div>
-            <a class="next-button" href={nextPage.slug}>Next &rarr;</a>
+            <a class="footer-button" href={nextPage.slug}>
+                <div class="footer-description">
+                    <strong>Next:</strong>
+                    <span>{nextPage.label}</span>
+                </div>&rarr;</a>
         {/if}
     </footer>
 </div>
@@ -53,18 +61,21 @@
         padding: 5px;
         background: cornsilk;
     }
-    .next-description {
+
+    .footer-description {
         display: flex;
         flex-direction: column;
     }
 
-    .next-button {
+    .footer-button {
         display: flex;
         align-items: center;
         border-radius: 15px;
         background: black;
         color: white;
         padding: 5px 20px 5px 20px;
+        font-size: 12px;
+        width: 25%;
     }
 
     .corner-menu {
@@ -100,13 +111,14 @@
     }
 
     footer a {
-        font-weight: bold;
+        text-decoration: none;
     }
 
     @media (max-width: 480px) {
         footer {
             padding: 12px 10px;
         }
+
         main {
             padding: 0 12px 0 12px;
         }
