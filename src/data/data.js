@@ -26,6 +26,8 @@ export const SLUGS = {
     PATTERN_TIMING: '/pattern-and-timing',
     //version pages
     LTS_OVERVIEW: '/lts-overview',
+    FJJ1: '/fjj1',
+    PROTO_FJJ: '/proto-fjj',
 }
 
 export const tableOfContents = [
@@ -57,13 +59,13 @@ export const tableOfContents = [
             {label: 'Pattern and Timing', slug: SLUGS.PATTERN_TIMING},
         ]
     },
-    // {
-    //     title: {label: 'Deprecated FJJ Versions'},
-    //     items: [
-    //         {label: 'FJJ v1.0', slug: '/fjj1'},
-    //         {label: 'FJJ v0.1', slug: 'proto-fjj'},
-    //     ]
-    // },
+    {
+        title: {label: 'Deprecated FJJ Versions'},
+        items: [
+            {label: 'FJJ v1.0', slug: SLUGS.FJJ1},
+            {label: 'FJJ v0.1', slug: SLUGS.PROTO_FJJ},
+        ]
+    },
     // {
     //     title: {label: 'Appendix', slug: '/appendix'},
     //     items: [
