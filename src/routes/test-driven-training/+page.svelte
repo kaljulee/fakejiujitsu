@@ -42,7 +42,9 @@
         it.</p>
     <p>The player's development is shaped by the coach's games, but the lessons learned are generated primarily from the
         player's personal experience.</p>
-    <p>EDBJJ is still in its infancy, and carries many training scars from the days of traditional technique training.  In theory there is room for a player to question the coach's games and goals, but in practice this is still unusual.</p>
+    <p>This system has more of an upward-flow of information than TBJJ, as the coaches need to observe the effects their games have on players.  Game refinement usually comes from the coaches observation and judgement, not from player requests.</p>
+    <p>In theory there is room for a player to question the coach's games and goals, but in practice this is still unusual.</p>
+    <p></p>
     <hr/>
     <div class="section-head">
         <h1>Test-Driven Training</h1>
