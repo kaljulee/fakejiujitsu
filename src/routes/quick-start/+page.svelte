@@ -87,7 +87,7 @@
                 <h3>Connection</h3>
             </li>
             <ul>
-                <li>This is the ability to position your body as a strong connector between the ground and your opponent (no example for this yet)
+                <li>This is the ability to position your body as a strong connector between the ground and your opponent (see <a href="https://en.wikipedia.org/wiki/Antaeus">Antaeus</a>, patron saint of Connection)
                 </li>
             </ul>
             <li><h3>Pattern</h3></li>
