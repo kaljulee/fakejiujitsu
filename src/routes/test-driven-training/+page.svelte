@@ -8,7 +8,7 @@
 <PageWrapper>
     <p>When describing FJJ, I am usually talking about 1st order principles, models, and predictions.  However, because FJJ has no outside authoritative source of truth, it requires an unconventional approach to training, which I am calling <strong>Test-Driven Training</strong>.<p/>
     <p>Before explaining what that is, I want to build context (and anticipation), by presenting descriptions of two common training approaches: Traditional BJJ training (TBJJ) and Ecological Dynamics BJJ training (EDBJJ).</p>
-    <p>I realize there is a great deal of variety in how people run their gyms, and I will be doing some good-faith generalizing here.</p>
+    <p>I realize there is a great deal of variety in how people run their gyms, and I will be doing some (a lot) good-faith generalizing here.</p>
     <hr/>
     <div class="section-head">
         <h1>Traditional BJJ Training</h1>
