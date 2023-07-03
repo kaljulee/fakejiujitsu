@@ -4,7 +4,7 @@
     const source = `
 In one informal sentence, Fake Jiu Jitsu is:
 
-<p class="definition">An approach to training jiu jitsu that trades the concepts of 'technique' and 'position' for a small set of 1st order principles, and the higher-order principles derived from them.</p>
+<p class="definition">An approach to training jiu jitsu that trades the concepts of 'technique' and 'position' for a small set of 1st order principles, and the higher-order principles derived from them, verified through first-person experience.</p>
 
 This definition is in contrast to Brazilian Jiu Jitsu, which can be described as
 
