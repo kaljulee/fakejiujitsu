@@ -4,7 +4,7 @@ export const SLUGS = {
     INTRO: '/intro',
     ONE_IMG: '/one-image',
     ONE_SENT: '/one-sentence',
-    TEST_DRIVEN: '/test-driven-training',
+    ONE_THOUSAND: '/one-thousand-words',
     QUICK_START: '/quick-start',
     // training schemes
     // LEARN_OVERVIEW: '/how-to-learn-overview',
@@ -20,6 +20,7 @@ export const SLUGS = {
     BRIDGE_SHRIMP: '/bridge-and-shrimp',
     SHOTPUT: '/shotput',
     // new fundamentals
+    TEST_DRIVEN: '/test-driven-training',
     ORIGIN_POINT: '/origin-point',
     JAB_CROSS: '/jab-and-cross',
     CONNECT: '/connection',
@@ -37,8 +38,20 @@ export const tableOfContents = [
             {label: 'Hello World', slug: SLUGS.INTRO},
             {label: 'Fake Jiu Jitsu in One Image', slug: SLUGS.ONE_IMG},
             {label: 'Fake Jiu Jitsu in One Sentence', slug: SLUGS.ONE_SENT},
-            {label: 'Test-Driven Training', slug: SLUGS.TEST_DRIVEN}
+            {label: 'Fake Jiu Jitsu in 1000 Words', slug: SLUGS.ONE_THOUSAND}
         ],
+    },
+    {
+        title: {label: 'Fake Jiu Jitsu 2.0t LTS'},
+        items: [
+            {label: 'Overview', slug: SLUGS.LTS_OVERVIEW},
+            {label: 'Test-Driven Training', slug: SLUGS.TEST_DRIVEN},
+            {label: 'Origin Point', slug: SLUGS.ORIGIN_POINT},
+            {label: 'Jab and Cross', slug: SLUGS.JAB_CROSS},
+            {label: 'Shotput', slug: SLUGS.SHOTPUT},
+            {label: 'Connection', slug: SLUGS.CONNECT},
+            {label: 'Pattern and Timing', slug: SLUGS.PATTERN_TIMING},
+        ]
     },
     {
         title: {label: 'Theory'},
@@ -49,22 +62,12 @@ export const tableOfContents = [
         ]
     },
     {
-        title: {label: 'Fake Jiu Jitsu 2.0t LTS'},
-        items: [
-            {label: 'Overview', slug: SLUGS.LTS_OVERVIEW},
-            {label: 'Origin Point', slug: SLUGS.ORIGIN_POINT},
-            {label: 'Jab and Cross', slug: SLUGS.JAB_CROSS},
-            {label: 'Shotput', slug: SLUGS.SHOTPUT},
-            {label: 'Connection', slug: SLUGS.CONNECT},
-            {label: 'Pattern and Timing', slug: SLUGS.PATTERN_TIMING},
-        ]
-    },
-    {
         title: {label: 'Deprecated FJJ Versions'},
         items: [
             {label: 'FJJ v1.0', slug: SLUGS.FJJ1},
             {label: 'FJJ v0.1', slug: SLUGS.PROTO_FJJ},
-        ]
+        ],
+    deprecated: true
     },
     // {
     //     title: {label: 'Appendix', slug: '/appendix'},

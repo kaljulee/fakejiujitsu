@@ -6,16 +6,18 @@
     export let items = [];
     export let index = '';
 
+    export let deprecated = false;
+
     function closeCornerMenu() {
         showCornerMenu.close();
     }
 </script>
 
 <div>
-    <span class="title">{index}. {title.label}</span>
+    <span class="title" class:deprecated>{index}. {title.label}</span>
     <ul>
         {#each items as item}
-            <li aria-current="{$page.url.pathname === item.slug ? 'page' : undefined}"><a href={item.slug} on:click={closeCornerMenu}>{item.label}</a></li>
+            <li class:deprecated aria-current="{$page.url.pathname === item.slug ? 'page' : undefined}"><a href={item.slug} on:click={closeCornerMenu}>{item.label}</a></li>
         {/each}
     </ul>
 </div>
@@ -23,6 +25,10 @@
 <style>
     :root {
         --item-border: 1px solid lightGray;
+    }
+
+    .deprecated {
+        text-decoration: line-through;
     }
 
     .title {
