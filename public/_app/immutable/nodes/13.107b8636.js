@@ -1,13 +1,13 @@
-import{S as d,i as p,s as m,y as s,z as r,A as l,g as h,d as u,B as c,F as g}from"../chunks/index.30d36c53.js";import{P as f}from"../chunks/PageWrapper.1f9b0c22.js";import{S as y}from"../chunks/SvelteMarkdown.2146b79f.js";function w(n){let t,a;return t=new y({props:{source:`
+import{S as d,i as p,s as m,y as s,z as r,A as l,g as h,d as u,B as c,F as g}from"../chunks/index.30d36c53.js";import{P as f}from"../chunks/PageWrapper.1f9b0c22.js";import{S as y}from"../chunks/SvelteMarkdown.2146b79f.js";function b(n){let t,a;return t=new y({props:{source:`
 # Techniques:
 # Shadows on the Wall of Kano’s Cave
 
 Technique (I’m going to refer the entire library of BJJ techniques and positions as Technique) gets treated as an almost mystical fetish, like a physical spell that must be cast just right for the smaller person to defeat the larger.  When we encourage grapplers to focus on Technique, we are almost always encouraging them to ignore what actually matters - the specifics of the situation they are in.
 
-Grappling is a continuous flow of movement and intentions; in order to be able to talk about it and teach it we break it up into a language.  If we didn’t do this, we would not be able to communicate or teach.  We need a set of discrete ideas and concepts with which to talk about jiu jitsu.
+Grappling is a continuous flow of movement and intentions; in order to be able to talk about it at all, let alone teach it, we need to break it up into discrete parts.  These parts form a language by which we can communicate with each other.  The basic unit of the BJJ vernacular is the Technique.
 
 
-The language of BJJ is Technique, its definitions are based on large, relatively obvious limb positions.
+Technique definitions are based on large, relatively obvious limb positions.
 
 
  Back on the ground and legs around the opponent’s waist?  Closed Guard.
@@ -65,4 +65,4 @@ My second reference point: I should consider the quality of my data to be heavil
 Once I have determined a more optimal grappling language and have a well-calibrated athletic sensitivity, then I should be able to create fake jiu-jitsu on the fly, without ever properly drilling Technique again.
 
 The mat is a night sky, I’m a telescope, and most people are looking at fingers.
-`}}),{c(){s(t.$$.fragment)},l(e){r(t.$$.fragment,e)},m(e,o){l(t,e,o),a=!0},p:g,i(e){a||(h(t.$$.fragment,e),a=!0)},o(e){u(t.$$.fragment,e),a=!1},d(e){c(t,e)}}}function b(n){let t,a;return t=new f({props:{$$slots:{default:[w]},$$scope:{ctx:n}}}),{c(){s(t.$$.fragment)},l(e){r(t.$$.fragment,e)},m(e,o){l(t,e,o),a=!0},p(e,[o]){const i={};o&1&&(i.$$scope={dirty:o,ctx:e}),t.$set(i)},i(e){a||(h(t.$$.fragment,e),a=!0)},o(e){u(t.$$.fragment,e),a=!1},d(e){c(t,e)}}}class J extends d{constructor(t){super(),p(this,t,null,b,m,{})}}export{J as component};
+`}}),{c(){s(t.$$.fragment)},l(e){r(t.$$.fragment,e)},m(e,o){l(t,e,o),a=!0},p:g,i(e){a||(h(t.$$.fragment,e),a=!0)},o(e){u(t.$$.fragment,e),a=!1},d(e){c(t,e)}}}function w(n){let t,a;return t=new f({props:{$$slots:{default:[b]},$$scope:{ctx:n}}}),{c(){s(t.$$.fragment)},l(e){r(t.$$.fragment,e)},m(e,o){l(t,e,o),a=!0},p(e,[o]){const i={};o&1&&(i.$$scope={dirty:o,ctx:e}),t.$set(i)},i(e){a||(h(t.$$.fragment,e),a=!0)},o(e){u(t.$$.fragment,e),a=!1},d(e){c(t,e)}}}class T extends d{constructor(t){super(),p(this,t,null,w,m,{})}}export{T as component};

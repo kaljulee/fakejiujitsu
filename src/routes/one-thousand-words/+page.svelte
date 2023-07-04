@@ -9,10 +9,10 @@
 
 Technique (I’m going to refer the entire library of BJJ techniques and positions as Technique) gets treated as an almost mystical fetish, like a physical spell that must be cast just right for the smaller person to defeat the larger.  When we encourage grapplers to focus on Technique, we are almost always encouraging them to ignore what actually matters - the specifics of the situation they are in.
 
-Grappling is a continuous flow of movement and intentions; in order to be able to talk about it and teach it we break it up into a language.  If we didn’t do this, we would not be able to communicate or teach.  We need a set of discrete ideas and concepts with which to talk about jiu jitsu.
+Grappling is a continuous flow of movement and intentions; in order to be able to talk about it at all, let alone teach it, we need to break it up into discrete parts.  These parts form a language by which we can communicate with each other.  The basic unit of the BJJ vernacular is the Technique.
 
 
-The language of BJJ is Technique, its definitions are based on large, relatively obvious limb positions.
+Technique definitions are based on large, relatively obvious limb positions.
 
 
  Back on the ground and legs around the opponent’s waist?  Closed Guard.
