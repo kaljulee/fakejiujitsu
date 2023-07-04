@@ -4,27 +4,8 @@
 </script>
 
 <PageWrapper><SvelteMarkdown source={`
-<style>
-hr {
-    border: none;
-    border-top: 3px double #333;
-    color: #333;
-    overflow: visible;
-    text-align: center;
-    height: 5px;
-    margin: 30px 30px;
-    padding: 0 10px;
-}
-
-/*hr:after {*/
-/*    background: #fff;*/
-/*    content: '§§§';*/
-/*    padding: 0 4px;*/
-/*    position: relative;*/
-/*    top: -13px;*/
-/*}*/
-</style>
-# Techniques: Shadows on the Wall of Kano’s Cave
+# Techniques:
+# Shadows on the Wall of Kano’s Cave
 
 Technique (I’m going to refer the entire library of BJJ techniques and positions as Technique) gets treated as an almost mystical fetish, like a physical spell that must be cast just right for the smaller person to defeat the larger.  When we encourage grapplers to focus on Technique, we are almost always encouraging them to ignore what actually matters - the specifics of the situation they are in.
 
