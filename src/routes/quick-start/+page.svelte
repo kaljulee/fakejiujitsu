@@ -123,9 +123,8 @@
             <ol class="training-steps">
                 <li><strong>Admit you have a problem</strong></li>
                 <ul>
-                    <li>You love techniques. They give you something outside of yourself to focus your effort on,
-                        because
-                        you <i>know</i> YOU don't know how to jiu jitsu. Accept you and your body are in this together,
+                    <li>You love techniques. They give you something outside of yourself to focus on,
+                        because of course YOU don't know how to jiu jitsu. Let this go, be open to the possibility that the jiu jitsu was inside you all along,
                         and
                         the only thing to learn is how to pay careful attention
                     </li>
@@ -303,12 +302,12 @@
             font-size: 16px;
         }
 
-        .why-list {
-            font-size: 12px;
-        }
+        /*.why-list {*/
+        /*    font-size: 14px;*/
+        /*}*/
 
-        .chunk-wrapper li {
-            font-size: 12px;
-        }
+        /*.chunk-wrapper li {*/
+        /*    font-size: 14px;*/
+        /*}*/
     }
 </style>

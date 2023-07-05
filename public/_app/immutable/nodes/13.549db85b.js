@@ -32,11 +32,12 @@ You might say that a garbage armbar is not a “true armbar”, like that Scotsm
 
 This is a feature of every Technique in BJJ – everything can be done poorly, and has some “invisible jiu jitsu”, some situation-specific modification, or just one last detail that the Professor will show you in class today.
 
-The high number of unique specifics is the tradeoff made in the BJJ vernacular.  Every Technique has its own set of nuances (which change depending on the current conditions) to make it *actually* work.  This gives the BJJ language a high level of irreducible complexity.  I believe that these nuances are like the [epicycles](https://en.wikipedia.org/wiki/Deferent_and_epicycle) added to geocentric planetary motion.
+The high number of unique specifics is the tradeoff made in the BJJ vernacular.  Every Technique has its own set of nuances [(which change depending on the current conditions)](https://youtu.be/M0t0rwnQWdU) to make it *actually* work.  This gives the BJJ language a high level of irreducible complexity.  I believe that these nuances are like the [epicycles](https://en.wikipedia.org/wiki/Deferent_and_epicycle) added to geocentric planetary motion.
 
 I think there is something else, some other dimension that is orthogonal to the [Flatland](https://en.wikipedia.org/wiki/Flatland) of BJJ.  If we centered our understanding of grappling on something other than Technique, I believe these epicycles will disappear.
 
  The careful, detailed study of Technique is like putting a finger under a microscope, trying to get a better view of [the moon it is pointing to](https://www.youtube.com/watch?v=CwPWDMvT21E).
+
 <hr />
 
 Of course, I could be completely wrong about that.  In fact, we would *expect* a [fake blue belt to be wrong](https://en.wikipedia.org/wiki/Dunning-Kruger_effect) and 100 years of BJJ to be right.
