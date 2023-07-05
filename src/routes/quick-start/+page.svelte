@@ -67,68 +67,139 @@
                 </ul>
             </div>
         </div>
-        <h2>FJJ2 Fundamentals</h2>
         <p>Instead of drilling positions or techniques, drill these:</p>
-        <ul class="fundamentals-list">
-            <li><a href={SLUGS.TURTLE_SPACE}><h3>Turtle Space</h3></a></li>
-            <ul>
-                <li>Defensive structures stolen from <a href="https://youtu.be/jC6uFGCCLRY">Priit Mihkelson</a></li>
-            </ul>
-            <li><h3>Bridge and Shrimp</h3></li>
-            <ul>
-                <li>These are the two primary movements in FJJ2, stolen from <a href="https://youtu.be/VhgRVzHv9r8">Wim Deputter</a></li>
-            </ul>
-            <li><h3>Shotput</h3></li>
-            <ul>
-                <li>This is the main method of power generation in FJJ2, derived by mining <a href="https://youtu.be/b_iUgvzb1-0">shotput</a> and <a href="https://youtu.be/0Yx6amEH3Gs">discus</a> for movement patterns
+        <div class="chunk-wrapper">
+            <h2>FJJ2 Fundamentals</h2>
+            <ul class="fundamentals-list">
+                <li><a href={SLUGS.TURTLE_SPACE}><h3>Turtle Space</h3></a></li>
+                <ul>
+                    <li>Defensive structures stolen from <a href="https://youtu.be/jC6uFGCCLRY">Priit Mihkelson</a></li>
+                </ul>
+                <li><h3>Bridge and Shrimp</h3></li>
+                <ul>
+                    <li>These are the two primary movements in FJJ2, stolen from <a href="https://youtu.be/VhgRVzHv9r8">Wim
+                        Deputter</a></li>
+                </ul>
+                <li><h3>Shotput</h3></li>
+                <ul>
+                    <li>This is the main method of power generation in FJJ2, derived by mining <a
+                            href="https://youtu.be/b_iUgvzb1-0">shotput</a> and <a href="https://youtu.be/0Yx6amEH3Gs">discus</a>
+                        for movement patterns
+                    </li>
+                </ul>
+                <li>
+                    <h3>Connection</h3>
                 </li>
+                <ul>
+                    <li>This is the ability to position your body as a strong connector between the ground and your
+                        opponent
+                        (see <a href="https://en.wikipedia.org/wiki/Antaeus">Antaeus</a>, patron saint of Connection)
+                    </li>
+                </ul>
+                <li><h3>Pattern</h3></li>
+                <ul>
+                    <li>Be able to create and read repeatable reactions in your opponent</li>
+                </ul>
+                <li><h3>Timing</h3></li>
+                <ul>
+                    <li>Be able to break the established patterns in ways that destabilize your opponent</li>
+                </ul>
             </ul>
-            <li>
-                <h3>Connection</h3>
-            </li>
-            <ul>
-                <li>This is the ability to position your body as a strong connector between the ground and your opponent (see <a href="https://en.wikipedia.org/wiki/Antaeus">Antaeus</a>, patron saint of Connection)
-                </li>
-            </ul>
-            <li><h3>Pattern</h3></li>
-            <ul>
-                <li>Be able to create and read repeatable reactions in your opponent</li>
-            </ul>
-            <li><h3>Timing</h3></li>
-            <ul>
-                <li>Be able to break the established patterns in ways that destabilize your opponent</li>
-            </ul>
-        </ul>
-
-        <p>Put together, FJJ2 is</p>
-        <p class="definition">Using <strong>Turtle Space Control</strong> to maintain your ability to apply alternating
-            <strong>Shotput</strong>-powered <strong>Bridge and Shrimp</strong> movements onto an opponent you are
-            <strong>Connected</strong> to, <strong>Timed</strong> contrary to an established <strong>Pattern</strong>.
-        </p>
-        <p>That's it. FJJ2 asserts that if you get really good at only that, your performance on the mat will be
-            indistinguishable from real BJJ.</p>
+        </div>
+        <div>
+            <p>Put together, FJJ2 is</p>
+            <p class="definition">Using <strong>Turtle Space Control</strong> to maintain your ability to apply
+                alternating
+                <strong>Shotput</strong>-powered <strong>Bridge and Shrimp</strong> movements onto an opponent you are
+                <strong>Connected</strong> to, <strong>Timed</strong> contrary to an established
+                <strong>Pattern</strong>.
+            </p>
+            <p>That's it. FJJ2 asserts that if you get really good at only that, your performance on the mat will be
+                indistinguishable from real BJJ.</p>
+        </div>
         <p>But how do you get good at it?</p>
-        <h2>How to Train FJJ2</h2>
-        <ol>
-            <li>Turtle 101 - Trenches</li>
-            <li>Patterns 101 - Being a Good Uke</li>
-            <li>Turtle 201 - Estonian Get Ups</li>
-            <li>Patterns 201 - Being a Bad Uke</li>
-            <li>Grappling Background Radiation Detection</li>
-        </ol>
-
-        <h2>Predictions</h2>
+        <div class="chunk-wrapper">
+            <h2>How to Train FJJ2</h2>
+            <ol class="training-steps">
+                <li><strong>Admit you have a problem</strong></li>
+                <ul>
+                    <li>You love techniques. They give you something outside of yourself to focus your effort on,
+                        because
+                        you <i>know</i> YOU don't know how to jiu jitsu. Accept you and your body are in this together,
+                        and
+                        the only thing to learn is how to pay careful attention
+                    </li>
+                </ul>
+                <li><strong>Learn to do nothing</strong></li>
+                <ul>
+                    <li>Constantly moving and framing and fighting creates a bunch of noise and makes it hard to feel
+                        what
+                        is going on. <a href="https://youtu.be/a4g6fVOjAG4">Learn to comfortably stop moving</a>, so you
+                        can
+                        stop freaking out and hear the jiu jitsu
+                    </li>
+                </ul>
+                <li><strong>Learn to Turtle</strong></li>
+                <ul>
+                    <li>Once you can do nothing, you can start to do a little</li>
+                    <li>Practice <a href="https://youtu.be/jC6uFGCCLRY">rotating through turtle postures</a> until
+                        training
+                        partners feel that attacking your front is
+                        as good a plan as attacking your back
+                    </li>
+                    <li><a href="https://youtube.com/clip/Ugkxxc5Yn4axkfvQKy8UKTIIafAP2R02biYG">an important component
+                        of
+                        turtle is the ability to use movement to maintain posture under load</a></li>
+                </ul>
+                <li><strong>Learn to Stand Up</strong></li>
+                <ul>
+                    <li>The ability to go from laying down to standing requires</li>
+                    <ul>
+                        <li>learning to reach safely</li>
+                        <li>learning to build weight-bearing structures</li>
+                    </ul>
+                    <li><a href="https://youtu.be/IAUl-Bij68Y">Estonian Get-Ups are my preferred drill for this</a></li>
+                </ul>
+                <li><strong>Be a Good Uke</strong></li>
+                <ul>
+                    <li>prerequisite: Learn to do Nothing</li>
+                    <li>Feel out how to push or pull just enough to make your partner respond</li>
+                    <li>DON'T BE TEMPTED TO FINISH TECHNIQUES</li>
+                    <li>(but if it happens, its ok)</li>
+                    <li>These are mostly-cooperative activities to learn how to feel weight shifts</li>
+                    <li><a href="https://youtube.com/clip/Ugkx83e9emWirwHbL2--V5SWekg5pi9tLvAV">learn to push to get
+                        pushed</a></li>
+                    <li><a href="https://youtube.com/clip/UgkxcoeZohQGlCd3yGVgS_Q3M7JZ5u6rtRPh">learn to push and be
+                        pushed
+                        in various configurations</a></li>
+                    <li><a href="https://youtube.com/clip/Ugkx951szn55p0M5gMpS6GZGEJ_6PCsNeiRw">explore good and bad
+                        ways to
+                        give weight, so you know what they both feel like</a></li>
+                    <li>try to create repeatable patterns of pushes and pulls</li>
+                    <ul>
+                        <li>if you can create repeated patterns, you are paying attention</li>
+                    </ul>
+                </ul>
+                <li><strong>Be a Bad Uke</strong></li>
+                <ul>
+                    <li>prerequisite: Be a Good Uke</li>
+                    <li><i>this is the essence of jiu jitsu</i></li>
+                    <li><a href="https://youtube.com/clip/UgkxTqlAdjHoJVfGCeQHlFaV5iHWkLk51yiN">once you can be a good
+                        partner and create patterns, practice being a bad partner and breaking the patterns</a></li>
+                    <li>get <a href="https://youtu.be/NQPcup4sbAE">syncopated</a> on your partner</li>
+                </ul>
+            </ol>
+        </div>
+        <h2>Congratulations!</h2>
+        <h2>You are well on your way to faking it on the mats!</h2>
     </div>
     <a href={SLUGS.INTRO} style="font-size: 12px;">For a deeper dive and justification, I recommend starting here.</a>
 </PageWrapper>
 
 <style>
+
     ul {
         padding-right: 5px;
-    }
-
-    .why-wrapper {
-        padding-bottom: 15px;
     }
 
     h2 {
@@ -142,11 +213,11 @@
         font-size: 14px;
     }
 
-    .fundamentals-list {
-        /*font-size: 12px;*/
+    .chunk-wrapper {
         border-radius: 5px;
         border: 1px solid black;
-        /*padding-right: 5px;*/
+        margin-bottom: 10px;
+        padding: 0 5px;
     }
 
     .list-title {
@@ -236,7 +307,7 @@
             font-size: 12px;
         }
 
-        .fundamentals-list {
+        .chunk-wrapper li {
             font-size: 12px;
         }
     }
