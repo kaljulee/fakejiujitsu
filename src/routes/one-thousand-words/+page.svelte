@@ -42,6 +42,7 @@ The high number of unique specifics is the tradeoff made in the BJJ vernacular. 
 I think there is something else, some other dimension that is orthogonal to the [Flatland](https://en.wikipedia.org/wiki/Flatland) of BJJ.  If we centered our understanding of grappling on something other than Technique, I believe these epicycles will disappear.
 
  The careful, detailed study of Technique is like putting a finger under a microscope, trying to get a better view of [the moon it is pointing to](https://www.youtube.com/watch?v=CwPWDMvT21E).
+
 <hr />
 
 Of course, I could be completely wrong about that.  In fact, we would *expect* a [fake blue belt to be wrong](https://en.wikipedia.org/wiki/Dunning-Kruger_effect) and 100 years of BJJ to be right.
