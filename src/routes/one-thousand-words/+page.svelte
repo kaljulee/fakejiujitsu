@@ -7,9 +7,9 @@
 # Techniques:
 # Shadows on the Wall of Kano’s Cave
 
-BJJ techniques and positions get treated as almost mystical fetishes, like physical spells that must be cast just right for the smaller person to defeat the larger.  When we encourage grapplers to focus on technique, we are almost always encouraging them to ignore what actually matters - *the specifics of the situation they are in*.
+BJJ love the technique.  Techniques and positions get treated as almost mystical fetishes, physical spells that must be cast just right for the smaller person to defeat the larger.  But when we encourage grapplers to focus on technique, we are almost always encouraging them to ignore what actually matters - *the specifics of the situation they are in*.
 
-Grappling is a continuous flow of movement and intentions; it needs to be broken up into discrete parts in order to be discussed.  These parts form a language by which we can communicate with each other.
+Grappling is a continuous flow of movement and intentions; it needs to be broken up into discrete parts in order to be discussed.  These parts form the language with which we communicate about jiu jitsu.
 
 The basic unit of the BJJ vernacular is the *Technique* (I’m going to group both techniques and positions under the term Technique).
 
@@ -23,23 +23,23 @@ There are variations and more details involved, but in the vast majority of case
 
 Black Belts learned to grapple in this language, and it is the one they use to describe their success.  When we go to the experts to learn, we naturally assume that they know what they are talking about, and that they know how best to talk about it in the first place.
 
-Dividing a continuous system into a language will usually come with trade-offs.  For example, a language with 10 allows for more nuanced communication than a language with 2, but it is more work to transmit and decode these more nuanced messages.
+Dividing a continuous system into a language will usually come with trade-offs.  For example, a language with ten symbols allows for more nuanced communication than a language with just two.  The trade-off it is more work to transmit and decode these more nuanced messages.
 
-One of the great strengths of the BJJ vernacular is that it is easy to teach to beginners.  Because the definitions are static limb positions, they can be understood quickly.  A day-one beginner may not be able to use Mount effectively, but you can put him in a recognizable Mount position with only a couple minutes work.  If necessary, you could even physically position the beginner's limbs yourself, and Mount would occur.
+One of the great strengths of the BJJ vernacular is that it is easy to teach to beginners.  Because the definitions are static limb positions, they can be understood quickly.  A day-one beginner may not be able to use Mount effectively, but you can put him in a recognizable Mount position with only a couple minutes work.
 
-This ease-of-introduction is hints at what we are giving up by using this language.
+This ease-of-introduction hints at what we are giving up by using this language.
 
 The fact that you can put a novice into a recognizable Mount position is proof that “Mount” includes garbage jiu jitsu.
-I have felt training partners give up superior control in a scramble in order to solidify an inferior "real" position, because they believe that is where it is possible to be skillful.
+I have felt training partners give up superior control in a scramble in order to solidify an inferior "real" position, because they believe that what jiu jitsu is.
 
 Mount, Side Control, Arm Bars, Closed Guard – all of it can be performed terribly.
 You might say that a garbage armbar is not a “true armbar”, like that Scotsman we’ve all heard about.  I understand that small nuances can make or break an arm(bar), but that is my point: we don’t use these small nuances to define an armbar, we use the large limb positions.  In fact, when applied under full-resistance, we find these nuances to be fluid, winking in and out of existence depending on the situation.
 
 This is a feature of every Technique in BJJ – everything can be done poorly, and has some “invisible jiu jitsu”, some situation-specific modification, or just one last detail that the Professor will show you in class today.
 
-The high number of unique specifics is the tradeoff made in the BJJ vernacular.  Every Technique has its own set of nuances [(which change depending on the current conditions)](https://youtu.be/M0t0rwnQWdU) to make it *actually* work.  This gives the BJJ language a high level of irreducible complexity.  I believe that these nuances are like the [epicycles](https://en.wikipedia.org/wiki/Deferent_and_epicycle) added to geocentric planetary motion.
+The high number of unique specifics is the tradeoff made in the BJJ vernacular.  Every Technique has its own set of [situation-dependent nuances](https://youtu.be/M0t0rwnQWdU).  This gives the BJJ language a high level of irreducible complexity.  I believe that these nuances are like the [epicycles](https://en.wikipedia.org/wiki/Deferent_and_epicycle) added to geocentric planetary motion.
 
-I think there is something else, some other dimension that is orthogonal to the [Flatland](https://en.wikipedia.org/wiki/Flatland) of BJJ.  If we centered our understanding of grappling on something other than Technique, I believe these epicycles will disappear.
+I think there is something else, some other dimension that is orthogonal to the [Flatland](https://en.wikipedia.org/wiki/Flatland) of BJJ.  If we centered our grappling language on something other than Technique, I believe these epicycles will disappear.
 
  The careful, detailed study of Technique is like putting a finger under a microscope, trying to get a better view of [the moon it is pointing to](https://www.youtube.com/watch?v=CwPWDMvT21E).
 
@@ -57,13 +57,13 @@ Then carefully choose a small set of principles, all of which are assumed to cha
 
 Lastly, gather data about them by testing them in grappling experiments.
 
-But without an outside, authoritative source of Truth, I have the problem of verifying the results of my experiments.  I might import underhooks as a fundamental principle, then be so bad at jiu-jitsu that the experiments seem to say underhooks don’t matter.
-
 I can use high-level grappling as a reference point.  I am throwing out how experts talk about grappling, not the obvious fact of their grappling ability.
+
+I think of this like the early heliocentric models of the solar system; ultimately they had to predict the same planetary positions that geocentric astronomists had observed throughout history.
 
 So my first reference point: *a fully mature FJJ should look very similar to BJJ*.
 
-I think of this like the early heliocentric models of the solar system; ultimately they had to predict the same planetary positions that geocentric astronomists had observed throughout history.
+Without an outside, authoritative source of Truth, I have the problem of verifying my experimental measurements.  I might import underhooks as a fundamental principle, then be so bad at jiu-jitsu that my data indicates "underhooks don’t matter".
 
 While astronomers have always been observing the same planetary patterns, the exact nature of those observations has changed over time.
 
