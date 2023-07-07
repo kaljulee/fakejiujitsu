@@ -1,22 +1,9 @@
 <script>
     import PageWrapper from "$lib/components/PageWrapper.svelte";
-    import SvelteMarkdown from "svelte-markdown";
     import {SLUGS} from "../../data/data.js";
+    import ConcernPage from "$lib/components/ConcernPage.svelte";
 
     const source = `
-<style>
-    h1 {
-    display: flex;
-    align-items: baseline;
-    }
-    h2 {
-    font-weight: bold;
-    font-size: 14px;
-    margin-bottom: 0;
-    margin-top: 35px;
-    /*text-align: center;*/
-    }
-</style>
 ## Fake Jiu Jitsu 2 is the current Long-Term-Support version of Fake Jiu Jitsu.
 
 
@@ -111,7 +98,7 @@ Training FJJ2 predicts the following events will occur:
     </div>
     <div class="report">
 
-    <SvelteMarkdown source={source}/>
+    <ConcernPage source={source}/>
     </div>
 </PageWrapper>
 

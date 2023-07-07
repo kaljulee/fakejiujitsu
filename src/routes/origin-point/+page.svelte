@@ -1,6 +1,6 @@
 <script>
     import PageWrapper from "$lib/components/PageWrapper.svelte";
-    import SvelteMarkdown from "svelte-markdown";
+    import ConcernPage from "$lib/components/ConcernPage.svelte";
     const source = `
 Origin Point is Priit taken quite literally on the zero point.  I define a cluster of positions that is the reference point for everything that is happening in a match.
 
@@ -15,4 +15,4 @@ Origin Point Control is arguably more important than leverage to controlling you
 If you are in a good, deadlift-like body position and your opponent is stuck out of one, you have a significant advantage.
 `
 </script>
-<PageWrapper><SvelteMarkdown source={source}/></PageWrapper>
+<PageWrapper><ConcernPage source={source}/></PageWrapper>
