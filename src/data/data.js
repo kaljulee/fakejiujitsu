@@ -47,7 +47,7 @@ export const tableOfContents = [
             {label: 'Overview', slug: SLUGS.LTS_OVERVIEW},
             {label: 'Test-Driven Training', slug: SLUGS.TEST_DRIVEN},
             {label: 'Origin Point', slug: SLUGS.ORIGIN_POINT},
-            {label: 'Jab and Cross', slug: SLUGS.JAB_CROSS},
+            {label: 'Bridge and Shrimp', slug: SLUGS.BRIDGE_SHRIMP},
             {label: 'Shotput', slug: SLUGS.SHOTPUT},
             {label: 'Connection', slug: SLUGS.CONNECT},
             {label: 'Pattern and Timing', slug: SLUGS.PATTERN_TIMING},
