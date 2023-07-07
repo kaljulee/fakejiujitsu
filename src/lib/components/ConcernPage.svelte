@@ -37,7 +37,7 @@
         display: flex;
         flex-direction: column;
         padding: 10px;
-        align-items: center;
+        /*align-items: center;*/
     }
 
     .gif-link-wrapper {
