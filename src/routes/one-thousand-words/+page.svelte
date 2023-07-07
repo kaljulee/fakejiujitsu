@@ -7,7 +7,7 @@
 # Techniques:
 # Shadows on the Wall of Kano’s Cave
 
-BJJ love the technique.  Techniques and positions get treated as almost mystical fetishes, physical spells that must be cast just right for the smaller person to defeat the larger.  But when we encourage grapplers to focus on technique, we are almost always encouraging them to ignore what actually matters - *the specifics of the situation they are in*.
+BJJ practitioners love the technique.  Techniques and positions get treated as almost mystical fetishes, physical spells that must be cast just right for the smaller person to defeat the larger.  But when we encourage grapplers to focus on technique, we are almost always encouraging them to ignore what actually matters - *the specifics of the situation they are in*.
 
 Grappling is a continuous flow of movement and intentions; it needs to be broken up into discrete parts in order to be discussed.  These parts form the language with which we communicate about jiu jitsu.
 
