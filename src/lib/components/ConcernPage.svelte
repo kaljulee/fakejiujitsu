@@ -13,20 +13,33 @@
         align-items: baseline;
     }
 
+    h2, h3, h4 {
+            margin-bottom: 0;
+    }
+
     h2 {
         font-weight: bold;
-        font-size: 14px;
-        margin-bottom: 0;
+        font-size: 1.2em;
         margin-top: 35px;
     }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    ul {
+    margin-top: 5px;
+    }
+
     </style>
     ${source}`;
 </script>
 <div class="page-wrapper">
     <SvelteMarkdown source={_source}/>
+    <slot/>
     {#if !!href}
         <div class="gif-link-wrapper">
-        <GifLink href={href} label={gifLinkLabel} src={src}/>
+            <GifLink href={href} label={gifLinkLabel} src={src}/>
         </div>
     {/if}
 </div>

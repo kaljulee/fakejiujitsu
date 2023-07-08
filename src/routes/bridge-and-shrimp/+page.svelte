@@ -1,7 +1,6 @@
 <script>
     import PageWrapper from "$lib/components/PageWrapper.svelte";
     import bsGif from "$lib/images/bridge-shrimp.gif";
-    import GifLink from "$lib/components/GifLink.svelte";
     import ConcernPage from "$lib/components/ConcernPage.svelte";
 
     const source = `
@@ -12,6 +11,9 @@
 
 * [This steals heavily from Wim Deputter's hip escape (shrimp) and shoulder escape (baby bridge).](https://youtu.be/VhgRVzHv9r8)
 
+* Don’t let them take you out of deadlift position (or equivalent)
+
+If you are in a good, deadlift-like body position and your opponent is stuck out of one, you have a significant advantage.
 `
 </script>
 <PageWrapper>

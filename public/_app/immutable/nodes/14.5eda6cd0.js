@@ -1,8 +1,4 @@
-<script>
-    import PageWrapper from "$lib/components/PageWrapper.svelte";
-    import ConcernPage from "$lib/components/ConcernPage.svelte";
-    import thing from "../../lib/images/bridge-shrimp.gif"
-    const source = `
+import{S as f,i as l,s as m,y as r,z as s,A as p,g as u,d,B as c,F as h}from"../chunks/index.30d36c53.js";import{P as g}from"../chunks/PageWrapper.1f9b0c22.js";import{C as b}from"../chunks/ConcernPage.91628290.js";function y(a){let o,n;return o=new b({props:{source:a[0]}}),{c(){r(o.$$.fragment)},l(e){s(o.$$.fragment,e)},m(e,t){p(o,e,t),n=!0},p:h,i(e){n||(u(o.$$.fragment,e),n=!0)},o(e){d(o.$$.fragment,e),n=!1},d(e){c(o,e)}}}function $(a){let o,n;return o=new g({props:{$$slots:{default:[y]},$$scope:{ctx:a}}}),{c(){r(o.$$.fragment)},l(e){s(o.$$.fragment,e)},m(e,t){p(o,e,t),n=!0},p(e,[t]){const i={};t&2&&(i.$$scope={dirty:t,ctx:e}),o.$set(i)},i(e){n||(u(o.$$.fragment,e),n=!0)},o(e){d(o.$$.fragment,e),n=!1},d(e){c(o,e)}}}function T(a){return[`
 <style>
 table {
 border: 1px solid black;
@@ -70,8 +66,4 @@ If you have the ability to return to the Origin Point, you are safe.  If you do 
 You must defend your zero point positioning and maneuver your opponent into being out of position.  This is true on bottom and on top, so defense and offense need to be played in all positions.
 
 * Don’t let them in turtle space
-`
-</script>
-<PageWrapper>
-    <ConcernPage source={source}/>
-</PageWrapper>
+`]}class x extends f{constructor(o){super(),l(this,o,T,$,m,{})}}export{x as component};
