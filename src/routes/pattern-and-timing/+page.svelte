@@ -1,8 +1,13 @@
 <script>
     import PageWrapper from "$lib/components/PageWrapper.svelte";
     import SvelteMarkdown from "svelte-markdown";
+    import patternGif from "$lib/images/pattern.gif";
+    import ConcernPage from "$lib/components/ConcernPage.svelte";
     const source = `
-Pattern and Timing
+## Summary
+
+## General Use
+
 * Cosmic Grappling Background Radiation
 * Jiu-Jitsu Boson
 * Syncopation
@@ -10,5 +15,5 @@ Pattern and Timing
 * Making your opponent commit more than you`;
 </script>
 <PageWrapper>
-    <SvelteMarkdown source={source}/>
+    <ConcernPage title="Pattern and Timing" source={source} headerImg={patternGif}/>
 </PageWrapper>

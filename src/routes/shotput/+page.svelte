@@ -4,6 +4,7 @@
     import ConcernPage from "$lib/components/ConcernPage.svelte";
 
     const source = `
+## Summary
  Generally, Shotput is the practice of stealing movement patterns from Shotput and Discus.
 
 ## Theory:
@@ -15,7 +16,11 @@ The sports of shotput and discus have relatively few restrictions on movement an
 
 These features mean that shotput players can focus on safely generating and transmitting force, without having to make concessions for timing or defense purposes.
 
+## General Use
+
 In general, we should look to make our movements more like shotputter movements, and adjust away from it only when adhering to shotput form would leave us vulnerable to timing attacks or risks our path back to the Origin Point.
+
+ In practice, "Shotput" to driving and turning off of the ground in order to generate power.
 `;
 </script>
 <PageWrapper>
