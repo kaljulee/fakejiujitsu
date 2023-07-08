@@ -16,7 +16,6 @@ border-bottom: 1px dashed gray;
 }
 </style>
 
-## Concern 1
 # Origin Point
 
 ## Summary
