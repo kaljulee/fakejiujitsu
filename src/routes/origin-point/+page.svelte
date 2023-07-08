@@ -1,7 +1,7 @@
 <script>
     import PageWrapper from "$lib/components/PageWrapper.svelte";
     import ConcernPage from "$lib/components/ConcernPage.svelte";
-    import thing from "../../lib/images/bridge-shrimp.gif"
+    import map from '$lib/images/turtleMapExample.png';
     const source = `
 <style>
 table {
@@ -15,8 +15,6 @@ td {
 border-bottom: 1px dashed gray;
 }
 </style>
-
-# Origin Point
 
 ## Summary
 * Origin Point is based on [Priit Mihkelson's zero points](https://youtube.com/clip/Ugkx-E8gi1nf8pbZdNuTQaa3ZEzBVyFJ822A).
@@ -101,5 +99,5 @@ You must defend your zero point positioning and maneuver your opponent into bein
 `
 </script>
 <PageWrapper>
-    <ConcernPage source={source}/>
+    <ConcernPage source={source} headerImg={map} title="Origin Point"/>
 </PageWrapper>
