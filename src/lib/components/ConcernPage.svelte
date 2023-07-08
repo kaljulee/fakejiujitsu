@@ -2,8 +2,10 @@
     import SvelteMarkdown from "svelte-markdown";
     import GifLink from "$lib/components/GifLink.svelte";
 
+    export let title = '';
+    export let headerImg;
     export let source = '';
-    export let src;
+    export let gifLinkSrc;
     export let href;
     export let gifLinkLabel = '';
     $: _source = `<style>
@@ -35,11 +37,15 @@
     ${source}`;
 </script>
 <div class="page-wrapper">
+    <h1>{title}</h1>
+    {#if !!headerImg}
+        <div class="header"><img src={headerImg} alt=""/></div>
+    {/if}
     <SvelteMarkdown source={_source}/>
     <slot/>
     {#if !!href}
         <div class="gif-link-wrapper">
-            <GifLink href={href} label={gifLinkLabel} src={src}/>
+            <GifLink href={href} label={gifLinkLabel} src={gifLinkSrc}/>
         </div>
     {/if}
 </div>
@@ -59,5 +65,22 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .header {
+        padding: 10px 4em;
+        display: flex;
+        align-items: center;
+    }
+
+    .header img {
+        width: 100%;
+        height: auto;
+    }
+
+    @media (min-width: 550px) {
+        .header {
+            padding: 10px 6em;
+        }
     }
 </style>

@@ -1,6 +1,5 @@
 <script>
     import PageWrapper from "$lib/components/PageWrapper.svelte";
-    import shotput from "$lib/images/shotput.gif";
     import always_shotput from "$lib/images/always_shotput.jpg";
     import ConcernPage from "$lib/components/ConcernPage.svelte";
 
@@ -20,30 +19,11 @@ In general, we should look to make our movements more like shotputter movements,
 `;
 </script>
 <PageWrapper>
-    <div class="header"><img src={always_shotput} alt=""/></div>
     <ConcernPage
             source={source}
             href="https://giphy.com/channel/Regression-to-the-meanest/shotput"
             gifLinkLabel="gifs about shotput"
-            src={shotput}
+            headerImg={always_shotput}
+            title="Shotput"
     />
 </PageWrapper>
-
-<style>
-    .header {
-        padding: 10px 4em;
-        display: flex;
-        align-items: center;
-    }
-
-    .header img {
-        width: 100%;
-        height: auto;
-    }
-
-    @media (min-width: 550px) {
-        .header {
-            padding: 10px 6em;
-        }
-    }
-</style>
