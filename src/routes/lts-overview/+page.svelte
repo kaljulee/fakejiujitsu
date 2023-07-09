@@ -83,7 +83,7 @@ Training FJJ2 predicts the following events will occur:
             <ul>
                 <li><span>Training progress is good relative to expectations.</span></li>
                 <li>
-                    <span>This document is still under construction, several significant sections unfinished.</span>
+                    <span>This document is still under construction.  Several significant sections are unfinished, and everything will receive updates.</span>
                 </li>
                 <li><span>There will be changes every couple days for a while, I’ll update this message when the rate of change starts to slow down</span>
                 </li>
