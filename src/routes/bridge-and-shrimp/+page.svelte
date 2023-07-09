@@ -31,12 +31,17 @@ Similarly, you don't need to be at the end of a Bridge or Shrimp in order to be 
 If something isn't working, make you movements more Bridge-like or Shrimp-like
 
 Bridges and Shrimp are often complementary tensions- forcing your lab partner to confront one makes her vulnerable to the other.
+
+## Predictions
+* If you can alternate between Bridges and Shrimps but your partner can't, you have a significant advantage.
+* If something isn't working, making you movements more Bridge-like or Shrimp-like will help
 `
 </script>
 <PageWrapper>
     <ConcernPage
             title="Bridge and Shrimp"
             source={source}
-            href={"https://giphy.com/channel/Regression-to-the-meanest/bridge-and-shrimp"} gifLinkLabel={"Here are some bridge and shrimp gifs"} headerImg= {bsGif}
+            href={"https://giphy.com/channel/Regression-to-the-meanest/bridge-and-shrimp"}
+            headerImg= {bsGif}
     />
 </PageWrapper>

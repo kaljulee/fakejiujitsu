@@ -15,6 +15,7 @@
 
 
 
+
 ## Hypothesis:
 
 * Players ignore "hidden jiu jitsu" because they are keenly paying attention to Technique details.
@@ -55,7 +56,7 @@
 Training FJJ2 predicts the following events will occur:
 * 1+ years playing turtle positions, learning to transition, getting submitted
 * Affordances for Invading the opponent's Turtle Space will be highlighted by trying not to get submitted
-* Attacks [similar to this](https://youtu.be/6feW3L4lFmU) are expected to emerge
+* Attacks [similar to this](https://youtu.be/6feW3L4lFmU) are expected to emerge before a top game emerges
 * The ability to get up will be built on the turtle positions
 * The ability to get up will force your lab partner to wrestle, creating sweep opportunities
 * Top Position controls will be built on the controls required to get up
@@ -66,9 +67,9 @@ Training FJJ2 predicts the following events will occur:
 
 
 ### Coming Soon
-* Predictions!
+* more specific Predictions!
 * data!
-* things my system can’t explain
+* evidence as to why FJJ2 is not a complete description of jiu jitsu
 * videos of some artificial jiu-jitsu emerging from this method.
 * higher order principles, excecptions
 

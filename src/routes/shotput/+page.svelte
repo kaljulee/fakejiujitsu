@@ -27,7 +27,6 @@ In general, we should look to make our movements more like shotputter movements,
     <ConcernPage
             source={source}
             href="https://giphy.com/channel/Regression-to-the-meanest/shotput"
-            gifLinkLabel="gifs about shotput"
             headerImg={always_shotput}
             title="Shotput"
     />

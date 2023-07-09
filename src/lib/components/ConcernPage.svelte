@@ -7,7 +7,6 @@
     export let source = '';
     export let gifLinkSrc;
     export let href;
-    export let gifLinkLabel = '';
     $: _source = `<style>
         h1 {
         font-weight: bold;
@@ -47,7 +46,7 @@
     <slot/>
     {#if !!href}
         <div class="gif-link-wrapper">
-            <GifLink href={href} label={gifLinkLabel} src={gifLinkSrc}/>
+            <GifLink href={href} label={`gifs exploring ${title}`} src={gifLinkSrc}/>
         </div>
     {/if}
 </div>
@@ -58,7 +57,6 @@
         display: flex;
         flex-direction: column;
         padding: 10px;
-        /*align-items: center;*/
     }
 
     .gif-link-wrapper {
