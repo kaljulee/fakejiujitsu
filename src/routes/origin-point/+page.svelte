@@ -3,19 +3,6 @@
     import ConcernPage from "$lib/components/ConcernPage.svelte";
     import map from '$lib/images/turtleMapExample.png';
     const source = `
-<style>
-table {
-border: 1px solid black;
-}
- th {
-text-decoration: underline;
-}
-
-td {
-border-bottom: 1px dashed gray;
-}
-</style>
-
 ## Summary
 * Origin Point is based on [Priit Mihkelson's zero points](https://youtube.com/clip/Ugkx-E8gi1nf8pbZdNuTQaa3ZEzBVyFJ822A).
 * The Origin Point is used as a reference for mapping jiu jitsu.

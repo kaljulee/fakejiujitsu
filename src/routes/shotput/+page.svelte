@@ -20,10 +20,12 @@ These features mean that shotput players can focus on safely generating and tran
 
 In general, we should look to make our movements more like shotputter movements, and adjust away from it only when adhering to shotput form would leave us vulnerable to timing attacks or risks our path back to the Origin Point.
 
- In practice, "Shotput" to driving and turning off of the ground in order to generate power.
+ In practice, "Shotput" is driving and turning off of active toes, turning the leg inward.
+
+In FJJ2, Bridge and Shrimp and Shotput are closely related.  An unopposed Shotput leg-turn should resolve into either a Bridge or a Shrimp.
 
  ## Predictions
-* The movements that the Shotput Concern is trying to find will be present in [other](https://youtu.be/jZKvJY6gDfg), [similar](https://youtu.be/lX_dm39fkfw) [sport](https://youtu.be/WHIhvxB_cLs) [actions](https://youtu.be/iRYYUPTx2-0).
+* The movements that the Shotput Concern is trying to find will be [present in](https://youtu.be/BeHdjjIVWTw) [other](https://youtu.be/jZKvJY6gDfg), [similar](https://youtu.be/lX_dm39fkfw) [sport](https://youtu.be/WHIhvxB_cLs) [actions](https://youtu.be/iRYYUPTx2-0).
 `;
 </script>
 <PageWrapper>

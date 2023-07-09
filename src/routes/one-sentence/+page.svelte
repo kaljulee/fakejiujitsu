@@ -10,7 +10,7 @@ These are the main dimensions on which FJJ is distinguished from BJJ.
 
 In one informal sentence, Fake Jiu Jitsu is:
 
-<p class="definition">An approach to training jiu jitsu that trades the concepts of 'technique' and 'position' for a small set of 1st order concerns, and the higher-order principles derived from them, verified through first-person experience.</p>
+<p class="definition">An pseudo-scientific approach to training jiu jitsu that trades the concepts of 'technique' and 'position' for a small set of 1st order concerns, and the higher-order principles derived from them, verified through first-person experience.</p>
 
 Defined through 1st-order concerns, FJJ is
 <p class="definition">Using <strong>Turtle Space Control</strong> to maintain your ability to apply alternating <strong>Shotput</strong>-powered <strong>Bridge and Shrimp</strong> movements onto an opponent you are <strong>Connected</strong> to, <strong>Timed</strong> contrary to an established <strong>Pattern.</strong></p>

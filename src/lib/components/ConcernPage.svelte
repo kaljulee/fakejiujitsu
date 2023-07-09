@@ -8,6 +8,16 @@
     export let gifLinkSrc;
     export let href;
     $: _source = `<style>
+table {
+border: 1px solid black;
+}
+ th {
+text-decoration: underline;
+}
+
+td {
+border-bottom: 1px dashed gray;
+}
         h1 {
         font-weight: bold;
         display: flex;
