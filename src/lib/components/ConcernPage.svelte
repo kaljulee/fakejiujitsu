@@ -29,7 +29,7 @@
         font-size: 1em;
     }
 
-    ul {
+    ul, ol {
     margin-top: 5px;
     }
 
@@ -37,10 +37,12 @@
     ${source}`;
 </script>
 <div class="page-wrapper">
+    <div class="header">
     <h1>{title}</h1>
     {#if !!headerImg}
-        <div class="header"><img src={headerImg} alt=""/></div>
+        <img src={headerImg} alt=""/>
     {/if}
+    </div>
     <SvelteMarkdown source={_source}/>
     <slot/>
     {#if !!href}
@@ -68,14 +70,17 @@
     }
 
     .header {
-        padding: 10px 4em;
         display: flex;
+        flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 
     .header img {
-        width: 100%;
+        width: auto;
         height: auto;
+        max-height: 50vh;
+        max-width: 80%;
     }
 
     @media (min-width: 550px) {

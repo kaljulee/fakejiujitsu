@@ -43,11 +43,11 @@
     * [Pattern and Timing](${SLUGS.PATTERN_TIMING})
 
 ## Application
-BJJ approach:
+### BJJ approach:
 1. first learn the technique (motor movements, limb positions, and objectives).
 2. then learn "hidden jiu jitsu" weight shifts, pressures, etc
 
-FJJ2 Approach:
+### FJJ2 Approach:
 1. first learn "hidden jiu jitsu" wieght shifts, pressures, etc
 2. then look at techniques for possible directions to explore
 
@@ -92,7 +92,7 @@ Training FJJ2 predicts the following events will occur:
     <div class="disclaimer">
         <h1>FJJ2 is not a comprehensive description of how grappling works.</h1>
 
-        <h1>It is a set of constraints that replace Technique and Position in BJJ, and a set of predictions on how complex skill-patterns will develop out of them.</h1>
+        <h1><span>It is a <i>set of constraints</i> that replace Technique and Position in BJJ, and a <i>set of predictions</i> on how complex skill-patterns will develop out of them.</span></h1>
 
         <p>I have this in big letters at the top because I sometimes forget this when talking to people, and exaggrate myself into a corner.</p>
     </div>
