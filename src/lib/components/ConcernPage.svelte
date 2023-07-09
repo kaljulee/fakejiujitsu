@@ -46,7 +46,7 @@
     <slot/>
     {#if !!href}
         <div class="gif-link-wrapper">
-            <GifLink href={href} label={`gifs exploring ${title}`} src={gifLinkSrc}/>
+            <GifLink href={href} label={`GIFs exploring ${title}`} src={gifLinkSrc}/>
         </div>
     {/if}
 </div>
@@ -63,7 +63,6 @@
         width: 50%;
         margin-top: 30px;
         display: flex;
-        justify-content: center;
         align-items: center;
     }
 
