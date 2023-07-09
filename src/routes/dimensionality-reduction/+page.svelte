@@ -1,1 +1,1 @@
-<div>nothing here yet</div>
+<div>Coming soon: a justification for FJJ with reference to <a href="https://en.wikipedia.org/wiki/Dimensionality_reduction">dimensionality reduction</a></div>

@@ -1,8 +1,4 @@
-<script>
-    import PageWrapper from "$lib/components/PageWrapper.svelte";
-    import ConcernPage from "$lib/components/ConcernPage.svelte";
-    import map from '$lib/images/turtleMapExample.png';
-    const source = `
+import{S as d,i as h,s as f,y as r,z as s,A as c,g as u,d as p,B as l,F as m}from"../chunks/index.30d36c53.js";import{P as g}from"../chunks/PageWrapper.1f9b0c22.js";import{C as y}from"../chunks/ConcernPage.2e8bdf34.js";const b=""+new URL("../assets/turtleMapExample.6a8ade07.png",import.meta.url).href;function J(i){let n,t;return n=new y({props:{source:i[0],headerImg:b,title:"Origin Point"}}),{c(){r(n.$$.fragment)},l(e){s(n.$$.fragment,e)},m(e,o){c(n,e,o),t=!0},p:m,i(e){t||(u(n.$$.fragment,e),t=!0)},o(e){p(n.$$.fragment,e),t=!1},d(e){l(n,e)}}}function v(i){let n,t;return n=new g({props:{$$slots:{default:[J]},$$scope:{ctx:i}}}),{c(){r(n.$$.fragment)},l(e){s(n.$$.fragment,e)},m(e,o){c(n,e,o),t=!0},p(e,[o]){const a={};o&2&&(a.$$scope={dirty:o,ctx:e}),n.$set(a)},i(e){t||(u(n.$$.fragment,e),t=!0)},o(e){p(n.$$.fragment,e),t=!1},d(e){l(n,e)}}}function T(i){return[`
 ## Summary
 * Origin Point is based on [Priit Mihkelson's zero points](https://youtube.com/clip/Ugkx-E8gi1nf8pbZdNuTQaa3ZEzBVyFJ822A).
 * The Origin Point is used as a reference for mapping jiu jitsu.
@@ -84,8 +80,4 @@ The hi-res nature of using points instead of Technique means no transitioning be
 
 ### Defense and Offense Played In All Positions
 You must defend your path to the Origin while blocking your partner's.  This is true on bottom and on top, so defense *and* offense can (must?) be played in *all* BJJ positions.
-`
-</script>
-<PageWrapper>
-    <ConcernPage source={source} headerImg={map} title="Origin Point"/>
-</PageWrapper>
+`]}class k extends d{constructor(n){super(),h(this,n,T,v,f,{})}}export{k as component};

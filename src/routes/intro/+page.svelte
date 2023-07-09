@@ -13,7 +13,7 @@
     <ol>
         <li><a href={SLUGS.ONE_SENT}>An introduction to FJJ</a></li>
         <li><a href={SLUGS.LTS_OVERVIEW}>The current state of FJJ</a></li>
-        <li><a href={SLUGS.ECO_DYN}>My justifications for this project</a></li>
+        <li><a href={SLUGS.ECO_DYN}>My justifications for FJJ</a></li>
         <li><a href={SLUGS.FJJ1}>list of old FJJ formulations.</a></li>
     </ol>
 

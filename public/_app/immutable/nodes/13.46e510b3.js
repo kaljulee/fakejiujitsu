@@ -2,7 +2,7 @@ import{S as d,i as m,s as p,y as s,z as r,A as l,g as h,d as u,B as c,F as g}fro
 # Techniques:
 # Shadows on the Wall of Kano’s Cave
 
-BJJ practitioners love the technique.  Techniques and positions get treated as almost mystical fetishes, physical spells that must be cast just right for the smaller person to defeat the larger.  But when we encourage grapplers to focus on technique, we are almost always encouraging them to ignore what actually matters - *the specifics of the situation they are in*.
+BJJ practitioners love the technique.  Techniques and positions get treated as almost mystical fetishes; physical spells that must be cast just right for the smaller person to defeat the larger.  But when we encourage grapplers to focus on technique, we are almost always encouraging them to ignore what actually matters - *the specifics of the situation they are in*.
 
 Grappling is a continuous flow of movement and intentions; it needs to be broken up into discrete parts in order to be discussed.  These parts form the language with which we communicate about jiu jitsu.
 
@@ -16,7 +16,7 @@ Technique definitions are based on large, relatively obvious limb positions.
 
 There are variations and more details involved, but in the vast majority of cases, you can look at a photo and accurately determine the Techniques involved.
 
-Black Belts learned to grapple in this language, and it is the one they use to describe their success.  When we go to the experts to learn, we naturally assume that they know what they are talking about, and that they know how best to talk about it in the first place.
+Black Belts learned to grapple in this language, and it is the one they use to describe their success.  When we go to the experts to learn, we naturally assume that they know what they are talking about, and that they know *how best to talk about it in the first place*.
 
 Dividing a continuous system into a language will usually come with trade-offs.  For example, a language with ten symbols allows for more nuanced communication than a language with just two.  The trade-off it is more work to transmit and decode these more nuanced messages.
 
@@ -25,7 +25,7 @@ One of the great strengths of the BJJ vernacular is that it is easy to teach to 
 This ease-of-introduction hints at what we are giving up by using this language.
 
 The fact that you can put a novice into a recognizable Mount position is proof that “Mount” includes garbage jiu jitsu.
-I have felt training partners give up superior control in a scramble in order to solidify an inferior "real" position, because they believe that what jiu jitsu is.
+I have felt training partners give up superior control in a scramble in order to solidify an inferior "real" position, because they believe that's where jiu jitsu is.
 
 Mount, Side Control, Arm Bars, Closed Guard – all of it can be performed terribly.
 You might say that a garbage armbar is not a “true armbar”, like that Scotsman we’ve all heard about.  I understand that small nuances can make or break an arm(bar), but that is my point: we don’t use these small nuances to define an armbar, we use the large limb positions.  In fact, when applied under full-resistance, we find these nuances to be fluid, winking in and out of existence depending on the situation.
@@ -34,7 +34,7 @@ This is a feature of every Technique in BJJ – everything can be done poorly, a
 
 The high number of unique specifics is the tradeoff made in the BJJ vernacular.  Every Technique has its own set of [situation-dependent nuances](https://youtu.be/M0t0rwnQWdU).  This gives the BJJ language a high level of irreducible complexity.  I believe that these nuances are like the [epicycles](https://en.wikipedia.org/wiki/Deferent_and_epicycle) added to geocentric planetary motion.
 
-I think there is something else, some other dimension that is orthogonal to the [Flatland](https://en.wikipedia.org/wiki/Flatland) of BJJ.  If we centered our grappling language on something other than Technique, I believe these epicycles will disappear.
+I think there is some set of dimensions that is orthogonal to the [Flatland](https://en.wikipedia.org/wiki/Flatland) of BJJ.  If we centered our grappling language on something other than Technique, I believe these epicycles will disappear.
 
  The careful, detailed study of Technique is like putting a finger under a microscope, trying to get a better view of [the moon it is pointing to](https://www.youtube.com/watch?v=CwPWDMvT21E).
 
@@ -62,9 +62,9 @@ Without an outside, authoritative source of Truth, I have the problem of verifyi
 
 While astronomers have always been observing the same planetary patterns, the exact nature of those observations has changed over time.
 
-For a while there was very good reason to suspect that the Earth actually went around the sun, but the geocentric model was so well-developed that if you wanted to know where Mars was going to be tomorrow night, the geocentrists has a much more accurate answer.  Improvements in telescope technology enabled more nuanced observations, which allowed for better models and eventually practical utility.
+For a while there was very good reason to suspect that the Earth actually went around the sun, but the geocentric model was so well-developed that if you wanted to know where Mars was going to be tomorrow night, the geocentrists had a much more accurate answer.  Improvements in telescope technology (among other things) enabled more nuanced observations, which allowed for better models and eventually practical utility.
 
-My second reference point: *I should consider the quality of my data to be heavily impacted by my physical grappling literacy*.  As I conduct experiments, my ability to feel what is going on will become better calibrated, and I can come to more confident conclusions.
+My second reference point: *I should consider the quality of my data to be heavily impacted by my physical grappling literacy*.  As I conduct experiments, my ability to feel what is going on will become better calibrated, and I can be more confident in my data.
 
 Once I have determined a more optimal grappling language and have a well-calibrated athletic sensitivity, then I should be able to create fake jiu-jitsu on the fly, without ever properly drilling Technique again.
 

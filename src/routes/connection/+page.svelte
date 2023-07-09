@@ -26,7 +26,7 @@ Connection as an Electrical System:
 
 ## General Use
 
-* Active toes are considered an important component of a solid ground connection.
+* Active toes are necessary for FJJ2 Connection
 * Wim Deputter's [Mannequin Arm](https://youtu.be/t0Iz6dY10kk) is cited as evidence that extended limb position and tensions are important to Connection
 `;
 </script>

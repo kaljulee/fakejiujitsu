@@ -1,8 +1,4 @@
-<script>
-    import PageWrapper from "$lib/components/PageWrapper.svelte";
-    import patternGif from "$lib/images/pattern.gif";
-    import ConcernPage from "$lib/components/ConcernPage.svelte";
-    const source = `
+import{S as h,i as d,s as g,y as o,z as s,A as l,g as p,d as c,B as u,F as f}from"../chunks/index.30d36c53.js";import{P as m}from"../chunks/PageWrapper.1f9b0c22.js";import{C as y}from"../chunks/ConcernPage.2e8bdf34.js";const b=""+new URL("../assets/pattern.aba9f657.gif",import.meta.url).href;function T(n){let t,i;return t=new y({props:{title:"Pattern and Timing",source:n[0],headerImg:b}}),{c(){o(t.$$.fragment)},l(e){s(t.$$.fragment,e)},m(e,a){l(t,e,a),i=!0},p:f,i(e){i||(p(t.$$.fragment,e),i=!0)},o(e){c(t.$$.fragment,e),i=!1},d(e){u(t,e)}}}function w(n){let t,i;return t=new m({props:{$$slots:{default:[T]},$$scope:{ctx:n}}}),{c(){o(t.$$.fragment)},l(e){s(t.$$.fragment,e)},m(e,a){l(t,e,a),i=!0},p(e,[a]){const r={};a&2&&(r.$$scope={dirty:a,ctx:e}),t.$set(r)},i(e){i||(p(t.$$.fragment,e),i=!0)},o(e){c(t.$$.fragment,e),i=!1},d(e){u(t,e)}}}function v(n){return[`
 ## Summary
 * Pattern: The ability to repeatedly create and read the same sequence of events
     * Being a Good Uke
@@ -74,8 +70,4 @@ Reading your partner's motions is required in order to know what technique is ap
 * Initially players will need to experiment against the same Pattern repeatedly before finding a Timing opportunity
 * Initial Timing actions will not be enough to complete a BJJ Technique, will primarily be small bumps and trips
 * With experience, players will be able to find Timing opportunities against new Patterns faster.
-`;
-</script>
-<PageWrapper>
-    <ConcernPage title="Pattern and Timing" source={source} headerImg={patternGif}/>
-</PageWrapper>
+`]}class P extends h{constructor(t){super(),d(this,t,v,w,g,{})}}export{P as component};

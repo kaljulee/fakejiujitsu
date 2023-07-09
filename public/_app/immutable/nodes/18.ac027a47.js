@@ -1,9 +1,4 @@
-<script>
-    import PageWrapper from "$lib/components/PageWrapper.svelte";
-    import always_shotput from "$lib/images/always_shotput.jpg";
-    import ConcernPage from "$lib/components/ConcernPage.svelte";
-
-    const source = `
+import{S as h,i as l,s as f,y as a,z as i,A as u,g as p,d as c,B as m,F as g}from"../chunks/index.30d36c53.js";import{P as d}from"../chunks/PageWrapper.1f9b0c22.js";import{C as $}from"../chunks/ConcernPage.2e8bdf34.js";const y=""+new URL("../assets/always_shotput.c61e15ea.jpg",import.meta.url).href;function v(r){let e,o;return e=new $({props:{source:r[0],href:"https://giphy.com/channel/Regression-to-the-meanest/shotput",headerImg:y,title:"Shotput"}}),{c(){a(e.$$.fragment)},l(t){i(e.$$.fragment,t)},m(t,n){u(e,t,n),o=!0},p:g,i(t){o||(p(e.$$.fragment,t),o=!0)},o(t){c(e.$$.fragment,t),o=!1},d(t){m(e,t)}}}function w(r){let e,o;return e=new d({props:{$$slots:{default:[v]},$$scope:{ctx:r}}}),{c(){a(e.$$.fragment)},l(t){i(e.$$.fragment,t)},m(t,n){u(e,t,n),o=!0},p(t,[n]){const s={};n&2&&(s.$$scope={dirty:n,ctx:t}),e.$set(s)},i(t){o||(p(e.$$.fragment,t),o=!0)},o(t){c(e.$$.fragment,t),o=!1},d(t){m(e,t)}}}function _(r){return[`
 ## Summary
  Generally, Shotput is the practice of stealing movement patterns from [Shotput](https://youtu.be/b_iUgvzb1-0) and [Discus](https://youtu.be/0Yx6amEH3Gs).
 
@@ -26,13 +21,4 @@ In FJJ2, Bridge and Shrimp and Shotput are closely related.  An unopposed Shotpu
 
  ## Predictions
 * The movements that the Shotput Concern is trying to find will be [present in](https://youtu.be/BeHdjjIVWTw) [other](https://youtu.be/jZKvJY6gDfg), [similar](https://youtu.be/lX_dm39fkfw) [sport](https://youtu.be/WHIhvxB_cLs) [actions](https://youtu.be/iRYYUPTx2-0).
-`;
-</script>
-<PageWrapper>
-    <ConcernPage
-            source={source}
-            href="https://giphy.com/channel/Regression-to-the-meanest/shotput"
-            headerImg={always_shotput}
-            title="Shotput"
-    />
-</PageWrapper>
+`]}class P extends h{constructor(e){super(),l(this,e,_,w,f,{})}}export{P as component};

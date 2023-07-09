@@ -71,16 +71,16 @@
         <div class="chunk-wrapper">
             <h2>FJJ2 Fundamentals</h2>
             <ul class="fundamentals-list">
-                <li><a href={SLUGS.TURTLE_SPACE}><h3>Turtle Space</h3></a></li>
+                <li><a href={SLUGS.ORIGIN_POINT}><h3>Origin Point</h3></a></li>
                 <ul>
                     <li>Defensive structures stolen from <a href="https://youtu.be/jC6uFGCCLRY">Priit Mihkelson</a></li>
                 </ul>
-                <li><h3>Bridge and Shrimp</h3></li>
+                <li><a href={SLUGS.BRIDGE_SHRIMP}><h3>Bridge and Shrimp</h3></a></li>
                 <ul>
                     <li>These are the two primary movements in FJJ2, stolen from <a href="https://youtu.be/VhgRVzHv9r8">Wim
                         Deputter</a></li>
                 </ul>
-                <li><h3>Shotput</h3></li>
+                <li><a href={SLUGS.SHOTPUT}><h3>Shotput</h3></a></li>
                 <ul>
                     <li>This is the main method of power generation in FJJ2, derived by mining <a
                             href="https://youtu.be/b_iUgvzb1-0">shotput</a> and <a href="https://youtu.be/0Yx6amEH3Gs">discus</a>
@@ -88,7 +88,7 @@
                     </li>
                 </ul>
                 <li>
-                    <h3>Connection</h3>
+                    <a href={SLUGS.CONNECT}><h3>Connection</h3></a>
                 </li>
                 <ul>
                     <li>This is the ability to position your body as a strong connector between the ground and your
@@ -96,11 +96,11 @@
                         (see <a href="https://en.wikipedia.org/wiki/Antaeus">Antaeus</a>, patron saint of Connection)
                     </li>
                 </ul>
-                <li><h3>Pattern</h3></li>
+                <li><a href={SLUGS.PATTERN_TIMING}><h3>Pattern</h3></a></li>
                 <ul>
                     <li>Be able to create and read repeatable reactions in your opponent</li>
                 </ul>
-                <li><h3>Timing</h3></li>
+                <li><a href={SLUGS.PATTERN_TIMING}><h3>Timing</h3></a></li>
                 <ul>
                     <li>Be able to break the established patterns in ways that destabilize your opponent</li>
                 </ul>
@@ -123,8 +123,8 @@
             <ol class="training-steps">
                 <li><strong>Admit you have a problem</strong></li>
                 <ul>
-                    <li>You love techniques. They give you something outside of yourself to focus on,
-                        because of course YOU don't know how to jiu jitsu. Let this go, be open to the possibility that the jiu jitsu was inside you all along,
+                    <li>You love techniques, they give you something outside of yourself to focus on and learn. Let this go, be open to the possibility that
+                        the jiu jitsu was inside you all along,
                         and
                         the only thing to learn is how to pay careful attention
                     </li>
@@ -135,7 +135,7 @@
                         what
                         is going on. <a href="https://youtu.be/a4g6fVOjAG4">Learn to comfortably stop moving</a>, so you
                         can
-                        stop freaking out and hear the jiu jitsu
+                        stop freaking out and hear the jiu jitsu.  The Cosmic Grappling Background Radiation is out there, dense with jiu-jitsu information.
                     </li>
                 </ul>
                 <li><strong>Learn to Turtle</strong></li>
@@ -161,7 +161,7 @@
                 </ul>
                 <li><strong>Be a Good Uke</strong></li>
                 <ul>
-                    <li>prerequisite: Learn to do Nothing</li>
+                    <li>prerequisite: <strong>Learn to do Nothing</strong></li>
                     <li>Feel out how to push or pull just enough to make your partner respond</li>
                     <li>DON'T BE TEMPTED TO FINISH TECHNIQUES</li>
                     <li>(but if it happens, its ok)</li>
@@ -181,7 +181,7 @@
                 </ul>
                 <li><strong>Be a Bad Uke</strong></li>
                 <ul>
-                    <li>prerequisite: Be a Good Uke</li>
+                    <li>prerequisite: <strong>Be a Good Uke</strong></li>
                     <li><i>this is the essence of jiu jitsu</i></li>
                     <li><a href="https://youtube.com/clip/UgkxTqlAdjHoJVfGCeQHlFaV5iHWkLk51yiN">once you can be a good
                         partner and create patterns, practice being a bad partner and breaking the patterns</a></li>
@@ -305,7 +305,6 @@
         /*.why-list {*/
         /*    font-size: 14px;*/
         /*}*/
-
         /*.chunk-wrapper li {*/
         /*    font-size: 14px;*/
         /*}*/

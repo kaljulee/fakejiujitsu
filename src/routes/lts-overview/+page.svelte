@@ -17,9 +17,9 @@
 
 
 ## Hypothesis:
-* Techniques are used as the primary definer of drills, with the Uke adapting to allow practice.  This should be reversed, where the situation is the primary definer, techniques are optional solutions.
+* Techniques are used as the primary definer of drills, with the Uke modifying behavior to allow the technique.  This should be reversed, where the situation is the primary definer and specific techniques are just optional solutions.
 * Players ignore "hidden jiu jitsu" because they are keenly paying attention to Technique details.
-* Players lose position when transitioning to submissions because they are being thought of as positions and transitions.
+* Players lose position when transitioning to submissions because they differentiating positions, submissions, and transitions.
 * Core aspects of the language of BJJ add to the noise, making it harder to pick out the signal.
 
 ## Proposition:
@@ -35,7 +35,7 @@
 * [Testing Philosophy](${SLUGS.TEST_DRIVEN})
 
 ## FJJ2 Concerns
-* Concerns are method of reducing the degrees of freedom, letting players chose from a smaller set of options when approaching situations.  But instead of cutting off options, it redefines the fundamentals such that there’s less things you could be trying to do.  No techniques or positions unless they can be fully translated into the concerns outlined below.
+* Concerns are a method of reducing the degrees of freedom by restricting how players are allowed to think about situations.  Instead of cutting off movement options, they redefine grappling such that there’s less things you could be trying to do.  No techniques or positions allowed unless they can be fully translated into the Concerns outlined below.
 * FJJ2 List of Concerns
     * [Origin Point](${SLUGS.ORIGIN_POINT})
     * [Bridge and Shrimp](${SLUGS.BRIDGE_SHRIMP})
@@ -44,23 +44,23 @@
     * [Pattern and Timing](${SLUGS.PATTERN_TIMING})
 
 ## Application
-### BJJ approach:
+### BJJ approach (DON'T):
 1. first learn the technique (motor movements, limb positions, and objectives).
 2. then learn "hidden jiu jitsu" weight shifts, pressures, etc
 
-### FJJ2 Approach:
+### FJJ2 Approach (DO):
 1. first learn "hidden jiu jitsu" wieght shifts, pressures, etc
 2. then look at techniques for possible directions to explore
 
 ## Predictions:
 Training FJJ2 predicts the following events will occur:
 * 1+ years playing turtle positions, learning to transition, getting submitted
-* Affordances for Invading the opponent's Turtle Space will be highlighted by trying not to get submitted
-* Attacks [similar to this](https://youtu.be/6feW3L4lFmU) are expected to emerge before a top game emerges
+* Affordances for invading the opponent's Turtle Space will be emerge while trying not to get submitted
+* Attacks [similar to this](https://youtu.be/6feW3L4lFmU) are expected to emerge before a top game
 * The ability to get up will be built on the turtle positions
 * The ability to get up will force your lab partner to wrestle, creating sweep opportunities
-* Top Position controls will be built on the controls required to get up
-* Top Position will emerge without being explicitly trained.  Top Position can be played entirely as an extension from bottom position.
+* Sweep and Top Position controls will be built on the controls required to get up
+* Top Position will emerge without being explicitly trained.  **Top Position can be played entirely as an extension from bottom position**.
 
 
 
@@ -83,7 +83,7 @@ Training FJJ2 predicts the following events will occur:
             <ul>
                 <li><span>Training progress is good relative to expectations.</span></li>
                 <li>
-                    <span>This document is still under construction, several significant sections just scribbles.</span>
+                    <span>This document is still under construction, several significant sections unfinished.</span>
                 </li>
                 <li><span>There will be changes every couple days for a while, I’ll update this message when the rate of change starts to slow down</span>
                 </li>
@@ -141,9 +141,13 @@ Training FJJ2 predicts the following events will occur:
         margin: 0 0 15px 0;
     }
 
-    @media(max-width: 480px) {
+    @media(max-width: 500px) {
         .state-of-lab {
             padding: 10px 2%;
+        }
+
+        .report {
+            padding: 10px 5px;
         }
     }
 </style>

@@ -1,1 +1,1 @@
-<div>nothing here yet</div>
+<div>Coming soon: a justification for FJJ with respect to the concept of a Fundamental</div>

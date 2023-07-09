@@ -1,9 +1,4 @@
-<script>
-    import PageWrapper from "$lib/components/PageWrapper.svelte";
-    import bsGif from "$lib/images/bridge-shrimp.gif";
-    import ConcernPage from "$lib/components/ConcernPage.svelte";
-
-    const source = `
+import{S as d,i as g,s as l,y as i,z as s,A as m,g as p,d as h,B as u,F as c}from"../chunks/index.30d36c53.js";import{P as f}from"../chunks/PageWrapper.1f9b0c22.js";import{C as b}from"../chunks/ConcernPage.2e8bdf34.js";const y=""+new URL("../assets/bridge-shrimp.6a47b9e7.gif",import.meta.url).href;function $(o){let t,r;return t=new b({props:{title:"Bridge and Shrimp",source:o[0],href:"https://giphy.com/channel/Regression-to-the-meanest/bridge-and-shrimp",headerImg:y}}),{c(){i(t.$$.fragment)},l(e){s(t.$$.fragment,e)},m(e,n){m(t,e,n),r=!0},p:c,i(e){r||(p(t.$$.fragment,e),r=!0)},o(e){h(t.$$.fragment,e),r=!1},d(e){u(t,e)}}}function S(o){let t,r;return t=new f({props:{$$slots:{default:[$]},$$scope:{ctx:o}}}),{c(){i(t.$$.fragment)},l(e){s(t.$$.fragment,e)},m(e,n){m(t,e,n),r=!0},p(e,[n]){const a={};n&2&&(a.$$scope={dirty:n,ctx:e}),t.$set(a)},i(e){r||(p(t.$$.fragment,e),r=!0)},o(e){h(t.$$.fragment,e),r=!1},d(e){u(t,e)}}}function w(o){return[`
 ## Summary
 * Bridge and Shrimp is a attempt to solve the [Degrees of Freedom Problem](https://youtu.be/Fz31R6sgHZ4) by reducing the number of ways a player moves.
 * Fake Jiu Jitsu wants to replace all movements with either a Bridge or a Shrimp.
@@ -35,13 +30,4 @@ Bridges and Shrimp are often complementary tensions- forcing your lab partner to
 ## Predictions
 * If you can alternate between Bridges and Shrimps but your partner can't, you have a significant advantage
 * If something isn't working, making you movements more Bridge-like or Shrimp-like will help
-`
-</script>
-<PageWrapper>
-    <ConcernPage
-            title="Bridge and Shrimp"
-            source={source}
-            href={"https://giphy.com/channel/Regression-to-the-meanest/bridge-and-shrimp"}
-            headerImg= {bsGif}
-    />
-</PageWrapper>
+`]}class _ extends d{constructor(t){super(),g(this,t,w,S,l,{})}}export{_ as component};
