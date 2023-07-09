@@ -1,6 +1,5 @@
 <script>
     import PageWrapper from "$lib/components/PageWrapper.svelte";
-    import SvelteMarkdown from "svelte-markdown";
     import patternGif from "$lib/images/pattern.gif";
     import ConcernPage from "$lib/components/ConcernPage.svelte";
     const source = `

@@ -54,7 +54,7 @@ export const tableOfContents = [
         ]
     },
     {
-        title: {label: 'Theory'},
+        title: {label: 'Justifications'},
         items: [
             {label: 'Ecological Dynamics', slug: SLUGS.ECO_DYN},
             {label: 'Dimensionality Reduction', slug: SLUGS.DIM_REDUC},

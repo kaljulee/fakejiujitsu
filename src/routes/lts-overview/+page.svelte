@@ -8,7 +8,7 @@
 
 
 ## Why do this experiment:
-
+* Techniques and positions can be played poorly.  Despite this, they are the primary reference points we use to teach jiu jitsu.
 * Players are generally given a task, then are allowed to move their bodies in any way they choose.  This allows players to trade strong spinal alignment for progress up the BJJ positional hierarchy, resulting in eventual loss of the position.
 
     * Example: Player puts spine out of position in order to complete a pass from top guard to side control.
@@ -17,14 +17,14 @@
 
 
 ## Hypothesis:
-
+* Techniques are used as the primary definer of drills, with the Uke adapting to allow practice.  This should be reversed, where the situation is the primary definer, techniques are optional solutions.
 * Players ignore "hidden jiu jitsu" because they are keenly paying attention to Technique details.
 * Players lose position when transitioning to submissions because they are being thought of as positions and transitions.
 * Core aspects of the language of BJJ add to the noise, making it harder to pick out the signal.
 
 ## Proposition:
-* If I can continue to improve on the mat while only working the listed concerns
-* Then there may be ways of talking about grappling that are orthoganol to technique and position, and they may be useful.
+* **If** I can continue to improve on the mat while only paying attention to FJJ Concerns
+* **Then** there may be ways of talking about grappling that are orthogonal to technique and position, and they may be useful.
 
 
 ## The Experiment:
