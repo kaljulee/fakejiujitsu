@@ -30,7 +30,7 @@ One of the great strengths of the BJJ vernacular is that it is easy to teach to 
 This ease-of-introduction hints at what we are giving up by using this language.
 
 The fact that you can put a novice into a recognizable Mount position is proof that “Mount” includes garbage jiu jitsu.
-I have felt training partners give up superior control in a scramble in order to solidify an inferior "real" position, because they believe that's where jiu jitsu is.
+I have felt training partners give up superior control in a scramble in order to solidify an inferior "real" position, because they believe that's where the jiu jitsu is.
 
 Mount, Side Control, Arm Bars, Closed Guard – all of it can be performed terribly.
 You might say that a garbage armbar is not a “true armbar”, like that Scotsman we’ve all heard about.  I understand that small nuances can make or break an arm(bar), but that is my point: we don’t use these small nuances to define an armbar, we use the large limb positions.  In fact, when applied under full-resistance, we find these nuances to be fluid, winking in and out of existence depending on the situation.

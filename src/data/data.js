@@ -11,10 +11,13 @@ export const SLUGS = {
     // TBJJ: '/traditional-bjj',
     // EDBJJ: '/ecological-dynamics-bjj',
     // TDT: '/test-driven-training',
-    // theory
+    // justifications
+    ANECDOTE: '/anecdote',
     ECO_DYN: '/ecological-dynamics',
     DIM_REDUC: '/dimensionality-reduction',
     WAT_FUND: '/what-is-a-fundamental',
+    KOAN: '/koan',
+    MATH_PROOF: '/math-proof',
     // old fundamentals
     TURTLE_SPACE: '/turtle-space',
     BRIDGE_SHRIMP: '/bridge-and-shrimp',
@@ -29,6 +32,7 @@ export const SLUGS = {
     LTS_OVERVIEW: '/lts-overview',
     FJJ1: '/fjj1',
     PROTO_FJJ: '/proto-fjj',
+    READING_LIST: '/reading-list',
 }
 
 export const tableOfContents = [
@@ -56,9 +60,12 @@ export const tableOfContents = [
     {
         title: {label: 'Justifications'},
         items: [
+            {label: 'Anecdote', slug: SLUGS.ANECDOTE},
             {label: 'Ecological Dynamics', slug: SLUGS.ECO_DYN},
-            {label: 'Dimensionality Reduction', slug: SLUGS.DIM_REDUC},
-            {label: 'What is a Fundamental?', slug: SLUGS.WAT_FUND},
+            {label: 'Koan', slug: SLUGS.KOAN},
+            {label: 'Math', slug: SLUGS.MATH_PROOF},
+            // {label: 'Dimensionality Reduction', slug: SLUGS.DIM_REDUC},
+            // {label: 'Fundamentalism', slug: SLUGS.WAT_FUND},
         ]
     },
     {
@@ -69,13 +76,14 @@ export const tableOfContents = [
         ],
     deprecated: true
     },
-    // {
-    //     title: {label: 'Appendix', slug: '/appendix'},
-    //     items: [
+    {
+        title: {label: 'Appendix'},
+        items: [
+            {label: 'Reading List', slug: SLUGS.READING_LIST},
     //         {label: 'Glossary', slug: '/glossary'},
     //         {label: 'Supporting Materials', slug: '/supporting-materials'},
-    //     ]
-    // },
+        ]
+    },
 ];
 
 function createNavData() {

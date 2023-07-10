@@ -4,6 +4,19 @@
     import symbol_blue from '$lib/images/symbol_blue.svg';
     import Contents from "$lib/components/Contents/Contents.svelte";
 </script>
+
+<svelte:head>
+    <meta property="og:site_name" content="Fake Jiu Jitsu"/>
+    <meta property="og:description" content="how to create synthetic jiu jitsu" />
+    <meta property="og:title" content="Fake Jiu Jitsu"/>
+    <meta property="og:locale" content="en"/>
+    <meta property="og:url" content="https://fakejiujitsu.com"/>
+    <meta property="og:image" content="https://fakejiujitsu.com/social_share3.png"/>
+    <meta property="og:image:width" content="450"/>
+    <meta property="og:image:height" content="336"/>
+    <meta property="og:type" content="website"/>
+</svelte:head>
+
 <div class="grid-layout">
     <div class="image">
         <span class="fjj-diagram">

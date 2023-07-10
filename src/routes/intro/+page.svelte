@@ -15,6 +15,7 @@
         <li><a href={SLUGS.LTS_OVERVIEW}>The current state of FJJ</a></li>
         <li><a href={SLUGS.ECO_DYN}>My justifications for FJJ</a></li>
         <li><a href={SLUGS.FJJ1}>list of old FJJ formulations.</a></li>
+    <li><a href={SLUGS.READING_LIST}>Appendix</a></li>
     </ol>
 
     <p>My goal is to have each of these sections independently readable, so you can skip to whatever section is most interesting.</p>
