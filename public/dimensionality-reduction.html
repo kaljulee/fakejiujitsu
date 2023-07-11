@@ -5,37 +5,163 @@
 		<link rel="icon" href="./favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		
-		<link href="./_app/immutable/assets/0.7c91f646.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/0.d7ad98a9.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/Contents.af1e10ef.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.7cd58f5b.js">
+		<link href="./_app/immutable/assets/7.56787f28.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/PageWrapper.deb6b83b.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/F.9f4f54e1.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.006acd03.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index.2c6af615.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.2cbeeff1.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.6f32168c.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.bbde3cd0.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/Contents.016abb09.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/data.6a080591.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/6.bd92e7ed.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.d7b2d9eb.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.cc848fa0.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.9071a1bd.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Contents.d6043520.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/data.4eac7b00.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/7.5d0d6c4c.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/PageWrapper.b9d93ea4.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/marked.esm.d1def20c.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/F.492e340d.js">
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">
 
 
-<div class="app svelte-plom2a"><header class="svelte-15vxitb"><a class="home-button svelte-15vxitb" href="/">Home</a>
-    
+<div class="app svelte-hp2296"><header class="svelte-15vxitb"><a class="home-button svelte-15vxitb" href="/">Home</a>
+    <div class="location-label svelte-15vxitb"><span class="section-label svelte-15vxitb">Justifications</span>
+            <span class="svelte-15vxitb">Dimensionality Reduction</span>
+            <hr class="solid svelte-15vxitb"></div>
     <button class="corner svelte-15vxitb"><img src="/_app/immutable/assets/menu.1b970936.svg" alt="menu button" class="svelte-15vxitb"></button>
 </header>
-    <main class="svelte-plom2a"><div>Coming soon: a justification for FJJ with reference to <a href="https://en.wikipedia.org/wiki/Dimensionality_reduction">dimensionality reduction</a></div>
+    <main class="svelte-hp2296"><div class="svelte-d046ca"><h1>Justification by <a href="https://en.wikipedia.org/wiki/Dimensionality_reduction">Dimensionality Reduction</a></h1>
+
+    <p>Whenever we move, every muscle in our body has some amount of tension in it. This is a very large number of
+        dimensions (one per muscle). These can be listed as a set of
+        <span class="svelte-zng6e3">T</span>
+        values, one for each muscle tension.
+    </p>
+
+    <p class="latex">[
+        <span class="svelte-zng6e3">T<sub>1</sub></span>
+        ,
+        <span class="svelte-zng6e3">T<sub>2</sub></span>
+        , ...
+        <span class="svelte-zng6e3">T<sub>n</sub></span>
+        ]
+    </p>
+
+    <p>Coordinating them into a coherent movement is referred to as the <a href="https://youtu.be/Fz31R6sgHZ4?t=106">Degrees
+        of Freedom</a> problem.</p>
+    <p>When discussing grappling, there are twice as many muscle tension values (one for Uke, one for Tori).</p>
+
+    <p class="latex">[
+        <span class="svelte-zng6e3">T<sub>u1</sub></span>
+        ,
+        <span class="svelte-zng6e3">T<sub>u2</sub></span>
+        , …
+        <span class="svelte-zng6e3">T<sub>un</sub></span>
+        , …
+        <span class="svelte-zng6e3">T<sub>t1</sub></span>
+        ,
+        <span class="svelte-zng6e3">T<sub>t2</sub></span>
+        , …
+        <span class="svelte-zng6e3">T<sub>tn</sub></span>
+        ]
+    </p>
+
+    <p>In order to have a complete picture, we also need to variables for intentions and understanding of what is going
+        on.
+        There will be a unique vector for every possible event in a grappling match.</p>
+    <p>I call this entire set the Complete Grappling Space (CGS).</p>
+
+    <p>The CGS is an impossible, unwieldy system. Two grapplers navigate through it continuously over time.
+        In order to talk about it, we collapse this high-dimension system into one with a manageable number of
+        dimensions.</p>
+
+    <p>BJJ does this with techniques and positions. Sets of CGS vectors are grouped into things like Kimura and Mount.
+        Anything that does not fit into a technique or a position goes into the catch-all bucket “scramble&quot;.</p>
+
+    <p>We can imagine a function
+        <span class="svelte-zng6e3">F</span>
+        that takes a CGS vector and gives us two values that, when plotted, group these technique vectors together.
+    </p>
+    <p class="latex"><span class="svelte-zng6e3"><span class="svelte-cg1ku0 withParens">F</span>
+    
+    <span class="paren svelte-cg1ku0">(</span>
+    V<sub>cgs</sub>
+    <span class="paren svelte-cg1ku0">) </span></span>
+        =
+        <span>(<span class="svelte-zng6e3">x</span>, <span class="svelte-zng6e3">y</span>)</span></p>
+
+    <p>This hypothetical function groups BJJ techniques into regions, like the image below.</p>
+
+    <img src="/_app/immutable/assets/shapes.52ef882a.png" alt="technique map" class="svelte-1asscv5">
+
+    <p>These regions are groups of CGS vectors, creating one
+        <span>(<span class="svelte-zng6e3">x</span>, <span class="svelte-zng6e3">y</span>)</span>
+        point per vector. We can add an approximation of this
+        by filling the regions with symbols representing the individual vectors it is made up of.
+    </p>
+
+    <img src="/_app/immutable/assets/split.bb74d3a4.png" alt="technique instances" class="svelte-1asscv5">
+
+    <p>All other BJJ techniques and positions would be on the map somewhere, but limiting the scope to these three is
+        sufficient for this example.
+        Anything outside of the technique regions is poorly-defined scramble.</p>
+
+    <img src="/_app/immutable/assets/split_with_scramble.fe57c096.png" alt="technique and scramble instances" class="svelte-1asscv5">
+
+    <p>Each CGS vector includes intentions and understanding, so each one can be coded as good, bad, or ok for the
+        grappler traversing the map.</p>
+
+    <img src="/_app/immutable/assets/labeled.f37922d6.png" alt="instances labeled by effectiveness" class="svelte-1asscv5">
+
+    <p>I gave a more-or-less even mix of good/bad/ok throughout the space, as all techniques can be done well or be done
+        terribly. I weighted bottom-side control as having more bads, armbar as having more goods.</p>
+    <p>We can drop the area outlines and just have a field of vectors.</p>
+
+    <img src="/_app/immutable/assets/labeled_no_outline.39954043.png" alt="instances labeled, no outline" class="svelte-1asscv5">
+
+    <p>When we center our lessons on techniques, we are encouraging students to primarily stay within the technique
+        areas. These areas are mixes of good, bad, and ok states.</p>
+
+    <p>If you were to throw a dart at the field and wanted to hit a specific technique, you would have a clear target area.</p>
+
+    <p>If you wanted to hit a good vector instead of an ok or bad one, it would be considerably
+        harder.</p>
+
+    <p>We could imagine a very similar function <span class="svelte-zng6e3">G</span>, which trades grouping by technique for organizing good-ok-bad onto
+        the
+        <span class="svelte-zng6e3">y</span>
+        axis.
+    </p>
+    <img src="/_app/immutable/assets/sorted.655cf376.png" alt="sorted by effectiveness" class="svelte-1asscv5">
+    <p><span class="svelte-zng6e3">G</span> makes it difficult to aim for a specific technique, but it is much easier to aim for a good vector.</p>
+
+    <p><strong>FJJ is an attempt to be more
+        <span class="svelte-zng6e3">G</span>
+        -like than
+        <span class="svelte-zng6e3"><span class="svelte-cg1ku0">F</span>
+    
+    
+    
+    </span>
+        -like in how we think about grappling.</strong></p>
+</div>
         </main>
-    <footer class="svelte-plom2a">
+    <footer class="svelte-hp2296"><a class="footer-button svelte-hp2296" href="/chatgpt"><span class="footer-arrow svelte-hp2296">←</span>
+                <div class="footer-description svelte-hp2296"><strong>Back:</strong>
+                    <span>ChatGPT</span></div></a>
         <div></div>
-        </footer>
+        <a class="footer-button svelte-hp2296" href="/ecological-dynamics"><div class="footer-description svelte-hp2296"><strong>Next:</strong>
+                    <span>Ecological Dynamics</span>
+                </div><span class="footer-arrow svelte-hp2296">→</span></a></footer>
 </div>
 
 
 			
 			<script>
 				{
-					__sveltekit_k73f78 = {
+					__sveltekit_1iw0j7d = {
 						base: new URL(".", location).pathname.slice(0, -1),
 						env: {}
 					};
@@ -45,11 +171,11 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("./_app/immutable/entry/start.7cd58f5b.js"),
-						import("./_app/immutable/entry/app.6f32168c.js")
+						import("./_app/immutable/entry/start.006acd03.js"),
+						import("./_app/immutable/entry/app.cc848fa0.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
-							node_ids: [0, 6],
+							node_ids: [0, 7],
 							data,
 							form: null,
 							error: null
