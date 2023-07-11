@@ -1,5 +1,5 @@
 <script>
-    import Mathy from "./Mathy.svelte";
+    import Mathy from "$lib/components/Mathy.svelte";
     export let invert = false;
     $: withParens = $$slots.default;
     console.log($$slots)

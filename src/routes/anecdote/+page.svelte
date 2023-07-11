@@ -6,7 +6,7 @@ import {SLUGS} from "../../data/data.js";
 const source = `
 # Justification by Anecdote
 
-There was an IBJJF where I decided I *was* going to hit an uchi-mata..  I [dead drilled](https://youtu.be/imjmLWj5WCU) it after class.  I performed it cleanly during the belt test, the head instructor gave me his secret tips.
+There was an IBJJF where I decided I was *going to hit an uchi-mata*.  I [dead drilled](https://youtu.be/imjmLWj5WCU) it after class.  I performed it cleanly during the belt test, the head instructor gave me his secret tips.
 
 During the competition I was able to take multiple shots at uchi-mata, and was countered every time.
 Improvements in my form did not translate to getting takedowns (it did contribute to being taken down).

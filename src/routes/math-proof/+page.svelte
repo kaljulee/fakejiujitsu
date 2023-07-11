@@ -1,9 +1,9 @@
 <script>
     import PageWrapper from "$lib/components/PageWrapper.svelte";
     import Ao from "./Ao.svelte";
-    import F from "./F.svelte";
+    import F from "$lib/components/F.svelte";
     import T from "./T.svelte";
-    import Mathy from "./Mathy.svelte";
+    import Mathy from "$lib/components/Mathy.svelte";
 </script>
 
 <PageWrapper>
@@ -28,10 +28,3 @@
         constrained sets of <Ao />.</p>
 
 </PageWrapper>
-
-<style>
-    .latex {
-        margin: 1em 2em;
-        font-size: 1.3em;
-    }
-</style>

@@ -62,6 +62,11 @@
         background: cornsilk;
     }
 
+    :global(.latex) {
+        margin: 1em 2em;
+        font-size: 1.3em;
+    }
+
     .footer-description {
         display: flex;
         flex-direction: column;

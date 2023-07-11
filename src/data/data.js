@@ -13,6 +13,7 @@ export const SLUGS = {
     // TDT: '/test-driven-training',
     // justifications
     ANECDOTE: '/anecdote',
+    CHATGPT: '/chatgpt',
     ECO_DYN: '/ecological-dynamics',
     DIM_REDUC: '/dimensionality-reduction',
     WAT_FUND: '/what-is-a-fundamental',
@@ -61,6 +62,8 @@ export const tableOfContents = [
         title: {label: 'Justifications'},
         items: [
             {label: 'Anecdote', slug: SLUGS.ANECDOTE},
+            {label: 'ChatGPT', slug: SLUGS.CHATGPT},
+            {label: 'Dimensionality Reduction', slug: SLUGS.DIM_REDUC},
             {label: 'Ecological Dynamics', slug: SLUGS.ECO_DYN},
             {label: 'Koan', slug: SLUGS.KOAN},
             {label: 'Math', slug: SLUGS.MATH_PROOF},

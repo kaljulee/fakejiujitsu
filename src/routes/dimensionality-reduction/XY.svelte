@@ -2,4 +2,4 @@
     import Mathy from "$lib/components/Mathy.svelte";
 </script>
 
-<Mathy>T</Mathy>
+<span>(<Mathy>x</Mathy>, <Mathy>y</Mathy>)</span>
