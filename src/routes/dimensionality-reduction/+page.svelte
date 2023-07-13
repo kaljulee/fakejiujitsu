@@ -48,7 +48,7 @@
         ]
     </p>
 
-    <p>In order to have a complete picture, we also need to variables for intentions and understanding of what is going
+    <p>In order to have a complete picture, we also need to add variables for intentions and understanding of what is going
         on.
         There will be a unique vector for every possible event in a grappling match.</p>
     <p>I call this entire set the Complete Grappling Space (CGS).</p>
@@ -74,10 +74,7 @@
 
     <img src={shapes} alt="technique map" />
 
-    <p>These regions are groups of CGS vectors, creating one
-        <XY/>
-        point per vector. We can add an approximation of these vectors
-        by filling the regions with symbols representing the individual vectors it is made up of.
+    <p>These regions are groups of <XY/> points, each corresponding to a CGS vector.  We can add an approximation of these points by filling the regions with symbols.
     </p>
 
     <img src={split} alt="technique instances" />

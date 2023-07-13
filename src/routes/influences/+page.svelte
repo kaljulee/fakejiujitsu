@@ -7,11 +7,11 @@ When I'm not training in the lab or other underground facility, you can find me 
 ## Books
 * [The Big Bang](https://simonsingh.net/books/big-bang/the-book/)
     * This had a massive impact on how I have decided to approach grappling
-* [Move](https://www.youtube.com/playlist?list=PL7jcinNUb4UlIG8OItQAoUsxFYd54cG6f)
+* [How We Learn To Move](https://www.youtube.com/playlist?list=PL7jcinNUb4UlIG8OItQAoUsxFYd54cG6f)
     * Nice intro to Ecological Dynamics
 * [Graphs, Maps, Trees](https://www.versobooks.com/products/1939-graphs-maps-trees)
     * Interesting example of playing with data and dimensionality in an unusual context (literature)
-* [Envisioning Infomration](https://www.edwardtufte.com/tufte/books_ei)
+* [Envisioning Information](https://www.edwardtufte.com/tufte/books_ei)
     * When I'm not sure how to visually organize information, I usually steal something from here
 
 ## YouTube
@@ -33,7 +33,7 @@ When I'm not training in the lab or other underground facility, you can find me 
 ## Websites
 
 * [The Network State](https://thenetworkstate.com/)
-    * Greate example of how to present an idea
+    * Great example of how to present an idea
 `;
 </script>
 

@@ -17,7 +17,7 @@
 
     <img src={technique_escape} alt = "technique" />
 
-    <p>It is important to emphasis to the player that the technique is just a new center of exploration, not the <i>actual optimal solution</i>.</p>
+    <p>It is important to emphasize to the player that the technique is just a new center of exploration, not the <i>actual optimal solution</i>.</p>
 
     <img src={new_search_space} alt="new search space"/>
 </PageWrapper>

@@ -74,7 +74,7 @@ export const tableOfContents = [
             // {label: 'Fundamentalism', slug: SLUGS.WAT_FUND},
         ]
     },
-    {title: {label: 'Technique Applications'},
+    {title: {label: 'FJJ Technique Applications'},
     items: [
         {label: 'Escaping Local Minima', slug: SLUGS.LOCAL_MINIMA},
         {label: 'Confidence Building', slug: SLUGS.CONFIDENCE},

@@ -5,7 +5,11 @@
     const justifications = `
 # Justification by ChatGPT
 
-**what are some justifications for fake jiu jitsu?**
+**prompt:**
+
+what are some justifications for fake jiu jitsu?
+
+**chatGPT:**
 
 It is important to clarify that promoting or justifying "fake Jiu-Jitsu" is not recommended as it undermines the integrity of the martial art and can potentially mislead practitioners. Authenticity and legitimacy are crucial in martial arts training. However, I can provide some hypothetical justifications that individuals might use, even though they may not hold up under scrutiny:
 
@@ -17,7 +21,11 @@ It is important to clarify that promoting or justifying "fake Jiu-Jitsu" is not 
 
 It's worth emphasizing that these justifications may not hold up to scrutiny within the broader martial arts community. Authenticity, technical proficiency, and respect for the heritage and principles of a martial art are generally considered essential for responsible training and effective skill development. If one wishes to train in Jiu-Jitsu, it is recommended to seek out legitimate instructors and schools that adhere to the established standards and principles of the art.
 
-**what are some justifications for not using technique when grappling?**
+**prompt:**
+
+what are some justifications for not using technique when grappling?
+
+**ChatGPT:**
 
 It is important to clarify that intentionally not using technique when grappling is not advisable or recommended. Technique is the foundation of effective grappling and martial arts training. However, I can provide some hypothetical justifications that individuals might offer, even though they may not hold up under scrutiny:
 

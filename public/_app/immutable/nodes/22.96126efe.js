@@ -15,7 +15,7 @@ Timing is defined as the ability to know what your partner is about to do, and a
 
 This requires a sensitivity to the Cosmic Grappling Background Radiation, a signal that contains information about [The Great Affordance](https://youtu.be/-TUjKAwc9Z8?t=441).  Once players can detect their partner's weight shifts and expectations, they can start to build a repertoire of appropriate responses.
 
-Patterns are necessary because Timing is defying your partner expectations.  In order to use Timing, you must be able to *create expectations* in your partner.
+Patterns are necessary because Timing is defying your partner's expectations.  In order to use Timing, you must be able to *create expectations* in your partner.
 
 Timing requires your partner committing more to an expected engagement than you are.
 
@@ -32,7 +32,7 @@ The ability to repeat patterns in live movement gives repeated opportunities to 
 ## The Jiu-Jitsu Boson
 <p class="definition">A JJB is a repeatable exchange that occurs during live, unrestricted grappling.</p>
 
-The JJB is a hypothetical training tool.  It combines representativeness of full-resistance sparring and the targeted nature of traditional drilling.
+The JJB is a hypothetical training tool.  It combines the representativeness of full-resistance sparring and the targeted nature of traditional drilling.
 
 The goal is for the Uke to provide the same live situation over and over again, allowing the Tori to get [live repetitions against it](https://youtu.be/imjmLWj5WCU).
 

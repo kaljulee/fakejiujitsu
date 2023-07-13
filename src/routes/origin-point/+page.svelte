@@ -81,10 +81,10 @@ Blocking your partner's path to the Origin is the foundation of offensive grappl
 ## BJJ/FJJ Translation Hints
 
 ### Turtles All the Way Down
-It is expected that an FJJ novice will "lose" all gym rolls.  A BJJ offensive game and a BJJ top game are considered advanced and complex expressions of FJJ, and are build directly on a strong foundation of bottom and defensive game.
+It is expected that an FJJ novice will "lose" all gym rolls.  A BJJ offensive game and a BJJ top game are considered advanced and complex expressions of FJJ, and are built directly on a strong foundation of bottom and defensive game.
 
 ### Submissions are Control Positions
-The hi-res nature of using points instead of Technique means no transitioning between "position" and "submission".  Because FJJ is blind to the distinction, "submissions" occur only when you are able to keep your partner so far from the Origin, it is trivial to threaten chokes or breaks.
+The hi-res nature of using points instead of Technique means no transitioning between "position" and "submission".  Because FJJ is blind to the distinction, "submissions" occur only when you are able to keep your partner so far from the Origin that it is trivial to threaten chokes or breaks.
 
 ### Defense and Offense Played In All Positions
 You must defend your path to the Origin while blocking your partner's.  This is true on bottom and on top, so defense *and* offense can (must?) be played in *all* BJJ positions.

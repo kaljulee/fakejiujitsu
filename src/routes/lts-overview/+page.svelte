@@ -19,7 +19,7 @@
 ## Hypothesis:
 * Techniques are used as the primary definer of drills, with the Uke modifying behavior to allow the technique.  This should be reversed, where the situation is the primary definer and specific techniques are just optional solutions.
 * Players ignore "hidden jiu jitsu" because they are paying keen attention to Technique details.
-* Players lose position when transitioning to submissions because they differentiating between positions, submissions, and transitions.
+* Players lose position when transitioning to submissions because they are differentiating between positions, submissions, and transitions.
 * Core aspects of the language of BJJ add to the noise, making it harder to pick out the signal.
 
 ## Proposition:
@@ -31,11 +31,11 @@
 * Have players *ignore technique and position*
 * Define a small set of fundamental concerns
 * Train against these concerns
-* Consider Re-introducing technique only after player feels safe in turtle positions
+* Consider Re-introducing technique only after the player feels safe in turtle positions
 * [Testing Philosophy](${SLUGS.TEST_DRIVEN})
 
 ## FJJ2 Concerns
-* Concerns are a method of reducing the degrees of freedom by restricting how players are allowed to think about situations.  Instead of cutting off movement options, they redefine grappling such that there’s less things you could be trying to do.  No techniques or positions allowed unless they can be fully translated into the Concerns outlined below.
+* Concerns are a method of reducing the degrees of freedom by restricting how players are allowed to think about situations.  Instead of cutting off movement options, they redefine grappling such that there’s less things you could be trying to do.  No techniques or positions are allowed unless they can be fully translated into the Concerns outlined below.
 * FJJ2 List of Concerns
     * [Origin Point](${SLUGS.ORIGIN_POINT})
     * [Bridge and Shrimp](${SLUGS.BRIDGE_SHRIMP})
@@ -55,7 +55,7 @@
 ## Predictions:
 Training FJJ2 predicts the following events will occur:
 * 1+ years playing turtle trenches, learning to transition between them, learning to get submitted
-* Affordances for invading the opponent's Turtle Space will be emerge while trying not to get submitted
+* Affordances for invading the opponent's Turtle Space will emerge while trying not to get submitted
 * Attacks [similar to this](https://youtu.be/6feW3L4lFmU) are expected to emerge before a top game
 * The ability to get up will be built on the turtle positions
 * The ability to get up will force your lab partner to wrestle, creating sweep opportunities
@@ -71,7 +71,7 @@ Training FJJ2 predicts the following events will occur:
 * data!
 * evidence as to why FJJ2 is not a complete description of jiu jitsu
 * videos of some artificial jiu-jitsu emerging from this method.
-* higher order principles, excecptions
+* higher order principles, exceptions
 
 
 `;

@@ -58,7 +58,7 @@
     <p>The quality of the information you get is dependent on how finely calibrated both your sensor and lab partner are.</p>
     <p>For example, a novice grappler may find experimental results that are consistent with <i>underhooks not mattering
         at all</i>.</p>
-    <p>If this is the data the tester collects, then there is a good chance that either her sensor or lab partner isn't well-calibrated.  (either that or we're all wrong about underhooks)</p>
+    <p>If this is the data the tester collects, then there is a good chance that either her sensor or lab partner isn't well-calibrated (either that or we're all wrong about underhooks).</p>
     <p>The experiments serve the dual functions of testing the model and calibrating the sensor. This means there is a
         certain amount of looseness and guesswork in the system, as both the model and the sensor are possible sources
         of error.</p>

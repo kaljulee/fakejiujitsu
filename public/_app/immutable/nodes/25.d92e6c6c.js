@@ -1,9 +1,4 @@
-<script>
-    import PageWrapper from "$lib/components/PageWrapper.svelte";
-    import always_shotput from "$lib/images/always_shotput.jpg";
-    import ConcernPage from "$lib/components/ConcernPage.svelte";
-
-    const source = `
+import{S as h,i as l,s as f,y as a,z as i,A as u,g as p,d as m,B as c,F as g}from"../chunks/index.2c6af615.js";import{P as d}from"../chunks/PageWrapper.b9d93ea4.js";import{C as y}from"../chunks/ConcernPage.f9c39476.js";const $=""+new URL("../assets/always_shotput.c61e15ea.jpg",import.meta.url).href;function v(r){let t,n;return t=new y({props:{source:r[0],href:"https://giphy.com/channel/Regression-to-the-meanest/shotput",headerImg:$,title:"Shotput"}}),{c(){a(t.$$.fragment)},l(e){i(t.$$.fragment,e)},m(e,o){u(t,e,o),n=!0},p:g,i(e){n||(p(t.$$.fragment,e),n=!0)},o(e){m(t.$$.fragment,e),n=!1},d(e){c(t,e)}}}function _(r){let t,n;return t=new d({props:{$$slots:{default:[v]},$$scope:{ctx:r}}}),{c(){a(t.$$.fragment)},l(e){i(t.$$.fragment,e)},m(e,o){u(t,e,o),n=!0},p(e,[o]){const s={};o&2&&(s.$$scope={dirty:o,ctx:e}),t.$set(s)},i(e){n||(p(t.$$.fragment,e),n=!0)},o(e){m(t.$$.fragment,e),n=!1},d(e){c(t,e)}}}function w(r){return[`
 ## Summary
 Generally, Shotput is the practice of stealing movement patterns from [Shotput](https://youtu.be/b_iUgvzb1-0) and [Discus](https://youtu.be/0Yx6amEH3Gs).
 
@@ -32,13 +27,4 @@ In FJJ2, Bridge and Shrimp and Shotput are closely related.  An unopposed Shotpu
     * [similar](https://youtu.be/lX_dm39fkfw)
     * [sport](https://youtu.be/WHIhvxB_cLs)
     * [actions](https://youtu.be/iRYYUPTx2-0).
-`;
-</script>
-<PageWrapper>
-    <ConcernPage
-            source={source}
-            href="https://giphy.com/channel/Regression-to-the-meanest/shotput"
-            headerImg={always_shotput}
-            title="Shotput"
-    />
-</PageWrapper>
+`]}class P extends h{constructor(t){super(),l(this,t,w,_,f,{})}}export{P as component};

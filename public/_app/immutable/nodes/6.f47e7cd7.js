@@ -1,7 +1,11 @@
 import{S as p,i as m,s as f,y as r,z as s,A as c,g as l,d as h,B as u,F as d}from"../chunks/index.2c6af615.js";import{P as g}from"../chunks/PageWrapper.b9d93ea4.js";import{S as y}from"../chunks/SvelteMarkdown.3abca1a5.js";function v(n){let t,i;return t=new y({props:{source:n[0]}}),{c(){r(t.$$.fragment)},l(e){s(t.$$.fragment,e)},m(e,a){c(t,e,a),i=!0},p:d,i(e){i||(l(t.$$.fragment,e),i=!0)},o(e){h(t.$$.fragment,e),i=!1},d(e){u(t,e)}}}function w(n){let t,i;return t=new g({props:{$$slots:{default:[v]},$$scope:{ctx:n}}}),{c(){r(t.$$.fragment)},l(e){s(t.$$.fragment,e)},m(e,a){c(t,e,a),i=!0},p(e,[a]){const o={};a&2&&(o.$$scope={dirty:a,ctx:e}),t.$set(o)},i(e){i||(l(t.$$.fragment,e),i=!0)},o(e){h(t.$$.fragment,e),i=!1},d(e){u(t,e)}}}function b(n){return[`
 # Justification by ChatGPT
 
-**what are some justifications for fake jiu jitsu?**
+**prompt:**
+
+what are some justifications for fake jiu jitsu?
+
+**chatGPT:**
 
 It is important to clarify that promoting or justifying "fake Jiu-Jitsu" is not recommended as it undermines the integrity of the martial art and can potentially mislead practitioners. Authenticity and legitimacy are crucial in martial arts training. However, I can provide some hypothetical justifications that individuals might use, even though they may not hold up under scrutiny:
 
@@ -13,7 +17,11 @@ It is important to clarify that promoting or justifying "fake Jiu-Jitsu" is not 
 
 It's worth emphasizing that these justifications may not hold up to scrutiny within the broader martial arts community. Authenticity, technical proficiency, and respect for the heritage and principles of a martial art are generally considered essential for responsible training and effective skill development. If one wishes to train in Jiu-Jitsu, it is recommended to seek out legitimate instructors and schools that adhere to the established standards and principles of the art.
 
-**what are some justifications for not using technique when grappling?**
+**prompt:**
+
+what are some justifications for not using technique when grappling?
+
+**ChatGPT:**
 
 It is important to clarify that intentionally not using technique when grappling is not advisable or recommended. Technique is the foundation of effective grappling and martial arts training. However, I can provide some hypothetical justifications that individuals might offer, even though they may not hold up under scrutiny:
 

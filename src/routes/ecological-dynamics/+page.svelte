@@ -18,7 +18,7 @@ Constraints define three broad sources of influence on your actions:
 
 * Individual – Your body, mind, experience, etc
 * Environment – The temperature, floor texture, opponent actions, etc
-* Task – What it is goals you are oriented towards
+* Task – goals you are oriented towards
 
 In competition, your *Environment* includes your opponent’s actions, your *Task* includes getting a takedown, and your *Individual* includes your ability to perform a takedown.  Uchi-mata is an effective takedown, so we want to make it available within the Individual constraints.
 
@@ -28,11 +28,11 @@ If a drill is linguistically centered on a technique (e.g. “Today we are worki
 
 Uchi-mata becomes part of the Task instead of the solution.  The Tori is actively discouraged from investigating whether or not uchi-mata is an appropriate response, and the Uke has the Task constraint of creating the proper conditions for an uchi-mata.  This has low [action-fidelity](https://youtu.be/X_2Y7ofPYYw?t=272) for both participants.
 
-Having the Uke set up an uchi-mata for the Tori is built on an important assumption - that the Uke *can* provide the correct Environment for an uchi-mata.  Many training partners more [Nautilus Machine](https://youtu.be/kfE9Plm8Hks) than [barbell](https://youtu.be/s6JMzeIxdFs) - they're not equally useful for every exercise.  For any given Tori/Uke pair, the Uke may or may not be able to generate uchi-mata conditions for the Tori.
+Having the Uke set up an uchi-mata for the Tori is built on an important assumption - that the Uke *can* provide the correct Environment for an uchi-mata.  Many training partners are more [Nautilus Machine](https://youtu.be/kfE9Plm8Hks) than [barbell](https://youtu.be/s6JMzeIxdFs) - they're not equally useful for every exercise.  For any given Tori/Uke pair, the Uke may or may not be able to generate uchi-mata conditions for the Tori.
 
 A better use of our training equipment would be to study the affordances that follow naturally from the Uke's actions.
 
-Linguistically organizing our drills around small collections of Uke actions, instead of Tori techniques allows both participants to engage in more [representative training](https://youtu.be/WR6knysFxlM?t=1120).
+Linguistically organizing our drills around small collections of Uke actions, instead of Tori techniques, allows both participants to engage in more [representative training](https://youtu.be/WR6knysFxlM?t=1120).
 
 
 

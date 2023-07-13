@@ -28,14 +28,14 @@ Bridges and Shrimps are **tensions**, not **positions**.  Consider the venerable
 
 Similarly, you don't need to be at the end of a Bridge or Shrimp in order to be applying it, it is more about the hips-shoulder-spine alignment and the direction of the tension.
 
-If something isn't working, make you movements more Bridge-like or Shrimp-like.
+If something isn't working, make your movements more Bridge-like or Shrimp-like.
 
-Bridges and Shrimp are often complementary tensions - forcing your lab partner to confront one makes her vulnerable to the other.
+Bridges and Shrimps are often complementary tensions - forcing your lab partner to confront one makes her vulnerable to the other.
 
 ## Predictions
 * If you can alternate between Bridges and Shrimps but your partner can't, you have a significant advantage
-* **Keeping an opponent's spine improperly aligned is more powerful and more important that using leverage**
-* If something isn't working, making you movements more Bridge-like or Shrimp-like will help
+* **Keeping an opponent's spine improperly aligned is more powerful and more important than using leverage**
+* If something isn't working, making your movements more Bridge-like or Shrimp-like will help
 `
 </script>
 <PageWrapper>
