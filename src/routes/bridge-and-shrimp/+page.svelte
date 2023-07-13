@@ -24,16 +24,17 @@ Bridge and Shrimp are essentially Wim Deputter's [Hidden Framework](https://yout
 
 
 ## General Use
-Bridges and Shrimps are **tensions**, not **positions**.  Consider the [bicep-curl](https://en.wikipedia.org/wiki/Bicep_curl); there is a start position (straight arm) and end position (bent arm).  The transferable range of motion isn't just a fully bent arm, it's the entire range from straight to bent.
+Bridges and Shrimps are **tensions**, not **positions**.  Consider the venerable [bicep-curl](https://en.wikipedia.org/wiki/Bicep_curl); there is a start position (straight arm) and end position (bent arm).  The transferable range of motion isn't just a fully bent arm, it's the entire range from straight to bent.
 
 Similarly, you don't need to be at the end of a Bridge or Shrimp in order to be applying it, it is more about the hips-shoulder-spine alignment and the direction of the tension.
 
 If something isn't working, make you movements more Bridge-like or Shrimp-like.
 
-Bridges and Shrimp are often complementary tensions- forcing your lab partner to confront one makes her vulnerable to the other.
+Bridges and Shrimp are often complementary tensions - forcing your lab partner to confront one makes her vulnerable to the other.
 
 ## Predictions
 * If you can alternate between Bridges and Shrimps but your partner can't, you have a significant advantage
+* **Keeping an opponent's spine improperly aligned is more powerful and more important that using leverage**
 * If something isn't working, making you movements more Bridge-like or Shrimp-like will help
 `
 </script>

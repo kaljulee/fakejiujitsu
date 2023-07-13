@@ -22,7 +22,7 @@ Positions are generally considered to be either offensive or defensive in nature
 * example: *Attack from guards, not from Bottom Side Control*
 * example: *Defend and escape from bad positions, maintain and attack from good positions*
 
-Techniques are navigated via transition.
+Players navigate between techniques by means of transition.
 * example: *People escape when I go for an armbar from closed guard*
 
 Transitions are described as a series of discrete events in both time and space.
@@ -37,11 +37,15 @@ If you have the ability to return to the Origin Point, you are safe.  If you do 
 
 Distance from the Origin Point is defined as distance from [Priit's Defensive BJJ](https://youtu.be/jC6uFGCCLRY).
 
-This can be summarized as
+"Direction" in this context refers to how you are leaving the origin, usually in the form of reaching with a limb.
+
+Origin Point can be summarized as
 * keep your inside space (hip to shoulders) clear of opponent controls
 * keep your spine aligned such that you can bear weight
 
-Smaller, relatively simple points should allow a higher resolution when talking about grappling positions and movements (compared to Techniques).
+Points are smaller and simpler than Techniques, which allows a higher resolution when talking about grappling positions and movements.
+
+Points are a continuous system, there is no equivalent of a "transition" between points, you are just defined to be at different points as you move.
 
 
 ### Nav Unit Comparison
@@ -55,7 +59,7 @@ Smaller, relatively simple points should allow a higher resolution when talking 
 ## General Use
 
 * Position relative to the Origin is both an offensive and defensive concern.
-* Movements near the Origin promote stability.
+* Movements toward the Origin promote stability.
 * Keeping your path clear to the Origin promotes safety.
 * Reaching increases distance from the Origin.
 * Distance from the Origin promotes instability.

@@ -46,12 +46,16 @@ border-bottom: 1px dashed gray;
     ${source}`;
 </script>
 <div class="page-wrapper">
-    <div class="header">
-    <h1>{title}</h1>
-    {#if !!headerImg}
-        <img src={headerImg} alt=""/>
+    {#if !!title || !!headerImg}
+        <div class="header">
+            {#if !!title}
+                <h1>{title}</h1>
+            {/if}
+            {#if !!headerImg}
+                <img src={headerImg} alt=""/>
+            {/if}
+        </div>
     {/if}
-    </div>
     <SvelteMarkdown source={_source}/>
     <slot/>
     {#if !!href}

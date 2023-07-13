@@ -23,7 +23,6 @@
     <p>This way the Tori is practicing applying the function <F /> to a relatively small range of varying <Ao /> values. Small
         variations in <Ao /> can cause significant changes in <T />, so we shouldn’t be prescribing a specific <T /> for the
         drill.</p>
-    <p>The function <F /> is representative, as we have already defined it as such.</p>
     <p>Therefore, in order to practice the representative function <F />, we should structure our drills around carefully
         constrained sets of <Ao />.</p>
 

@@ -1,7 +1,5 @@
 <script>
     import PageWrapper from "$lib/components/PageWrapper.svelte";
-    import SvelteMarkdown from "svelte-markdown";
-    import {mdImg} from "$lib/utils.js";
     import F from '$lib/components/F.svelte';
     import Mathy from '$lib/components/Mathy.svelte';
     import XY from "./XY.svelte";
@@ -19,9 +17,7 @@
     </h1>
 
     <p>Whenever we move, every muscle in our body has some amount of tension in it. This is a very large number of
-        dimensions (one per muscle). These can be listed as a set of
-        <Mathy>T</Mathy>
-        values, one for each muscle tension.
+        dimensions (one per muscle). These can be listed as a set of values, one for each muscle tension.
     </p>
 
     <p class="latex">[
@@ -33,7 +29,7 @@
         ]
     </p>
 
-    <p>Coordinating them into a coherent movement is referred to as the <a href="https://youtu.be/Fz31R6sgHZ4?t=106">Degrees
+    <p>Coordinating them into a coherent movement has been called the <a href="https://youtu.be/Fz31R6sgHZ4?t=106">Degrees
         of Freedom</a> problem.</p>
     <p>When discussing grappling, there are twice as many muscle tension values (one for Uke, one for Tori).</p>
 
@@ -66,7 +62,7 @@
 
     <p>We can imagine a function
         <Mathy>F</Mathy>
-        that takes a CGS vector and gives us two values that, when plotted, group these technique vectors together.
+        that takes a CGS vector <Mathy>V<sub>cgs</sub></Mathy> and gives us two values that, when plotted, group these technique vectors together.
     </p>
     <p class="latex">
         <F>V<sub>cgs</sub></F>
@@ -80,7 +76,7 @@
 
     <p>These regions are groups of CGS vectors, creating one
         <XY/>
-        point per vector. We can add an approximation of this
+        point per vector. We can add an approximation of these vectors
         by filling the regions with symbols representing the individual vectors it is made up of.
     </p>
 
@@ -88,7 +84,7 @@
 
     <p>All other BJJ techniques and positions would be on the map somewhere, but limiting the scope to these three is
         sufficient for this example.
-        Anything outside of the technique regions is poorly-defined scramble.</p>
+        Anything outside of the technique regions is scramble.</p>
 
     <img src={split_with_scramble} alt="technique and scramble instances" />
 
@@ -97,14 +93,12 @@
 
     <img src={labeled} alt="instances labeled by effectiveness" />
 
-    <p>I gave a more-or-less even mix of good/bad/ok throughout the space, as all techniques can be done well or be done
-        terribly. I weighted bottom-side control as having more bads, armbar as having more goods.</p>
     <p>We can drop the area outlines and just have a field of vectors.</p>
 
     <img src={labeled_no_outline} alt="instances labeled, no outline" />
 
     <p>When we center our lessons on techniques, we are encouraging students to primarily stay within the technique
-        areas. These areas are mixes of good, bad, and ok states.</p>
+        areas. These areas are mixes of good, bad, and ok vectors.</p>
 
     <p>If you were to throw a dart at the field and wanted to hit a specific technique, you would have a clear target area.</p>
 

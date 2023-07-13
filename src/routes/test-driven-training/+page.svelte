@@ -26,7 +26,7 @@
     <p>The student experience does contribute to learning, but the Professor is a necessary source of truth; without his
         corrections, the student is likely to develop malformed and ineffective techniques.</p>
     <p>Generally speaking, TBJJ does not recognize a skill threshold at which a student can question the Professor's teachings.</p>
-    <p>There is certainly an understanding that belt-rank does not equal skill, as evidenced by the popular refrain "There are competition blue belts that can take apart hobbyist black-belts."</p>
+    <p>There is certainly an understanding that belt-rank does not equal skill, as evidenced by the popular refrain "There are competition blue belts that can take apart hobbyist black belts."</p>
     <p>There is also no shortage of Professors who say "I regularly learn from my students".</p>
     <p>But the scenario of one student telling another "I think the professor is wrong on this point" is uncommon.</p>
 

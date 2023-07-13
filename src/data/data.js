@@ -29,11 +29,15 @@ export const SLUGS = {
     JAB_CROSS: '/jab-and-cross',
     CONNECT: '/connection',
     PATTERN_TIMING: '/pattern-and-timing',
+    // technique applications
+    COHESION: '/group-cohesion',
+    CONFIDENCE: '/build-confidence',
+    LOCAL_MINIMA: '/escape-local-minima',
     //version pages
     LTS_OVERVIEW: '/lts-overview',
     FJJ1: '/fjj1',
     PROTO_FJJ: '/proto-fjj',
-    READING_LIST: '/reading-list',
+    INFLUENCES: '/influences',
 }
 
 export const tableOfContents = [
@@ -67,10 +71,14 @@ export const tableOfContents = [
             {label: 'Ecological Dynamics', slug: SLUGS.ECO_DYN},
             {label: 'Koan', slug: SLUGS.KOAN},
             {label: 'Math', slug: SLUGS.MATH_PROOF},
-            // {label: 'Dimensionality Reduction', slug: SLUGS.DIM_REDUC},
             // {label: 'Fundamentalism', slug: SLUGS.WAT_FUND},
         ]
     },
+    {title: {label: 'Technique Applications'},
+    items: [
+        {label: 'Escaping Local Minima', slug: SLUGS.LOCAL_MINIMA},
+        {label: 'Confidence Building', slug: SLUGS.CONFIDENCE},
+    ]},
     {
         title: {label: 'Deprecated FJJ Versions'},
         items: [
@@ -82,7 +90,7 @@ export const tableOfContents = [
     {
         title: {label: 'Appendix'},
         items: [
-            {label: 'Reading List', slug: SLUGS.READING_LIST},
+            {label: 'Influences', slug: SLUGS.INFLUENCES},
     //         {label: 'Glossary', slug: '/glossary'},
     //         {label: 'Supporting Materials', slug: '/supporting-materials'},
         ]

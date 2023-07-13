@@ -8,9 +8,9 @@ Fake Jiu Jitsu was developed in dialog with Brazilian Jiu Jitsu, so I want to st
 
 In one informal sentence, Fake Jiu Jitsu is:
 
-<p class="definition"><strong>FJJ:</strong> An pseudo-scientific approach to training jiu jitsu that trades the concepts of 'technique' and 'position' for a small set of 1st order concerns, and the higher-order principles derived from them, verified through first-person experience.</p>
+<p class="definition"><strong>FJJ:</strong> A pseudo-scientific approach to training jiu jitsu that trades the concepts of 'technique' and 'position' for a small set of 1st order principles, and the higher-order principles derived from them, verified through first-person experience.</p>
 
-FJJ Defined through 1st-order through its principles:
+FJJ Defined through its 1st-order principles:
 <p class="definition"><strong>FJJ:</strong> Using <strong>Turtle Space Control</strong> to maintain your ability to apply alternating <strong>Shotput</strong>-powered <strong>Bridge and Shrimp</strong> movements onto an opponent you are <strong>Connected</strong> to, <strong>Timed</strong> contrary to an established <strong>Pattern.</strong></p>
 
 FJJ can also be defined as an Ecological Dynamics experiment:

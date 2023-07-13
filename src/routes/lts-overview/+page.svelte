@@ -18,8 +18,8 @@
 
 ## Hypothesis:
 * Techniques are used as the primary definer of drills, with the Uke modifying behavior to allow the technique.  This should be reversed, where the situation is the primary definer and specific techniques are just optional solutions.
-* Players ignore "hidden jiu jitsu" because they are keenly paying attention to Technique details.
-* Players lose position when transitioning to submissions because they differentiating positions, submissions, and transitions.
+* Players ignore "hidden jiu jitsu" because they are paying keen attention to Technique details.
+* Players lose position when transitioning to submissions because they differentiating between positions, submissions, and transitions.
 * Core aspects of the language of BJJ add to the noise, making it harder to pick out the signal.
 
 ## Proposition:
@@ -30,7 +30,7 @@
 ## The Experiment:
 * Have players *ignore technique and position*
 * Define a small set of fundamental concerns
-* Train these against these concerns
+* Train against these concerns
 * Consider Re-introducing technique only after player feels safe in turtle positions
 * [Testing Philosophy](${SLUGS.TEST_DRIVEN})
 
@@ -54,7 +54,7 @@
 
 ## Predictions:
 Training FJJ2 predicts the following events will occur:
-* 1+ years playing turtle positions, learning to transition, getting submitted
+* 1+ years playing turtle trenches, learning to transition between them, learning to get submitted
 * Affordances for invading the opponent's Turtle Space will be emerge while trying not to get submitted
 * Attacks [similar to this](https://youtu.be/6feW3L4lFmU) are expected to emerge before a top game
 * The ability to get up will be built on the turtle positions
@@ -83,9 +83,9 @@ Training FJJ2 predicts the following events will occur:
             <ul>
                 <li><span>Training progress is good relative to expectations.</span></li>
                 <li>
-                    <span>This document is still under construction.  Several significant sections are unfinished, and everything will receive updates.</span>
+                    <span>This is a living document that will receive regular updates and refinements.</span>
                 </li>
-                <li><span>There will be changes every couple days for a while, I’ll update this message when the rate of change starts to slow down</span>
+                <li><span>All major sections now have something.  The Concern section is still quite thin, more to come soon.</span>
                 </li>
             </ul>
         </div>
@@ -95,7 +95,7 @@ Training FJJ2 predicts the following events will occur:
 
         <h1><span>It is a <i>set of constraints</i> that replace Technique and Position in BJJ, and a <i>set of predictions</i> on how complex skill-patterns will develop out of them.</span></h1>
 
-        <p>I have this in big letters at the top because I sometimes forget this when talking to people, and exaggrate myself into a corner.</p>
+        <p>I have this in big letters at the top because I sometimes forget this when talking to people, and exaggerate myself into a corner.</p>
     </div>
     <div class="report">
 

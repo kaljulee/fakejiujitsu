@@ -19,11 +19,11 @@ Technique definitions are based on large, relatively obvious limb positions.
 * Legs around the opponent’s head and arm?  Triangle.
 * Kneeling with your opponent pulled across your shoulders, belly-down?  Kata-guruma.
 
-There are variations and more details involved, but in the vast majority of cases, you can look at a photo and accurately determine the Techniques involved.
+There are variations and details, but in the vast majority of cases, you can look at a photo and accurately determine the Techniques involved.
 
 Black Belts learned to grapple in this language, and it is the one they use to describe their success.  When we go to the experts to learn, we naturally assume that they know what they are talking about, and that they know *how best to talk about it in the first place*.
 
-Dividing a continuous system into a language will usually come with trade-offs.  For example, a language with ten symbols allows for more nuanced communication than a language with just two.  The trade-off it is more work to transmit and decode these more nuanced messages.
+Dividing a continuous system into a language will usually come with trade-offs.  For example, a language with ten symbols allows for more nuanced communication than a language with just two.  The trade-off is more work transmitting and decoding these more nuanced messages.
 
 One of the great strengths of the BJJ vernacular is that it is easy to teach to beginners.  Because the definitions are static limb positions, they can be understood quickly.  A day-one beginner may not be able to use Mount effectively, but you can put him in a recognizable Mount position with only a couple minutes work.
 
@@ -35,11 +35,11 @@ I have felt training partners give up superior control in a scramble in order to
 Mount, Side Control, Arm Bars, Closed Guard – all of it can be performed terribly.
 You might say that a garbage armbar is not a “true armbar”, like that Scotsman we’ve all heard about.  I understand that small nuances can make or break an arm(bar), but that is my point: we don’t use these small nuances to define an armbar, we use the large limb positions.  In fact, when applied under full-resistance, we find these nuances to be fluid, winking in and out of existence depending on the situation.
 
-This is a feature of every Technique in BJJ – everything can be done poorly, and has some “invisible jiu jitsu”, some situation-specific modification, or just one last detail that the Professor will show you in class today.
+This is a feature of every Technique in BJJ – everything can be done poorly, and has some “invisible jiu jitsu”, some situation-specific modification, or just one last detail that the Professor will show in class today.
 
 The high number of unique specifics is the tradeoff made in the BJJ vernacular.  Every Technique has its own set of [situation-dependent nuances](https://youtu.be/M0t0rwnQWdU).  This gives the BJJ language a high level of irreducible complexity.  I believe that these nuances are like the [epicycles](https://en.wikipedia.org/wiki/Deferent_and_epicycle) added to geocentric planetary motion.
 
-I think there is some set of dimensions that is orthogonal to the [Flatland](https://en.wikipedia.org/wiki/Flatland) of BJJ.  If we centered our grappling language on something other than Technique, I believe these epicycles will disappear.
+I think there is some set of dimensions that is orthogonal to the [Flatland](https://en.wikipedia.org/wiki/Flatland) of BJJ.  If we centered our grappling language on something other than Technique, I believe the epicycles would disappear.
 
  The careful, detailed study of Technique is like putting a finger under a microscope, trying to get a better view of [the moon it is pointing to](https://www.youtube.com/watch?v=CwPWDMvT21E).
 
@@ -59,7 +59,7 @@ Lastly, gather data about them by testing them in grappling experiments.
 
 I can use high-level grappling as a reference point.  I am throwing out how experts talk about grappling, not the obvious fact of their grappling ability.
 
-I think of this like the early heliocentric models of the solar system; ultimately they had to predict the same planetary positions that geocentric astronomists had observed throughout history.
+I think of this like the early heliocentric models of the solar system; ultimately they had to predict the same planetary positions that geocentric astronomers had observed throughout history.
 
 So my first reference point: *a fully mature FJJ should look very similar to BJJ*.
 

@@ -7,19 +7,18 @@
 		
 		<link href="./_app/immutable/assets/0.d7ad98a9.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/Contents.af1e10ef.css" rel="stylesheet">
-		<link href="./_app/immutable/assets/7.56787f28.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/8.56787f28.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/PageWrapper.deb6b83b.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/F.9f4f54e1.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.006acd03.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.e635c276.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index.2c6af615.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.d7b2d9eb.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.cc848fa0.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.9071a1bd.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/Contents.d6043520.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/data.4eac7b00.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/7.5d0d6c4c.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.362f4d1a.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.2ff560a6.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.80547ad1.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Contents.ad4b9ef3.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/data.f9cd7e54.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/8.935fd957.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/PageWrapper.b9d93ea4.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/marked.esm.d1def20c.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/F.492e340d.js">
 	</head>
 	<body data-sveltekit-preload-data="hover">
@@ -35,9 +34,7 @@
     <main class="svelte-hp2296"><div class="svelte-d046ca"><h1>Justification by <a href="https://en.wikipedia.org/wiki/Dimensionality_reduction">Dimensionality Reduction</a></h1>
 
     <p>Whenever we move, every muscle in our body has some amount of tension in it. This is a very large number of
-        dimensions (one per muscle). These can be listed as a set of
-        <span class="svelte-zng6e3">T</span>
-        values, one for each muscle tension.
+        dimensions (one per muscle). These can be listed as a set of values, one for each muscle tension.
     </p>
 
     <p class="latex">[
@@ -49,7 +46,7 @@
         ]
     </p>
 
-    <p>Coordinating them into a coherent movement is referred to as the <a href="https://youtu.be/Fz31R6sgHZ4?t=106">Degrees
+    <p>Coordinating them into a coherent movement has been called the <a href="https://youtu.be/Fz31R6sgHZ4?t=106">Degrees
         of Freedom</a> problem.</p>
     <p>When discussing grappling, there are twice as many muscle tension values (one for Uke, one for Tori).</p>
 
@@ -82,7 +79,7 @@
 
     <p>We can imagine a function
         <span class="svelte-zng6e3">F</span>
-        that takes a CGS vector and gives us two values that, when plotted, group these technique vectors together.
+        that takes a CGS vector <span class="svelte-zng6e3">V<sub>cgs</sub></span> and gives us two values that, when plotted, group these technique vectors together.
     </p>
     <p class="latex"><span class="svelte-zng6e3"><span class="svelte-cg1ku0 withParens">F</span>
     
@@ -98,7 +95,7 @@
 
     <p>These regions are groups of CGS vectors, creating one
         <span>(<span class="svelte-zng6e3">x</span>, <span class="svelte-zng6e3">y</span>)</span>
-        point per vector. We can add an approximation of this
+        point per vector. We can add an approximation of these vectors
         by filling the regions with symbols representing the individual vectors it is made up of.
     </p>
 
@@ -106,7 +103,7 @@
 
     <p>All other BJJ techniques and positions would be on the map somewhere, but limiting the scope to these three is
         sufficient for this example.
-        Anything outside of the technique regions is poorly-defined scramble.</p>
+        Anything outside of the technique regions is scramble.</p>
 
     <img src="/_app/immutable/assets/split_with_scramble.fe57c096.png" alt="technique and scramble instances" class="svelte-1asscv5">
 
@@ -115,14 +112,12 @@
 
     <img src="/_app/immutable/assets/labeled.f37922d6.png" alt="instances labeled by effectiveness" class="svelte-1asscv5">
 
-    <p>I gave a more-or-less even mix of good/bad/ok throughout the space, as all techniques can be done well or be done
-        terribly. I weighted bottom-side control as having more bads, armbar as having more goods.</p>
     <p>We can drop the area outlines and just have a field of vectors.</p>
 
     <img src="/_app/immutable/assets/labeled_no_outline.39954043.png" alt="instances labeled, no outline" class="svelte-1asscv5">
 
     <p>When we center our lessons on techniques, we are encouraging students to primarily stay within the technique
-        areas. These areas are mixes of good, bad, and ok states.</p>
+        areas. These areas are mixes of good, bad, and ok vectors.</p>
 
     <p>If you were to throw a dart at the field and wanted to hit a specific technique, you would have a clear target area.</p>
 
@@ -161,7 +156,7 @@
 			
 			<script>
 				{
-					__sveltekit_1iw0j7d = {
+					__sveltekit_1nljrkj = {
 						base: new URL(".", location).pathname.slice(0, -1),
 						env: {}
 					};
@@ -171,11 +166,11 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("./_app/immutable/entry/start.006acd03.js"),
-						import("./_app/immutable/entry/app.cc848fa0.js")
+						import("./_app/immutable/entry/start.e635c276.js"),
+						import("./_app/immutable/entry/app.2ff560a6.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
-							node_ids: [0, 7],
+							node_ids: [0, 8],
 							data,
 							form: null,
 							error: null
