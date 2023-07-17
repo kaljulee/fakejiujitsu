@@ -1,7 +1,7 @@
 <script>
     import PageWrapper from '$lib/components/PageWrapper.svelte';
     import diagram_blue from '$lib/images/fjj2_whiteblue_wide.svg';
-    import {SLUGS} from '../../data/data';
+    import {SLUGS} from '$lib/data/data';
 
     let displayDo = true;
     $:not = displayDo;

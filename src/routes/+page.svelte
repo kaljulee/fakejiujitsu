@@ -1,5 +1,5 @@
 <script>
-    import {SLUGS} from "../data/data.js";
+    import {SLUGS} from "$lib/data/data.js";
     import label_blue from '$lib/images/label_blue.svg';
     import symbol_blue from '$lib/images/symbol_blue.svg';
     import Contents from "$lib/components/Contents/Contents.svelte";

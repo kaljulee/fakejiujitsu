@@ -1,6 +1,6 @@
 <script>
     import PageWrapper from "$lib/components/PageWrapper.svelte";
-    import {SLUGS} from "../../data/data.js";
+    import {SLUGS} from "$lib/data/data.js";
     import ConcernPage from "$lib/components/ConcernPage.svelte";
 
     const source = `

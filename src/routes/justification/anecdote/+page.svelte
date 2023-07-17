@@ -2,7 +2,7 @@
 
 import PageWrapper from "$lib/components/PageWrapper.svelte";
 import SvelteMarkdown from "svelte-markdown";
-import {SLUGS} from "../../data/data.js";
+import {SLUGS} from "$lib/data/data.js";
 const source = `
 # Justification by Anecdote
 

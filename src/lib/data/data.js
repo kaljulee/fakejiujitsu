@@ -1,10 +1,19 @@
+
+export const CAT = {
+    INTRO: {url: '/intro', label: 'Introduction'},
+    JUST: {url: '/justification', label: 'Justification'},
+    LTS: {url: '/lts', label: 'LTS Version'},
+    TECH: {url: '/technique-application', label: 'Technique Application'},
+    DEP: {url: '/deprecated', label: 'Deprecated Versions'},
+    APP: {url: '/appendix', label: 'Appendix'},
+}
 export const SLUGS = {
     HOME: '/',
     // intro
-    INTRO: '/intro',
-    ONE_IMG: '/one-image',
-    ONE_SENT: '/one-sentence',
-    ONE_THOUSAND: '/one-thousand-words',
+    INTRO: `${CAT.INTRO.url}/hello-world`,
+    ONE_IMG: `${CAT.INTRO.url}/one-image`,
+    ONE_SENT: `${CAT.INTRO.url}/one-sentence`,
+    ONE_THOUSAND: `${CAT.INTRO.url}/one-thousand-words`,
     QUICK_START: '/quick-start',
     // training schemes
     // LEARN_OVERVIEW: '/how-to-learn-overview',
@@ -12,32 +21,32 @@ export const SLUGS = {
     // EDBJJ: '/ecological-dynamics-bjj',
     // TDT: '/test-driven-training',
     // justifications
-    ANECDOTE: '/anecdote',
-    CHATGPT: '/chatgpt',
-    ECO_DYN: '/ecological-dynamics',
-    DIM_REDUC: '/dimensionality-reduction',
-    WAT_FUND: '/what-is-a-fundamental',
-    KOAN: '/koan',
-    MATH_PROOF: '/math-proof',
+    ANECDOTE: `${CAT.JUST.url}/anecdote`,
+    CHATGPT: `${CAT.JUST.url}/chatgpt`,
+    ECO_DYN: `${CAT.JUST.url}/ecological-dynamics`,
+    DIM_REDUC: `${CAT.JUST.url}/dimensionality-reduction`,
+    WAT_FUND: `${CAT.JUST.url}/what-is-a-fundamental`,
+    KOAN: `${CAT.JUST.url}/koan`,
+    MATH_PROOF: `${CAT.JUST.url}/math-proof`,
     // old fundamentals
-    TURTLE_SPACE: '/turtle-space',
-    BRIDGE_SHRIMP: '/bridge-and-shrimp',
-    SHOTPUT: '/shotput',
+    TURTLE_SPACE: `${CAT.LTS.url}/turtle-space`,
+    BRIDGE_SHRIMP: `${CAT.LTS.url}/bridge-and-shrimp`,
+    SHOTPUT: `${CAT.LTS.url}/shotput`,
     // new fundamentals
-    TEST_DRIVEN: '/test-driven-training',
-    ORIGIN_POINT: '/origin-point',
+    TEST_DRIVEN: `${CAT.LTS.url}/test-driven-training`,
+    ORIGIN_POINT: `${CAT.LTS.url}/origin-point`,
     JAB_CROSS: '/jab-and-cross',
-    CONNECT: '/connection',
-    PATTERN_TIMING: '/pattern-and-timing',
+    CONNECT: `${CAT.LTS.url}/connection`,
+    PATTERN_TIMING: `${CAT.LTS.url}/pattern-and-timing`,
     // technique applications
-    COHESION: '/group-cohesion',
-    CONFIDENCE: '/build-confidence',
-    LOCAL_MINIMA: '/escape-local-minima',
+    COHESION: `${CAT.TECH.url}/group-cohesion`,
+    CONFIDENCE: `${CAT.TECH.url}/build-confidence`,
+    LOCAL_MINIMA: `${CAT.TECH.url}/escape-local-minima`,
     //version pages
-    LTS_OVERVIEW: '/lts-overview',
-    FJJ1: '/fjj1',
-    PROTO_FJJ: '/proto-fjj',
-    INFLUENCES: '/influences',
+    LTS_OVERVIEW: `${CAT.LTS.url}/overview`,
+    FJJ1: `${CAT.DEP.url}/fjj1`,
+    PROTO_FJJ: `${CAT.DEP.url}/proto-fjj`,
+    INFLUENCES: `${CAT.APP.url}/influences`,
 }
 
 export const tableOfContents = [

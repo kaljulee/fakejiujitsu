@@ -2,7 +2,7 @@
     import Header from './Header.svelte';
     import {page} from '$app/stores';
     import {showCornerMenu} from '../stores.js';
-    import {getNavInfo, SLUGS} from '../data/data';
+    import {getNavInfo, SLUGS} from '$lib/data/data';
     import instaSVG from '$lib/images/insta.svg';
     import storeSVG from '$lib/images/store.svg';
     import Contents from '$lib/components/Contents/Contents.svelte';

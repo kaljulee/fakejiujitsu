@@ -1,6 +1,6 @@
 <script>
     import PageWrapper from "$lib/components/PageWrapper.svelte";
-    import {SLUGS, tableOfContents} from "../../data/data.js";
+    import {SLUGS, tableOfContents} from "$lib/data/data.js";
 </script>
 
 <PageWrapper>
